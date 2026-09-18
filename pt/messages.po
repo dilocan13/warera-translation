@@ -1304,7 +1304,7 @@ msgstr "É necessária uma caução de <0>{0}</0> para aceitar este contrato. A 
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr "Foi necessária uma caução de <0>{0}</0> para aceitar este contrato. A caução foi devolvida após alcançar o dano mínimo."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:89
+#: src/components/_other/tour/tuto.frontConfig.tsx:90
 msgid "A good wage makes your employee happier, and a happy employee produces more. Click to raise their wage."
 msgstr ""
 
@@ -2258,7 +2258,7 @@ msgstr "Bastão de Osso"
 msgid "Bonus damages"
 msgstr "Dano bónus"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:147
+#: src/components/_other/tour/tuto.frontConfig.tsx:148
 msgid "Boost your production!"
 msgstr "Aumente sua produção!"
 
@@ -2513,7 +2513,7 @@ msgstr "Verificação CAPTCHA expirou. Reiniciando..."
 msgid "Case"
 msgstr "Caixa"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:127
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Cases contain random items. Click to open it!"
 msgstr "As caixas contêm itens aleatórios. Clique para abrir!"
 
@@ -2614,7 +2614,7 @@ msgstr "Alterar o nome da aliança."
 msgid "Change the tax of {0} to"
 msgstr "Alterar o imposto de {0} para"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:117
+#: src/components/_other/tour/tuto.frontConfig.tsx:118
 msgid "Check your loot!"
 msgstr "Confira as suas recompensas!"
 
@@ -2651,7 +2651,7 @@ msgstr "Escolher Tipo de Letra"
 msgid "Choose your country"
 msgstr "Escolhe o teu país"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:179
+#: src/components/_other/tour/tuto.frontConfig.tsx:180
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Escolhe o teu lado e clica para causares <0>Danos</0>! Continua a atacar para ajudares a tua equipa a vencer."
 
@@ -2690,7 +2690,7 @@ msgstr "Guerra Civil"
 msgid "Claim"
 msgstr "Resgatar"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:230
+#: src/components/_other/tour/tuto.frontConfig.tsx:231
 msgid "Claim your rewards!"
 msgstr "Reivindique as suas recompensas!"
 
@@ -2714,19 +2714,19 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Limpar seleção"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:149
+#: src/components/_other/tour/tuto.frontConfig.tsx:150
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Clique várias vezes para aumentar esta habilidade. Mais habilidade = mais poder!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:172
+#: src/components/_other/tour/tuto.frontConfig.tsx:173
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Clique numa batalha para ver o que está a acontecer e participar."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:260
+#: src/components/_other/tour/tuto.frontConfig.tsx:261
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Clica na conversa do teu país para conversares com outros cidadãos."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:61
+#: src/components/_other/tour/tuto.frontConfig.tsx:62
 msgid "Click on your new employee to see their stats and traits."
 msgstr ""
 
@@ -2734,7 +2734,7 @@ msgstr ""
 msgid "Click to consume."
 msgstr "Clique para consumir."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:133
+#: src/components/_other/tour/tuto.frontConfig.tsx:134
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Clique para revelar o conteúdo. Pode vir algo valioso!"
 
@@ -2876,7 +2876,7 @@ msgstr "Nome da Empresa alterado!"
 msgid "Company upgraded!"
 msgstr "Empresa melhorada!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:241
+#: src/components/_other/tour/tuto.frontConfig.tsx:242
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Complete missões diariamente para ganhar XP e subir de nível mais rápido. Clique para reivindicar!"
 
@@ -3797,7 +3797,7 @@ msgstr "Esquiva <0/> ataques"
 msgid "Don't forget to drink water"
 msgstr "Não esqueça de beber água"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:158
+#: src/components/_other/tour/tuto.frontConfig.tsx:159
 msgid "Don't forget to save your skill upgrades."
 msgstr "Não se esqueça de guardar as suas melhorias de habilidades."
 
@@ -3854,11 +3854,11 @@ msgstr ""
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "e. Referências a guerras e conflitos armados atuais fora do jogo (nomeadamente o conflito entre a Rússia e a Ucrânia e o conflito entre Israel e a Palestina)."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:50
+#: src/components/_other/tour/tuto.frontConfig.tsx:51
 msgid "Each candidate has different stats and traits. Hiring costs <0>Entrepreneurship</0>, then they earn a wage paid from your <1>Money</1>."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:79
+#: src/components/_other/tour/tuto.frontConfig.tsx:80
 msgid "Each card trains your employee differently. Tap one to see what it does, then pick it: the other cards are lost."
 msgstr ""
 
@@ -3866,7 +3866,7 @@ msgstr ""
 msgid "Each item gets its own offer, all at the same price."
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:202
+#: src/components/_user/user/skills.frontConfig.tsx:199
 msgid "Each level raises the production of your <0>employees</0>."
 msgstr ""
 
@@ -3907,7 +3907,7 @@ msgstr "Modo Eco"
 msgid "Economic laws"
 msgstr "Leis económicas"
 
-#: src/components/_user/user/skills.frontConfig.tsx:255
+#: src/components/_user/user/skills.frontConfig.tsx:252
 msgid "Economic skills"
 msgstr "Habilidades económicas"
 
@@ -4020,7 +4020,7 @@ msgstr ""
 msgid "Employees"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:40
+#: src/components/_other/tour/tuto.frontConfig.tsx:41
 msgid "Employees work in your company every hour, even while you're offline. Click to see the candidates."
 msgstr ""
 
@@ -4092,8 +4092,8 @@ msgstr "Insira o ID do artigo"
 msgid "Enter the code we sent to your email."
 msgstr "Insere o código que enviámos para o teu email."
 
-#: src/components/_user/user/skills.frontConfig.tsx:195
-#: src/components/_user/user/skills.frontConfig.tsx:196
+#: src/components/_user/user/skills.frontConfig.tsx:192
+#: src/components/_user/user/skills.frontConfig.tsx:193
 msgid "Entrepreneurship"
 msgstr "Empreendedorismo"
 
@@ -4374,11 +4374,11 @@ msgstr "Luta por <0/> em <1/>"
 msgid "Fight for <0/> in<1/><2/>"
 msgstr "Luta por <0/> em <1/><2/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:240
+#: src/components/_user/user/skills.frontConfig.tsx:237
 msgid "Fight skills"
 msgstr "Habilidades de combate"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:177
+#: src/components/_other/tour/tuto.frontConfig.tsx:178
 msgid "Fight!"
 msgstr "Lute!"
 
@@ -4605,7 +4605,7 @@ msgstr "Obtenha várias skins de uma só vez com um desconto de 30%!"
 msgid "Get supporter plan"
 msgstr "Obter subscrição"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:190
+#: src/components/_other/tour/tuto.frontConfig.tsx:191
 msgid "Get to the front!"
 msgstr "Vai para a linha da frente!"
 
@@ -4725,7 +4725,7 @@ msgstr "Trigo"
 msgid "Graticule"
 msgstr "Retícula"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:223
+#: src/components/_other/tour/tuto.frontConfig.tsx:224
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Bom trabalho! Ataca mais algumas vezes para ajudares o teu lado a vencer a batalha."
 
@@ -4927,7 +4927,7 @@ msgstr "Alto Comandante"
 msgid "Hire"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:38
+#: src/components/_other/tour/tuto.frontConfig.tsx:39
 msgid "Hire your first employee!"
 msgstr ""
 
@@ -5242,7 +5242,7 @@ msgstr "Junta-te à UM"
 msgid "Join the world"
 msgstr "Começa a jogar"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:258
+#: src/components/_other/tour/tuto.frontConfig.tsx:259
 msgid "Join your country chat!"
 msgstr "EJunta-te ao chat do teu país!"
 
@@ -5266,7 +5266,7 @@ msgstr "Só mais uma… o que pode correr mal?"
 msgid "Keep chasing that Mythic"
 msgstr "Continua à procura do Mítico"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:221
+#: src/components/_other/tour/tuto.frontConfig.tsx:222
 msgid "Keep fighting!"
 msgstr "Continua a lutar!"
 
@@ -5380,8 +5380,8 @@ msgstr "Chumbo"
 msgid "Leader"
 msgstr "Líder"
 
-#: src/components/_user/user/skills.frontConfig.tsx:233
-#: src/components/_user/user/skills.frontConfig.tsx:234
+#: src/components/_user/user/skills.frontConfig.tsx:230
+#: src/components/_user/user/skills.frontConfig.tsx:231
 msgid "Leadership"
 msgstr ""
 
@@ -5455,7 +5455,7 @@ msgstr "Nível {level}"
 msgid "Level too low"
 msgstr "Nível insuficiente"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:140
+#: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Level up your skills!"
 msgstr "Evolua as suas habilidades!"
 
@@ -5657,8 +5657,8 @@ msgstr "Nomear <0/> como novo líder. O líder pode editar o avatar da aliança 
 msgid "Manage Subscription"
 msgstr "Gerir subscrição"
 
-#: src/components/_user/user/skills.frontConfig.tsx:210
-#: src/components/_user/user/skills.frontConfig.tsx:211
+#: src/components/_user/user/skills.frontConfig.tsx:207
+#: src/components/_user/user/skills.frontConfig.tsx:208
 msgid "Management"
 msgstr "Gestão"
 
@@ -5791,11 +5791,11 @@ msgstr "Flecha de Aço Medieval"
 msgid "Medieval Stone Arrow"
 msgstr "Flecha de Pedra Medieval"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:251
+#: src/components/_other/tour/tuto.frontConfig.tsx:252
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Conhece outros jogadores no chat. Não sejas tímido, apresenta-te!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:59
+#: src/components/_other/tour/tuto.frontConfig.tsx:60
 msgid "Meet your employee!"
 msgstr ""
 
@@ -6484,7 +6484,7 @@ msgstr "Legal"
 msgid "Nice one"
 msgstr "Mandou bem"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:239
+#: src/components/_other/tour/tuto.frontConfig.tsx:240
 msgid "Nice work!"
 msgstr "Bom trabalho!"
 
@@ -6823,7 +6823,7 @@ msgstr "Ocupado por"
 msgid "Occupied region"
 msgstr "Região ocupada"
 
-#: src/components/_user/user/skills.frontConfig.tsx:217
+#: src/components/_user/user/skills.frontConfig.tsx:214
 msgid "Odds to reveal an employee's hidden traits when you hire them."
 msgstr ""
 
@@ -6952,7 +6952,7 @@ msgstr "Abrir o chat"
 msgid "Open to all"
 msgstr "Aberto a todos"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:131
+#: src/components/_other/tour/tuto.frontConfig.tsx:132
 msgid "Open your case!"
 msgstr "Abra sua caixa!"
 
@@ -7188,7 +7188,7 @@ msgstr "Em pausa"
 msgid "Paused: nobody produces here"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:87
+#: src/components/_other/tour/tuto.frontConfig.tsx:88
 msgid "Pay them well!"
 msgstr ""
 
@@ -7212,8 +7212,8 @@ msgstr "Pendente"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "A população está enfurecida, uma revolta automática começou em <0/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:221
-#: src/components/_user/user/skills.frontConfig.tsx:222
+#: src/components/_user/user/skills.frontConfig.tsx:218
+#: src/components/_user/user/skills.frontConfig.tsx:219
 msgid "Perception"
 msgstr ""
 
@@ -7253,7 +7253,7 @@ msgstr "Verificação de telemóvel necessária"
 msgid "Pick {cardTitle}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:48
+#: src/components/_other/tour/tuto.frontConfig.tsx:49
 msgid "Pick a candidate!"
 msgstr ""
 
@@ -7263,11 +7263,11 @@ msgstr ""
 msgid "Pick a card"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:77
+#: src/components/_other/tour/tuto.frontConfig.tsx:78
 msgid "Pick a card!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:170
+#: src/components/_other/tour/tuto.frontConfig.tsx:171
 msgid "Pick a fight!"
 msgstr "Escolha uma batalha!"
 
@@ -7635,7 +7635,7 @@ msgstr "Avança contra a resistência aqui antes que se entrinchem..."
 msgid "Push the resistance here first."
 msgstr "Avança contra a resistência aqui primeiro."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:97
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Put yourself to work!"
 msgstr "Mãos à obra!"
 
@@ -7691,7 +7691,7 @@ msgstr "Rankings"
 msgid "Ranks"
 msgstr "Ranks"
 
-#: src/components/_user/user/skills.frontConfig.tsx:228
+#: src/components/_user/user/skills.frontConfig.tsx:225
 msgid "Rarer cards when you train your employees: every level moves odds away from Common toward the rarer tiers."
 msgstr ""
 
@@ -7813,7 +7813,7 @@ msgstr "Ler artigo"
 msgid "Read the article"
 msgstr "Ler o artigo"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:163
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Ready for battle!"
 msgstr "Pronto para a batalha!"
 
@@ -8269,7 +8269,7 @@ msgstr "Resposta à mensagem"
 msgid "Responsibility"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:212
 msgid "Restore your health!"
 msgstr "Restaure sua saúde!"
 
@@ -8393,7 +8393,7 @@ msgstr "Regras"
 msgid "Ruling Party"
 msgstr "Partido no poder"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:201
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Running low on health?"
 msgstr "Com pouca saúde?"
 
@@ -8408,11 +8408,11 @@ msgstr ""
 msgid "Save"
 msgstr "Guardar"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:157
+#: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "Save your progress!"
 msgstr "Guarda o teu progresso!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:249
+#: src/components/_other/tour/tuto.frontConfig.tsx:250
 msgid "Say hello!"
 msgstr "Diz olá!"
 
@@ -8561,7 +8561,7 @@ msgstr "Enviar <0/> para <1/>"
 msgid "Send a message"
 msgstr "Envie uma mensagem no chat"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:269
+#: src/components/_other/tour/tuto.frontConfig.tsx:270
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Envie uma mensagem para completar o tutorial. Bem-vindo à comunidade!"
 
@@ -8762,7 +8762,7 @@ msgstr ""
 msgid "Skills"
 msgstr "Habilidades"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:142
+#: src/components/_other/tour/tuto.frontConfig.tsx:143
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "habilidades tornam-te mais forte. Vamos melhorar as suas habilidades!"
 
@@ -9369,7 +9369,7 @@ msgstr "Resumo das recompensas ganhas nesta batalha. Inclui todas as caixas que 
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
 msgstr "Valor utilizado para calcular a maioria dos custos: ordens de batalha, aliança, países inimigos e pactos defensivos, leis e manutenção de melhorias."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:27
+#: src/components/_other/tour/tuto.frontConfig.tsx:28
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr "Este é o teu centro de empresas. Aqui podes produzir itens e construir o teu império."
 
@@ -9423,11 +9423,11 @@ msgstr "Isto vai exigir que o utilizador verifique o seu número de telemóvel."
 msgid "Tier {0}"
 msgstr "Nível {0}"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:165
+#: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Time to fight for your country! Let's join the action."
 msgstr "É hora de lutar pelo teu país! Vamos entrar em ação."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:108
 msgid "Time to produce!"
 msgstr "Hora de produzir!"
 
@@ -9706,7 +9706,7 @@ msgstr ""
 msgid "Train to reveal traits"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:66
+#: src/components/_other/tour/tuto.frontConfig.tsx:67
 msgid "Train your employee!"
 msgstr ""
 
@@ -9722,7 +9722,7 @@ msgstr ""
 msgid "Training complete."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:68
+#: src/components/_other/tour/tuto.frontConfig.tsx:69
 msgid "Training costs <0>Entrepreneurship</0> and deals you three cards to choose from."
 msgstr ""
 
@@ -9946,11 +9946,11 @@ msgstr "Usa <0/>"
 msgid "Use Pills"
 msgstr "Usar Pílulas"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:99
-msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
-msgstr "Usa o teu <0>Empreendedorismo</0> para trabalhares na tua própria empresa e encheres a sua barra de produção."
+#: src/components/_other/tour/tuto.frontConfig.tsx:100
+msgid "Use your <0>Energy</0> to work in your own company and fill its production bar."
+msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:214
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Usa a tua <0>Fome</0> para comeres comida e recuperares a tua <1>Vida</1>. Depois volta a lutar!"
 
@@ -9959,10 +9959,6 @@ msgstr "Usa a tua <0>Fome</0> para comeres comida e recuperares a tua <1>Vida</1
 #: src/utils/translations.tsx:105
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Usada para disparar armas. Aumenta o <0>Ataque</0>"
-
-#: src/components/_user/user/skills.frontConfig.tsx:190
-msgid "Used to <0>Self Work</0> in your own companies"
-msgstr "Usado para <0>Trabalho Autónomo</0> nas suas empresas"
 
 #: src/components/_user/user/skills.frontConfig.tsx:89
 msgid "Used to <0>Work</0>"
@@ -9975,6 +9971,10 @@ msgstr "Usado para construir empresas e UMs"
 #: src/utils/translations.tsx:41
 msgid "Used to craft items"
 msgstr "Usado para fabricar itens"
+
+#: src/components/_user/user/skills.frontConfig.tsx:190
+msgid "Used to hire, train and manage your employees"
+msgstr ""
 
 #: src/utils/translations.tsx:84
 msgid "Used to maintain upgrades"
@@ -10332,7 +10332,7 @@ msgstr "Bem-vindo de volta {username}!"
 msgid "Welcome to War Era!"
 msgstr "Bem-vindo ao War Era!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:25
+#: src/components/_other/tour/tuto.frontConfig.tsx:26
 msgid "Welcome to your economy!"
 msgstr "Bem-vindo à sua economia!"
 
@@ -10349,7 +10349,7 @@ msgstr "Ao defender contra uma revolta, obtém um bónus de combate adicional de
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "Ao iniciar uma revolta, copia o bónus defensivo concedido ao inimigo pelo Bunker da região."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:203
+#: src/components/_other/tour/tuto.frontConfig.tsx:204
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Quando sua <0>Saúde</0> acabar, abra este menu para restaurá-la com comida."
 
@@ -10420,7 +10420,7 @@ msgstr "Arco de Madeira"
 msgid "Woolly Mammoth"
 msgstr "Mamute"
 
-#: src/components/_economy/company/WorkButton.tsx:169
+#: src/components/_economy/company/WorkButton.tsx:168
 #: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "Trabalhar"
@@ -10575,7 +10575,7 @@ msgstr "Pode alterá-lo mais tarde"
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Podes desmontar itens do teu inventário ao selecionares um item."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:193
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
 msgstr "Só podes lutar onde estiveres. Move-te para a região da batalha, isso custa <0>Stamina</0>, e depois ataca para causares <1>Danos</1>."
 
@@ -10619,7 +10619,7 @@ msgstr "Ofereceu premium a alguém <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Vai ser automaticamente aprovado porque a população do país é inferior a"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:126
+#: src/components/_other/tour/tuto.frontConfig.tsx:127
 msgid "You have a case!"
 msgstr "Recebeste uma caixa!"
 
@@ -10863,7 +10863,7 @@ msgstr "Ganhou um torneio de UMs"
 msgid "You worked 100 times"
 msgstr "Trabalhou 100 vezes"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:267
+#: src/components/_other/tour/tuto.frontConfig.tsx:268
 msgid "You're all set!"
 msgstr "Estás pronto!"
 
@@ -10891,7 +10891,7 @@ msgstr "És oficialmente melhor que 80% dos jogadores"
 msgid "You're peaking"
 msgstr "Estás no auge"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:232
+#: src/components/_other/tour/tuto.frontConfig.tsx:233
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Concluiu algumas missões! Vamos recolher as suas recompensas de XP."
 
@@ -10899,7 +10899,7 @@ msgstr "Concluiu algumas missões! Vamos recolher as suas recompensas de XP."
 msgid "You've reached max level!"
 msgstr "Alcançou o nível máximo!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:110
 msgid "Your <0>Production</0> bar is full! Click to produce items and add them to your inventory."
 msgstr "A sua barra de <0>Produção</0> está cheia! Clique para produzir itens e adicioná-los ao inventário."
 
@@ -11004,7 +11004,7 @@ msgstr "O teu governo pede-te para avançares contra a resistência aqui."
 msgid "Your infos have been saved."
 msgstr "As tuas informações foram guardadas."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:119
+#: src/components/_other/tour/tuto.frontConfig.tsx:120
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "O teu inventário guarda todos os teus itens. Vamos ver o que tens!"
 

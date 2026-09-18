@@ -1305,7 +1305,7 @@ msgstr ""
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:89
+#: src/components/_other/tour/tuto.frontConfig.tsx:90
 msgid "A good wage makes your employee happier, and a happy employee produces more. Click to raise their wage."
 msgstr ""
 
@@ -2259,7 +2259,7 @@ msgstr ""
 msgid "Bonus damages"
 msgstr "Bonusvahingot"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:147
+#: src/components/_other/tour/tuto.frontConfig.tsx:148
 msgid "Boost your production!"
 msgstr "Tehosta tuotantoasi!"
 
@@ -2514,7 +2514,7 @@ msgstr "CAPTCHA-vahvistus aikakatkaistiin. Nollataan..."
 msgid "Case"
 msgstr "Kotelo"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:127
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Cases contain random items. Click to open it!"
 msgstr "Kotelot sisältävät satunnaisia ​​kohteita. Napsauta avataksesi sen!"
 
@@ -2615,7 +2615,7 @@ msgstr ""
 msgid "Change the tax of {0} to"
 msgstr "Muuta {0} veroksi"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:117
+#: src/components/_other/tour/tuto.frontConfig.tsx:118
 msgid "Check your loot!"
 msgstr "Tarkista saalis!"
 
@@ -2652,7 +2652,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "Valitse maasi"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:179
+#: src/components/_other/tour/tuto.frontConfig.tsx:180
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Valitse puolesi ja klikkaa käsitelläksesi <0>Vahingot</0>! Jatka lyömistä auttaaksesi joukkuettasi voittamaan."
 
@@ -2691,7 +2691,7 @@ msgstr "Sisällissota"
 msgid "Claim"
 msgstr "Lunasta"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:230
+#: src/components/_other/tour/tuto.frontConfig.tsx:231
 msgid "Claim your rewards!"
 msgstr "Lunasta palkintosi!"
 
@@ -2715,19 +2715,19 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Tyhjennä valinta"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:149
+#: src/components/_other/tour/tuto.frontConfig.tsx:150
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Napsauta useita kertoja lisätäksesi tätä taitoa. Korkeammat taidot = enemmän voimaa!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:172
+#: src/components/_other/tour/tuto.frontConfig.tsx:173
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Napsauta taistelua nähdäksesi mitä tapahtuu ja liity mukaan."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:260
+#: src/components/_other/tour/tuto.frontConfig.tsx:261
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Napsauta maasi keskustelua keskustellaksesi kansalaisten kanssa."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:61
+#: src/components/_other/tour/tuto.frontConfig.tsx:62
 msgid "Click on your new employee to see their stats and traits."
 msgstr ""
 
@@ -2735,7 +2735,7 @@ msgstr ""
 msgid "Click to consume."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:133
+#: src/components/_other/tour/tuto.frontConfig.tsx:134
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Napsauta nähdäksesi, mitä sisällä on. Saatat saada jotain arvokasta!"
 
@@ -2877,7 +2877,7 @@ msgstr "Yritys nimetty uudelleen!"
 msgid "Company upgraded!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:241
+#: src/components/_other/tour/tuto.frontConfig.tsx:242
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Suorita tehtäviä päivittäin ansaitaksesi XP ja noustaksesi nopeammin. Napsauta lunastaaksesi!"
 
@@ -3798,7 +3798,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "Älä unohda juoda vettä"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:158
+#: src/components/_other/tour/tuto.frontConfig.tsx:159
 msgid "Don't forget to save your skill upgrades."
 msgstr "Älä unohda tallentaa taitopäivityksesi."
 
@@ -3855,11 +3855,11 @@ msgstr ""
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:50
+#: src/components/_other/tour/tuto.frontConfig.tsx:51
 msgid "Each candidate has different stats and traits. Hiring costs <0>Entrepreneurship</0>, then they earn a wage paid from your <1>Money</1>."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:79
+#: src/components/_other/tour/tuto.frontConfig.tsx:80
 msgid "Each card trains your employee differently. Tap one to see what it does, then pick it: the other cards are lost."
 msgstr ""
 
@@ -3867,7 +3867,7 @@ msgstr ""
 msgid "Each item gets its own offer, all at the same price."
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:202
+#: src/components/_user/user/skills.frontConfig.tsx:199
 msgid "Each level raises the production of your <0>employees</0>."
 msgstr ""
 
@@ -3908,7 +3908,7 @@ msgstr "Eco-tila"
 msgid "Economic laws"
 msgstr "Talouden lait"
 
-#: src/components/_user/user/skills.frontConfig.tsx:255
+#: src/components/_user/user/skills.frontConfig.tsx:252
 msgid "Economic skills"
 msgstr "Taloudelliset taidot"
 
@@ -4021,7 +4021,7 @@ msgstr ""
 msgid "Employees"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:40
+#: src/components/_other/tour/tuto.frontConfig.tsx:41
 msgid "Employees work in your company every hour, even while you're offline. Click to see the candidates."
 msgstr ""
 
@@ -4093,8 +4093,8 @@ msgstr "Anna artikkelin tunnus"
 msgid "Enter the code we sent to your email."
 msgstr "Syötä koodi, jonka lähetimme sähköpostiisi."
 
-#: src/components/_user/user/skills.frontConfig.tsx:195
-#: src/components/_user/user/skills.frontConfig.tsx:196
+#: src/components/_user/user/skills.frontConfig.tsx:192
+#: src/components/_user/user/skills.frontConfig.tsx:193
 msgid "Entrepreneurship"
 msgstr "Yrittäjyys"
 
@@ -4375,11 +4375,11 @@ msgstr ""
 msgid "Fight for <0/> in<1/><2/>"
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:240
+#: src/components/_user/user/skills.frontConfig.tsx:237
 msgid "Fight skills"
 msgstr "Taistelutaidot"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:177
+#: src/components/_other/tour/tuto.frontConfig.tsx:178
 msgid "Fight!"
 msgstr "Taistele!"
 
@@ -4606,7 +4606,7 @@ msgstr "Hanki useita skinejä kerralla 30% alennuksella!"
 msgid "Get supporter plan"
 msgstr "Hanki tukisuunnitelma"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:190
+#: src/components/_other/tour/tuto.frontConfig.tsx:191
 msgid "Get to the front!"
 msgstr ""
 
@@ -4726,7 +4726,7 @@ msgstr "Vilja"
 msgid "Graticule"
 msgstr "Ruudukko"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:223
+#: src/components/_other/tour/tuto.frontConfig.tsx:224
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Hienoa työtä! Lyö vielä muutaman kerran auttaaksesi puoltasi voittamaan taistelun."
 
@@ -4928,7 +4928,7 @@ msgstr "Korkea komentaja"
 msgid "Hire"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:38
+#: src/components/_other/tour/tuto.frontConfig.tsx:39
 msgid "Hire your first employee!"
 msgstr ""
 
@@ -5243,7 +5243,7 @@ msgstr "Liity MU:hon"
 msgid "Join the world"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:258
+#: src/components/_other/tour/tuto.frontConfig.tsx:259
 msgid "Join your country chat!"
 msgstr "Liity maasi chattiin!"
 
@@ -5267,7 +5267,7 @@ msgstr "Vielä yksi… mikä voisi mennä pieleen?"
 msgid "Keep chasing that Mythic"
 msgstr "Jatka sitä myyttiä"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:221
+#: src/components/_other/tour/tuto.frontConfig.tsx:222
 msgid "Keep fighting!"
 msgstr "Jatka taistelua!"
 
@@ -5381,8 +5381,8 @@ msgstr "Lyijy"
 msgid "Leader"
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:233
-#: src/components/_user/user/skills.frontConfig.tsx:234
+#: src/components/_user/user/skills.frontConfig.tsx:230
+#: src/components/_user/user/skills.frontConfig.tsx:231
 msgid "Leadership"
 msgstr ""
 
@@ -5456,7 +5456,7 @@ msgstr "Taso {level}"
 msgid "Level too low"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:140
+#: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Level up your skills!"
 msgstr "Nosta osaamistasi!"
 
@@ -5658,8 +5658,8 @@ msgstr ""
 msgid "Manage Subscription"
 msgstr "Hallinnoi tilausta"
 
-#: src/components/_user/user/skills.frontConfig.tsx:210
-#: src/components/_user/user/skills.frontConfig.tsx:211
+#: src/components/_user/user/skills.frontConfig.tsx:207
+#: src/components/_user/user/skills.frontConfig.tsx:208
 msgid "Management"
 msgstr "Hallinto"
 
@@ -5792,11 +5792,11 @@ msgstr "Keskiaikainen teräsnuoli"
 msgid "Medieval Stone Arrow"
 msgstr "Keskiaikainen kivinuoli"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:251
+#: src/components/_other/tour/tuto.frontConfig.tsx:252
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Tapaa muita pelaajia chatissa. Älä ole ujo, esittele itsesi!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:59
+#: src/components/_other/tour/tuto.frontConfig.tsx:60
 msgid "Meet your employee!"
 msgstr ""
 
@@ -6485,7 +6485,7 @@ msgstr "Mukava"
 msgid "Nice one"
 msgstr "Hieno sellainen"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:239
+#: src/components/_other/tour/tuto.frontConfig.tsx:240
 msgid "Nice work!"
 msgstr "Hienoa työtä!"
 
@@ -6824,7 +6824,7 @@ msgstr ""
 msgid "Occupied region"
 msgstr "Miehitetty alue"
 
-#: src/components/_user/user/skills.frontConfig.tsx:217
+#: src/components/_user/user/skills.frontConfig.tsx:214
 msgid "Odds to reveal an employee's hidden traits when you hire them."
 msgstr ""
 
@@ -6953,7 +6953,7 @@ msgstr "Avaa chat"
 msgid "Open to all"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:131
+#: src/components/_other/tour/tuto.frontConfig.tsx:132
 msgid "Open your case!"
 msgstr "Avaa tapauksesi!"
 
@@ -7189,7 +7189,7 @@ msgstr ""
 msgid "Paused: nobody produces here"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:87
+#: src/components/_other/tour/tuto.frontConfig.tsx:88
 msgid "Pay them well!"
 msgstr ""
 
@@ -7213,8 +7213,8 @@ msgstr "Odottaa"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Ihmiset ovat vihaisia, autokapina on alkanut <0/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:221
-#: src/components/_user/user/skills.frontConfig.tsx:222
+#: src/components/_user/user/skills.frontConfig.tsx:218
+#: src/components/_user/user/skills.frontConfig.tsx:219
 msgid "Perception"
 msgstr ""
 
@@ -7254,7 +7254,7 @@ msgstr "Puhelinvahvistus vaaditaan"
 msgid "Pick {cardTitle}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:48
+#: src/components/_other/tour/tuto.frontConfig.tsx:49
 msgid "Pick a candidate!"
 msgstr ""
 
@@ -7264,11 +7264,11 @@ msgstr ""
 msgid "Pick a card"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:77
+#: src/components/_other/tour/tuto.frontConfig.tsx:78
 msgid "Pick a card!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:170
+#: src/components/_other/tour/tuto.frontConfig.tsx:171
 msgid "Pick a fight!"
 msgstr "Haastaa riitaa!"
 
@@ -7636,7 +7636,7 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:97
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Put yourself to work!"
 msgstr "Laita itsesi töihin!"
 
@@ -7692,7 +7692,7 @@ msgstr "Rankingit"
 msgid "Ranks"
 msgstr "Sijoitukset"
 
-#: src/components/_user/user/skills.frontConfig.tsx:228
+#: src/components/_user/user/skills.frontConfig.tsx:225
 msgid "Rarer cards when you train your employees: every level moves odds away from Common toward the rarer tiers."
 msgstr ""
 
@@ -7814,7 +7814,7 @@ msgstr "Lue artikkeli"
 msgid "Read the article"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:163
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Ready for battle!"
 msgstr "Valmiina taisteluun!"
 
@@ -8270,7 +8270,7 @@ msgstr "Vastaus viestiin"
 msgid "Responsibility"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:212
 msgid "Restore your health!"
 msgstr "Palauta terveytesi!"
 
@@ -8394,7 +8394,7 @@ msgstr "säännöt"
 msgid "Ruling Party"
 msgstr "Hallitseva puolue"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:201
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Running low on health?"
 msgstr "Onko terveys loppumassa?"
 
@@ -8409,11 +8409,11 @@ msgstr ""
 msgid "Save"
 msgstr "Tallenna"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:157
+#: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "Save your progress!"
 msgstr "Tallenna edistymisesi!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:249
+#: src/components/_other/tour/tuto.frontConfig.tsx:250
 msgid "Say hello!"
 msgstr "Sano hei!"
 
@@ -8562,7 +8562,7 @@ msgstr ""
 msgid "Send a message"
 msgstr "Lähetä viesti"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:269
+#: src/components/_other/tour/tuto.frontConfig.tsx:270
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Lähetä viesti suorittaaksesi opetusohjelman. Tervetuloa yhteisöön!"
 
@@ -8763,7 +8763,7 @@ msgstr ""
 msgid "Skills"
 msgstr "Taidot"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:142
+#: src/components/_other/tour/tuto.frontConfig.tsx:143
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Taidot tekevät sinusta vahvemman. Tehdään kykyjäsi!"
 
@@ -9370,7 +9370,7 @@ msgstr "Tämä on yhteenveto saaliista, jonka sait tästä taistelusta. Se sisä
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:27
+#: src/components/_other/tour/tuto.frontConfig.tsx:28
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr "Tämä on yrityksesi keskus. Täällä voit valmistaa esineitä ja rakentaa valtakuntaasi."
 
@@ -9424,11 +9424,11 @@ msgstr "Tämä edellyttää, että käyttäjä vahvistaa matkapuhelinnumeronsa."
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:165
+#: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Time to fight for your country! Let's join the action."
 msgstr "On aika taistella maasi puolesta! Liitytään toimintaan."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:108
 msgid "Time to produce!"
 msgstr "Aika tuottaa!"
 
@@ -9707,7 +9707,7 @@ msgstr ""
 msgid "Train to reveal traits"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:66
+#: src/components/_other/tour/tuto.frontConfig.tsx:67
 msgid "Train your employee!"
 msgstr ""
 
@@ -9723,7 +9723,7 @@ msgstr ""
 msgid "Training complete."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:68
+#: src/components/_other/tour/tuto.frontConfig.tsx:69
 msgid "Training costs <0>Entrepreneurship</0> and deals you three cards to choose from."
 msgstr ""
 
@@ -9947,11 +9947,11 @@ msgstr ""
 msgid "Use Pills"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:99
-msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
-msgstr "Käytä <0>Yrittäjyyttäsi</0> työskennelläksesi omassa yrityksessäsi ja täytäksesi sen tuotantopalkki."
+#: src/components/_other/tour/tuto.frontConfig.tsx:100
+msgid "Use your <0>Energy</0> to work in your own company and fill its production bar."
+msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:214
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Käytä <0>Nälkääsi</0> syödäksesi ruokaa ja täydentääksesi <1>Terveyttäsi</1>. Sitten takaisin taisteluun!"
 
@@ -9960,10 +9960,6 @@ msgstr "Käytä <0>Nälkääsi</0> syödäksesi ruokaa ja täydentääksesi <1>T
 #: src/utils/translations.tsx:105
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Käytetään aseiden ampumiseen. Lisää <0>Attack</0>"
-
-#: src/components/_user/user/skills.frontConfig.tsx:190
-msgid "Used to <0>Self Work</0> in your own companies"
-msgstr "Käytetään <0>omatoimiseen työskentelyyn</0> omissa yrityksissäsi"
 
 #: src/components/_user/user/skills.frontConfig.tsx:89
 msgid "Used to <0>Work</0>"
@@ -9976,6 +9972,10 @@ msgstr "Käytetään yritysten ja MU:iden rakentamiseen"
 #: src/utils/translations.tsx:41
 msgid "Used to craft items"
 msgstr "Käytetään esineiden tekemiseen"
+
+#: src/components/_user/user/skills.frontConfig.tsx:190
+msgid "Used to hire, train and manage your employees"
+msgstr ""
 
 #: src/utils/translations.tsx:84
 msgid "Used to maintain upgrades"
@@ -10333,7 +10333,7 @@ msgstr "Tervetuloa takaisin {username}!"
 msgid "Welcome to War Era!"
 msgstr "Tervetuloa sota-aikaan!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:25
+#: src/components/_other/tour/tuto.frontConfig.tsx:26
 msgid "Welcome to your economy!"
 msgstr "Tervetuloa talouteenne!"
 
@@ -10350,7 +10350,7 @@ msgstr ""
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:203
+#: src/components/_other/tour/tuto.frontConfig.tsx:204
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Kun <0>Terveys</0> loppuu, avaa tämä valikko palauttaaksesi sen ruoan kanssa."
 
@@ -10421,7 +10421,7 @@ msgstr ""
 msgid "Woolly Mammoth"
 msgstr ""
 
-#: src/components/_economy/company/WorkButton.tsx:169
+#: src/components/_economy/company/WorkButton.tsx:168
 #: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "Työ"
@@ -10576,7 +10576,7 @@ msgstr ""
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Voit purkaa esineitä varastostasi valitsemalla tuotteen."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:193
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
 msgstr ""
 
@@ -10620,7 +10620,7 @@ msgstr "Lahjoit jollekin tukipakettitilauksen <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Sinut hyväksytään automaattisesti, koska maan väkiluku on alle"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:126
+#: src/components/_other/tour/tuto.frontConfig.tsx:127
 msgid "You have a case!"
 msgstr "Sinulla on tapaus!"
 
@@ -10864,7 +10864,7 @@ msgstr "Voitit MU-turnauksen"
 msgid "You worked 100 times"
 msgstr "Työskentelit 100 kertaa"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:267
+#: src/components/_other/tour/tuto.frontConfig.tsx:268
 msgid "You're all set!"
 msgstr "Kaikki on valmista!"
 
@@ -10892,7 +10892,7 @@ msgstr "Olet virallisesti parempi kuin 80 % pelaajista"
 msgid "You're peaking"
 msgstr "Olet huipussaan"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:232
+#: src/components/_other/tour/tuto.frontConfig.tsx:233
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Olet suorittanut joitakin tehtäviä! Kerätään XP-palkintosi."
 
@@ -10900,7 +10900,7 @@ msgstr "Olet suorittanut joitakin tehtäviä! Kerätään XP-palkintosi."
 msgid "You've reached max level!"
 msgstr "Olet saavuttanut maksimitason!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:110
 msgid "Your <0>Production</0> bar is full! Click to produce items and add them to your inventory."
 msgstr "<0>Tuotanto</0>-palkki on täynnä! Napsauta tuottaaksesi kohteita ja lisääksesi ne varastoosi."
 
@@ -11005,7 +11005,7 @@ msgstr ""
 msgid "Your infos have been saved."
 msgstr "Tietosi on tallennettu."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:119
+#: src/components/_other/tour/tuto.frontConfig.tsx:120
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Varastossasi on kaikki tuotteesi. Katsotaan mitä sinulla on!"
 

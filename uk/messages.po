@@ -1304,7 +1304,7 @@ msgstr "Для прийняття цього контракту потрібно
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr "Для прийняття цього контракту був потрібен завдаток у розмірі <0>{0}</0>. Завдаток було повернуто після заподіяння мінімальної обов'язкової шкоди."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:89
+#: src/components/_other/tour/tuto.frontConfig.tsx:90
 msgid "A good wage makes your employee happier, and a happy employee produces more. Click to raise their wage."
 msgstr ""
 
@@ -2258,7 +2258,7 @@ msgstr "Кістяна булава"
 msgid "Bonus damages"
 msgstr "Бонусна шкода"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:147
+#: src/components/_other/tour/tuto.frontConfig.tsx:148
 msgid "Boost your production!"
 msgstr "Збільште продуктивність!"
 
@@ -2513,7 +2513,7 @@ msgstr "Сплив час підтвердження CAPTCHA. Скидання..
 msgid "Case"
 msgstr "Кейс"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:127
+#: src/components/_other/tour/tuto.frontConfig.tsx:128
 msgid "Cases contain random items. Click to open it!"
 msgstr "Кейси містять випадкові предмети. Натисність аби відкрити!"
 
@@ -2614,7 +2614,7 @@ msgstr "Змінити назву альянсу."
 msgid "Change the tax of {0} to"
 msgstr "Встановити податок на {0}:"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:117
+#: src/components/_other/tour/tuto.frontConfig.tsx:118
 msgid "Check your loot!"
 msgstr "Перевірте інвентар!"
 
@@ -2651,7 +2651,7 @@ msgstr "Вибрати шрифт"
 msgid "Choose your country"
 msgstr "Оберіть свою країну"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:179
+#: src/components/_other/tour/tuto.frontConfig.tsx:180
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Оберіть сторону та натисніть, аби завдати <0>Шкоду</0>! Продовжуйте атакувати, щоб допомогти своїй команді перемогти."
 
@@ -2690,7 +2690,7 @@ msgstr "Громадянська війна"
 msgid "Claim"
 msgstr "Отримати"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:230
+#: src/components/_other/tour/tuto.frontConfig.tsx:231
 msgid "Claim your rewards!"
 msgstr "Заберіть свої нагороди!"
 
@@ -2714,19 +2714,19 @@ msgstr ""
 msgid "Clear selection"
 msgstr "Очистити вибір"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:149
+#: src/components/_other/tour/tuto.frontConfig.tsx:150
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "Натискайте кілька разів, щоб підвищити цю навичку. Кращі навички = більше сили!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:172
+#: src/components/_other/tour/tuto.frontConfig.tsx:173
 msgid "Click on a battle to see what's happening and join in."
 msgstr "Натисніть на бій, щоб побачити, що відбувається, та приєднатися."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:260
+#: src/components/_other/tour/tuto.frontConfig.tsx:261
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "Натисніть на чат своєї країни, щоб спілкуватися з іншими громадянами."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:61
+#: src/components/_other/tour/tuto.frontConfig.tsx:62
 msgid "Click on your new employee to see their stats and traits."
 msgstr ""
 
@@ -2734,7 +2734,7 @@ msgstr ""
 msgid "Click to consume."
 msgstr "Натисніть, щоб спожити."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:133
+#: src/components/_other/tour/tuto.frontConfig.tsx:134
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "Натисніть, щоб дізнатися, що всередині. Можливо, вам пощастить!"
 
@@ -2876,7 +2876,7 @@ msgstr "Фабрику перейменовано!"
 msgid "Company upgraded!"
 msgstr "Фабрику поліпшено!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:241
+#: src/components/_other/tour/tuto.frontConfig.tsx:242
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Виконуйте місії щодня, щоб отримувати досвід і швидше підвищувати рівень. Натисніть, щоб забрати нагороду!"
 
@@ -3797,7 +3797,7 @@ msgstr "Ухиліться від <0/> атак"
 msgid "Don't forget to drink water"
 msgstr "Не забувайте пити воду"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:158
+#: src/components/_other/tour/tuto.frontConfig.tsx:159
 msgid "Don't forget to save your skill upgrades."
 msgstr "Не забудь зберегти прокачані навички."
 
@@ -3854,11 +3854,11 @@ msgstr ""
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "e. Контент про поточні реальні війни та збройні конфлікти (зокрема російсько-українську війну та ізраїльсько-палестинський конфлікт)"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:50
+#: src/components/_other/tour/tuto.frontConfig.tsx:51
 msgid "Each candidate has different stats and traits. Hiring costs <0>Entrepreneurship</0>, then they earn a wage paid from your <1>Money</1>."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:79
+#: src/components/_other/tour/tuto.frontConfig.tsx:80
 msgid "Each card trains your employee differently. Tap one to see what it does, then pick it: the other cards are lost."
 msgstr ""
 
@@ -3866,7 +3866,7 @@ msgstr ""
 msgid "Each item gets its own offer, all at the same price."
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:202
+#: src/components/_user/user/skills.frontConfig.tsx:199
 msgid "Each level raises the production of your <0>employees</0>."
 msgstr ""
 
@@ -3907,7 +3907,7 @@ msgstr "Режим заробітку"
 msgid "Economic laws"
 msgstr "Економічні закони"
 
-#: src/components/_user/user/skills.frontConfig.tsx:255
+#: src/components/_user/user/skills.frontConfig.tsx:252
 msgid "Economic skills"
 msgstr "Економічні навички"
 
@@ -4020,7 +4020,7 @@ msgstr ""
 msgid "Employees"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:40
+#: src/components/_other/tour/tuto.frontConfig.tsx:41
 msgid "Employees work in your company every hour, even while you're offline. Click to see the candidates."
 msgstr ""
 
@@ -4092,8 +4092,8 @@ msgstr "Введіть ID статті"
 msgid "Enter the code we sent to your email."
 msgstr "Введіть код, який ми надіслали на вашу пошту."
 
-#: src/components/_user/user/skills.frontConfig.tsx:195
-#: src/components/_user/user/skills.frontConfig.tsx:196
+#: src/components/_user/user/skills.frontConfig.tsx:192
+#: src/components/_user/user/skills.frontConfig.tsx:193
 msgid "Entrepreneurship"
 msgstr "Підприємливість"
 
@@ -4374,11 +4374,11 @@ msgstr "Битись за <0/> у <1/>"
 msgid "Fight for <0/> in<1/><2/>"
 msgstr "Битись за <0/> у <1/><2/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:240
+#: src/components/_user/user/skills.frontConfig.tsx:237
 msgid "Fight skills"
 msgstr "Бойові навички"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:177
+#: src/components/_other/tour/tuto.frontConfig.tsx:178
 msgid "Fight!"
 msgstr "У бій!"
 
@@ -4605,7 +4605,7 @@ msgstr "Отримайте відразу кілька скінів зі зни�
 msgid "Get supporter plan"
 msgstr "Стати підписником"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:190
+#: src/components/_other/tour/tuto.frontConfig.tsx:191
 msgid "Get to the front!"
 msgstr ""
 
@@ -4725,7 +4725,7 @@ msgstr "Зерно"
 msgid "Graticule"
 msgstr "Координатна сітка"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:223
+#: src/components/_other/tour/tuto.frontConfig.tsx:224
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "Чудова робота! Зроби ще кілька ударів, щоб допомогти своїй стороні перемогти."
 
@@ -4927,7 +4927,7 @@ msgstr "Вищий командувач"
 msgid "Hire"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:38
+#: src/components/_other/tour/tuto.frontConfig.tsx:39
 msgid "Hire your first employee!"
 msgstr ""
 
@@ -5242,7 +5242,7 @@ msgstr "Приєднайтесь до ВП"
 msgid "Join the world"
 msgstr "Стати частиною світу"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:258
+#: src/components/_other/tour/tuto.frontConfig.tsx:259
 msgid "Join your country chat!"
 msgstr "Приєднайся до чату своєї країни!"
 
@@ -5266,7 +5266,7 @@ msgstr "Ще один… що може піти не так?"
 msgid "Keep chasing that Mythic"
 msgstr "Продовжуй гнатись за міфіком"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:221
+#: src/components/_other/tour/tuto.frontConfig.tsx:222
 msgid "Keep fighting!"
 msgstr "Продовжуйте битися!"
 
@@ -5380,8 +5380,8 @@ msgstr "Свинець"
 msgid "Leader"
 msgstr "Лідер"
 
-#: src/components/_user/user/skills.frontConfig.tsx:233
-#: src/components/_user/user/skills.frontConfig.tsx:234
+#: src/components/_user/user/skills.frontConfig.tsx:230
+#: src/components/_user/user/skills.frontConfig.tsx:231
 msgid "Leadership"
 msgstr ""
 
@@ -5455,7 +5455,7 @@ msgstr "Рівень {level}"
 msgid "Level too low"
 msgstr "Надто низький рівень"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:140
+#: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Level up your skills!"
 msgstr "Прокачай свої навички!"
 
@@ -5657,8 +5657,8 @@ msgstr "Зробити <0/> новим лідером альянсу. Лідер
 msgid "Manage Subscription"
 msgstr "Керування підпискою"
 
-#: src/components/_user/user/skills.frontConfig.tsx:210
-#: src/components/_user/user/skills.frontConfig.tsx:211
+#: src/components/_user/user/skills.frontConfig.tsx:207
+#: src/components/_user/user/skills.frontConfig.tsx:208
 msgid "Management"
 msgstr "Менеджмент"
 
@@ -5791,11 +5791,11 @@ msgstr "Середньовічна стальна стріла"
 msgid "Medieval Stone Arrow"
 msgstr "Середньовічна кам'яна стріла"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:251
+#: src/components/_other/tour/tuto.frontConfig.tsx:252
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "Привітайся у чаті. Не соромся, представся!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:59
+#: src/components/_other/tour/tuto.frontConfig.tsx:60
 msgid "Meet your employee!"
 msgstr ""
 
@@ -6484,7 +6484,7 @@ msgstr "Непогано"
 msgid "Nice one"
 msgstr "Гарно"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:239
+#: src/components/_other/tour/tuto.frontConfig.tsx:240
 msgid "Nice work!"
 msgstr "Гарна робота!"
 
@@ -6823,7 +6823,7 @@ msgstr "Окуповано"
 msgid "Occupied region"
 msgstr "Окупований регіон"
 
-#: src/components/_user/user/skills.frontConfig.tsx:217
+#: src/components/_user/user/skills.frontConfig.tsx:214
 msgid "Odds to reveal an employee's hidden traits when you hire them."
 msgstr ""
 
@@ -6952,7 +6952,7 @@ msgstr "Відкрийте чат"
 msgid "Open to all"
 msgstr "Відкрито для всіх"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:131
+#: src/components/_other/tour/tuto.frontConfig.tsx:132
 msgid "Open your case!"
 msgstr "Відкрийте свій кейс!"
 
@@ -7188,7 +7188,7 @@ msgstr ""
 msgid "Paused: nobody produces here"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:87
+#: src/components/_other/tour/tuto.frontConfig.tsx:88
 msgid "Pay them well!"
 msgstr ""
 
@@ -7212,8 +7212,8 @@ msgstr "Обробляється"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Народ озлоблений, автоматичне повстання розпочалось у <0/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:221
-#: src/components/_user/user/skills.frontConfig.tsx:222
+#: src/components/_user/user/skills.frontConfig.tsx:218
+#: src/components/_user/user/skills.frontConfig.tsx:219
 msgid "Perception"
 msgstr ""
 
@@ -7253,7 +7253,7 @@ msgstr "Потрібне підтвердження телефону"
 msgid "Pick {cardTitle}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:48
+#: src/components/_other/tour/tuto.frontConfig.tsx:49
 msgid "Pick a candidate!"
 msgstr ""
 
@@ -7263,11 +7263,11 @@ msgstr ""
 msgid "Pick a card"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:77
+#: src/components/_other/tour/tuto.frontConfig.tsx:78
 msgid "Pick a card!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:170
+#: src/components/_other/tour/tuto.frontConfig.tsx:171
 msgid "Pick a fight!"
 msgstr "Вривайся в бій!"
 
@@ -7635,7 +7635,7 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:97
+#: src/components/_other/tour/tuto.frontConfig.tsx:98
 msgid "Put yourself to work!"
 msgstr "Почни працювати!"
 
@@ -7691,7 +7691,7 @@ msgstr "Рейтинги"
 msgid "Ranks"
 msgstr "Рейтинг"
 
-#: src/components/_user/user/skills.frontConfig.tsx:228
+#: src/components/_user/user/skills.frontConfig.tsx:225
 msgid "Rarer cards when you train your employees: every level moves odds away from Common toward the rarer tiers."
 msgstr ""
 
@@ -7813,7 +7813,7 @@ msgstr "Прочитайте статтю"
 msgid "Read the article"
 msgstr "Прочитати статтю"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:163
+#: src/components/_other/tour/tuto.frontConfig.tsx:164
 msgid "Ready for battle!"
 msgstr "Готовий до бою!"
 
@@ -8269,7 +8269,7 @@ msgstr "Відповідь на повідомлення"
 msgid "Responsibility"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:212
 msgid "Restore your health!"
 msgstr "Віднови здоров'я!"
 
@@ -8393,7 +8393,7 @@ msgstr "Правила"
 msgid "Ruling Party"
 msgstr "Правляча партія"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:201
+#: src/components/_other/tour/tuto.frontConfig.tsx:202
 msgid "Running low on health?"
 msgstr "Мало здоров'я?"
 
@@ -8408,11 +8408,11 @@ msgstr ""
 msgid "Save"
 msgstr "Зберегти"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:157
+#: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "Save your progress!"
 msgstr "Збережіть свій прогрес!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:249
+#: src/components/_other/tour/tuto.frontConfig.tsx:250
 msgid "Say hello!"
 msgstr "Привітайтесь!"
 
@@ -8561,7 +8561,7 @@ msgstr "Переказати <0/> до <1/>"
 msgid "Send a message"
 msgstr "Надіслати повідомлення"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:269
+#: src/components/_other/tour/tuto.frontConfig.tsx:270
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "Надішліть повідомлення, щоб завершити навчання. Вітаємо у спільноті!"
 
@@ -8762,7 +8762,7 @@ msgstr ""
 msgid "Skills"
 msgstr "Навички"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:142
+#: src/components/_other/tour/tuto.frontConfig.tsx:143
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "Навички роблять тебе сильнішим. Давай прокачаємо твої можливості!!"
 
@@ -9369,7 +9369,7 @@ msgstr "Це підсумок здобичі, яку ви отримали у ц
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
 msgstr "Це значення, яке використовується для розрахунку більшості вартостей: бойових наказів, альянсів, заклятого ворога, договору про захист, законів та утримання поліпшень."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:27
+#: src/components/_other/tour/tuto.frontConfig.tsx:28
 msgid "This is your company hub. Here you can produce items and build your empire."
 msgstr "Це хаб твоїх фабрик. Тут ти можеш виробляти речі та будувати свою імперію."
 
@@ -9423,11 +9423,11 @@ msgstr "Це потребуватиме верифікації номеру те
 msgid "Tier {0}"
 msgstr "Рівень {0}"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:165
+#: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Time to fight for your country! Let's join the action."
 msgstr "Час воювати за свою країну! Давай приєднаємось до розваги."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:108
 msgid "Time to produce!"
 msgstr "Час виробляти!"
 
@@ -9706,7 +9706,7 @@ msgstr ""
 msgid "Train to reveal traits"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:66
+#: src/components/_other/tour/tuto.frontConfig.tsx:67
 msgid "Train your employee!"
 msgstr ""
 
@@ -9722,7 +9722,7 @@ msgstr ""
 msgid "Training complete."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:68
+#: src/components/_other/tour/tuto.frontConfig.tsx:69
 msgid "Training costs <0>Entrepreneurship</0> and deals you three cards to choose from."
 msgstr ""
 
@@ -9946,11 +9946,11 @@ msgstr "Використайте <0/>"
 msgid "Use Pills"
 msgstr "Використайте пігулки"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:99
-msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
-msgstr "Використовуйте <0>Підприємливість</0>, щоб працювати на своїй фабриці."
+#: src/components/_other/tour/tuto.frontConfig.tsx:100
+msgid "Use your <0>Energy</0> to work in your own company and fill its production bar."
+msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:214
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Використайте <0>Голод</0>, щоб поїсти та відновити <1>Здоров'я</1>, а після цього повертайтесь до бою!"
 
@@ -9959,10 +9959,6 @@ msgstr "Використайте <0>Голод</0>, щоб поїсти та в�
 #: src/utils/translations.tsx:105
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Використовується для стрільби. Збільшують вашу <0>Шкоду</0>"
-
-#: src/components/_user/user/skills.frontConfig.tsx:190
-msgid "Used to <0>Self Work</0> in your own companies"
-msgstr "Використовується для <0>Самостійної роботи</0> на ваших фабриках"
 
 #: src/components/_user/user/skills.frontConfig.tsx:89
 msgid "Used to <0>Work</0>"
@@ -9975,6 +9971,10 @@ msgstr "Використовується для побудови фабрик т
 #: src/utils/translations.tsx:41
 msgid "Used to craft items"
 msgstr "Використовується для створення предметів"
+
+#: src/components/_user/user/skills.frontConfig.tsx:190
+msgid "Used to hire, train and manage your employees"
+msgstr ""
 
 #: src/utils/translations.tsx:84
 msgid "Used to maintain upgrades"
@@ -10332,7 +10332,7 @@ msgstr "З поверненням {username}!"
 msgid "Welcome to War Era!"
 msgstr "Вітаємо у War Era!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:25
+#: src/components/_other/tour/tuto.frontConfig.tsx:26
 msgid "Welcome to your economy!"
 msgstr "Ласкаво просимо до вашої економіки!"
 
@@ -10349,7 +10349,7 @@ msgstr "Захищаючись у повстаннях, отримує дода�
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "Під час повстань ви копіюєте ворожий бойовий бонус від бункеру у цьому регіоні."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:203
+#: src/components/_other/tour/tuto.frontConfig.tsx:204
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "Коли у вас скінчиться <0>Здоров'я</0>, відкрийте це меню та відновіть його їжею."
 
@@ -10420,7 +10420,7 @@ msgstr "Простий дерев'яний лук"
 msgid "Woolly Mammoth"
 msgstr "Шерстяний мамут"
 
-#: src/components/_economy/company/WorkButton.tsx:169
+#: src/components/_economy/company/WorkButton.tsx:168
 #: src/components/_user/mission/mission.frontConfig.tsx:102
 msgid "Work"
 msgstr "Працювати"
@@ -10575,7 +10575,7 @@ msgstr "Ви можете змінити її пізніше."
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Ви можете розібрати предмети у інвентарі вибираючи їх тут."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:193
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
 msgstr ""
 
@@ -10619,7 +10619,7 @@ msgstr "Ви подарували комусь підписку <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Ви будете автоматично прийняті, бо населення країни менше за"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:126
+#: src/components/_other/tour/tuto.frontConfig.tsx:127
 msgid "You have a case!"
 msgstr "У вас є кейс!"
 
@@ -10863,7 +10863,7 @@ msgstr "Ви перемогли у турнірі між ВП"
 msgid "You worked 100 times"
 msgstr "Ви попрацювали 100 разів"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:267
+#: src/components/_other/tour/tuto.frontConfig.tsx:268
 msgid "You're all set!"
 msgstr "Ви готові!"
 
@@ -10891,7 +10891,7 @@ msgstr "Ви офіційно кращі за 80% гравців"
 msgid "You're peaking"
 msgstr "Ти близький до вершини"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:232
+#: src/components/_other/tour/tuto.frontConfig.tsx:233
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "Ви виконали деякі місії! Зберімо бали досвіду."
 
@@ -10899,7 +10899,7 @@ msgstr "Ви виконали деякі місії! Зберімо бали д�
 msgid "You've reached max level!"
 msgstr "Ви досягли максимального рівня!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:110
 msgid "Your <0>Production</0> bar is full! Click to produce items and add them to your inventory."
 msgstr "Ваша шкала <0>Виробництва</0> заповнена! Натисність, аби виробити предмети та додати їх до інвентарю."
 
@@ -11004,7 +11004,7 @@ msgstr ""
 msgid "Your infos have been saved."
 msgstr "Ваша інформація була збережена."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:119
+#: src/components/_other/tour/tuto.frontConfig.tsx:120
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ваш інвентар зберігає усі ваші предемти. Погляньмо, що у вас є!"
 
