@@ -179,7 +179,7 @@ msgstr "تم إكمال {completedCount}/{totalCount}"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} نقطة (نقاط) هيبة على هذه المهارة ({savedPrestigeCount} محفوظة، ومقفلة حتى إعادة التعيين)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:208
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr "{equippedCount, plural, one {# منها مجهز} other {# منها مجهزة}}"
 
@@ -187,7 +187,7 @@ msgstr "{equippedCount, plural, one {# منها مجهز} other {# منها مج
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} نقاط مهارة"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:187
+#: src/components/_economy/inventory/DismantleModal.tsx:199
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr "{rareCount, plural, one {# منها نادر أو أفضل} other {# منها نادرة أو أفضل}}"
 
@@ -217,11 +217,11 @@ msgstr "{savedPrestigeCount} نقطة (نقاط) هيبة مفعلة على هذ
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} جولات"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:178
+#: src/components/_economy/inventory/DismantleModal.tsx:190
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr "{selectedCount, plural, one {تفكيك # عنصر مقابل} other {تفكيك # عناصر مقابل}}"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:283
+#: src/components/_economy/inventory/DismantleModal.tsx:312
 msgid "{selectedCount} selected"
 msgstr "{selectedCount} محدد"
 
@@ -246,10 +246,8 @@ msgid "/day"
 msgstr "/يوم"
 
 #. placeholder {0}: status?.bonusPercent ?? held.skills?.production ?? 0
-#. placeholder {1}: held.state
-#. placeholder {2}: held.maxState
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:108
-msgid "+{0}% production, {1}/{2} durability"
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:104
+msgid "+{0}% production"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
@@ -2309,15 +2307,6 @@ msgstr "إنهاء ميثاق الدفاع المشترك مع <0/>"
 msgid "Brigadier"
 msgstr "عميد"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:120
-#: src/components/_economy/inventory/Inventory.tsx:764
-msgid "Broken"
-msgstr ""
-
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
-msgid "Broken, take it back to dismantle it"
-msgstr ""
-
 #: src/components/_other/shop/SkinCollectionModal.tsx:103
 msgid "Browse Packs"
 msgstr "تصفح الحزم"
@@ -2705,7 +2694,7 @@ msgstr "تمت المطالبة"
 msgid "Claimed so far"
 msgstr "المُستلمة حتى الآن"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/DismantleModal.tsx:324
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr "مسح"
@@ -3751,7 +3740,7 @@ msgstr "تفكيك <0/> من المعدات"
 msgid "Dismantle Item"
 msgstr "التفكيك"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "Dismantle items"
 msgstr "تفكيك معدات"
 
@@ -4116,7 +4105,7 @@ msgstr "المعدات:"
 msgid "Equipments"
 msgstr "المعدات"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:246
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Equipped items are left out of select all."
 msgstr "تُستثنى العناصر المستخدمة مسبقا من خيار تحديد الكل"
 
@@ -4601,7 +4590,7 @@ msgstr "احصل على <0>مظهر حصري للمشتركين</0>!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "احصل على مظاهر متعددة دفعة واحدة بخصم 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:230
+#: src/components/_economy/inventory/DismantleModal.tsx:242
 msgid "Get supporter plan"
 msgstr "احصل على خطة الداعم"
 
@@ -4637,7 +4626,7 @@ msgstr "أهدِ هذه الحزمة لشخص ما"
 msgid "gifted"
 msgstr "تم إهداؤه"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:141
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Give a tool to work faster"
 msgstr ""
 
@@ -4997,8 +4986,8 @@ msgstr "ط. الترويج لألعاب أو منتجات أو خدمات أخر
 msgid "I'm proud of you"
 msgstr "أنا فخور بك"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:122
-#: src/components/_economy/inventory/Inventory.tsx:766
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:115
+#: src/components/_economy/inventory/Inventory.tsx:759
 msgid "Idle"
 msgstr ""
 
@@ -6584,7 +6573,7 @@ msgstr "لا يوجد تصنيف بري بعد."
 msgid "No home region set"
 msgstr "لم يتم تعيين منطقة أم"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/DismantleModal.tsx:275
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr "لم يتم العثور على اغراض"
@@ -6686,11 +6675,11 @@ msgstr "لا يوجد عدو لدود"
 msgid "No tier yet"
 msgstr "لا تتوفر فئة بعد"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:126
 msgid "No tool"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:134
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
 msgid "No tool here fits what this company produces. Toolboxes drop them."
 msgstr ""
 
@@ -6707,7 +6696,7 @@ msgstr "لم يتم العثور على معاملات"
 msgid "No wars found"
 msgstr "لم يتم العثور على حروب"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:239
+#: src/components/_economy/inventory/DismantleModal.tsx:251
 msgid "No weapons or equipment to dismantle"
 msgstr "لا يوجد اسلحة او عتاد لتفكيكهم"
 
@@ -7639,8 +7628,8 @@ msgstr "عزز المقاومة هنا أولاً."
 msgid "Put yourself to work!"
 msgstr "ضع نفسك في العمل!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:46
-#: src/components/_economy/inventory/DismantleModal.tsx:306
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:336
 msgid "Quick dismantle"
 msgstr "تفكيك سريع"
 
@@ -8481,7 +8470,7 @@ msgid "Select a region"
 msgstr "اختر منطقة"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:258
+#: src/components/_economy/inventory/DismantleModal.tsx:270
 msgid "Select all ({0})"
 msgstr "تحديد الكل ({0})"
 
@@ -9047,7 +9036,7 @@ msgstr "السعر المقترح هو <0>{0}</0>"
 msgid "Support the game"
 msgstr "ادعم اللعبة"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:217
+#: src/components/_economy/inventory/DismantleModal.tsx:229
 msgid "Support the game and quickly dismantle items!"
 msgstr "ادعم اللعبة وقم بتفكيك العناصر بسرعة!"
 
@@ -9134,7 +9123,7 @@ msgstr "العدو اللدود: أوامر القتال ضد عدوك اللد�
 msgid "System revolt"
 msgstr "ثورة النظام"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:124
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:120
 msgid "Take back"
 msgstr ""
 
@@ -9873,7 +9862,7 @@ msgstr "اضطرابات"
 msgid "Unrest Contributors"
 msgstr "المساهمون في الاضطرابات"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:257
+#: src/components/_economy/inventory/DismantleModal.tsx:269
 msgid "Unselect all"
 msgstr "إلغاء تحديد الكل"
 
@@ -9918,7 +9907,7 @@ msgstr "ترقية المهارات"
 msgid "Upgrade storage"
 msgstr "تطوير المخزن"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:213
+#: src/components/_economy/inventory/DismantleModal.tsx:225
 msgid "Upgrade to supporter"
 msgstr "الترقية إلى داعم"
 
@@ -10468,7 +10457,7 @@ msgid "Write a law"
 msgstr "اكتب قانوناً"
 
 #. placeholder {0}: familyMeta?.workplace ?? 'another company'
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:101
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
 msgid "Wrong tool here, it belongs in {0}"
 msgstr ""
 
@@ -10571,7 +10560,7 @@ msgstr "لقد جلبت 10 لاعبين جدد للعالم (مستوى {0} او
 msgid "You can change it later."
 msgstr "يمكنك تغيير ذلك لاحقاً."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:219
+#: src/components/_economy/inventory/DismantleModal.tsx:231
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "يمكنك تفكيك العناصر من مخزونك عن طريق تحديد عنصر."
 

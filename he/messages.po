@@ -180,7 +180,7 @@ msgstr "{completedCount}/{totalCount} הושלם"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} נקודות פרסטיז׳ במיומנות זו ({savedPrestigeCount} נשמרו, נעולות עד לאיפוס)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:208
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr ""
 
@@ -188,7 +188,7 @@ msgstr ""
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:187
+#: src/components/_economy/inventory/DismantleModal.tsx:199
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -218,11 +218,11 @@ msgstr "{savedPrestigeCount} נקודות פרסטיז׳ פעילות במיומ
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} סיבובים"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:178
+#: src/components/_economy/inventory/DismantleModal.tsx:190
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:283
+#: src/components/_economy/inventory/DismantleModal.tsx:312
 msgid "{selectedCount} selected"
 msgstr ""
 
@@ -247,10 +247,8 @@ msgid "/day"
 msgstr "/יום"
 
 #. placeholder {0}: status?.bonusPercent ?? held.skills?.production ?? 0
-#. placeholder {1}: held.state
-#. placeholder {2}: held.maxState
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:108
-msgid "+{0}% production, {1}/{2} durability"
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:104
+msgid "+{0}% production"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
@@ -2310,15 +2308,6 @@ msgstr "שבור את ברית ההגנה עם <0/>"
 msgid "Brigadier"
 msgstr "בריגדיר"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:120
-#: src/components/_economy/inventory/Inventory.tsx:764
-msgid "Broken"
-msgstr ""
-
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
-msgid "Broken, take it back to dismantle it"
-msgstr ""
-
 #: src/components/_other/shop/SkinCollectionModal.tsx:103
 msgid "Browse Packs"
 msgstr "עיין בחבילות"
@@ -2706,7 +2695,7 @@ msgstr "נלקח"
 msgid "Claimed so far"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/DismantleModal.tsx:324
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
@@ -3752,7 +3741,7 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "לפרק פריט"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "Dismantle items"
 msgstr ""
 
@@ -4117,7 +4106,7 @@ msgstr "ציוד:"
 msgid "Equipments"
 msgstr "ציוד"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:246
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4602,7 +4591,7 @@ msgstr "קבל <0>סקין מנוי</0> בלעדי!"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "קבל מספר סקינים בבת אחת עם 30% הנחה!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:230
+#: src/components/_economy/inventory/DismantleModal.tsx:242
 msgid "Get supporter plan"
 msgstr "קבל תוכנית תומכים"
 
@@ -4638,7 +4627,7 @@ msgstr "מתנה את החבילה הזו למישהו"
 msgid "gifted"
 msgstr "התקבל במתנה"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:141
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Give a tool to work faster"
 msgstr ""
 
@@ -4998,8 +4987,8 @@ msgstr "ט. קידום משחקים, מוצרים או שירותים אחרים
 msgid "I'm proud of you"
 msgstr "אני גאה בך"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:122
-#: src/components/_economy/inventory/Inventory.tsx:766
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:115
+#: src/components/_economy/inventory/Inventory.tsx:759
 msgid "Idle"
 msgstr ""
 
@@ -6585,7 +6574,7 @@ msgstr "עדיין אין דירוג קרקע."
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/DismantleModal.tsx:275
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
@@ -6687,11 +6676,11 @@ msgstr "אין אויב מושבע"
 msgid "No tier yet"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:126
 msgid "No tool"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:134
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
 msgid "No tool here fits what this company produces. Toolboxes drop them."
 msgstr ""
 
@@ -6708,7 +6697,7 @@ msgstr "לא נמצאו עסקאות"
 msgid "No wars found"
 msgstr "לא נמצאו מלחמות"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:239
+#: src/components/_economy/inventory/DismantleModal.tsx:251
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7640,8 +7629,8 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "שים את עצמך לעבודה!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:46
-#: src/components/_economy/inventory/DismantleModal.tsx:306
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:336
 msgid "Quick dismantle"
 msgstr "פירוק מהיר"
 
@@ -8482,7 +8471,7 @@ msgid "Select a region"
 msgstr "בחר אזור"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:258
+#: src/components/_economy/inventory/DismantleModal.tsx:270
 msgid "Select all ({0})"
 msgstr ""
 
@@ -9048,7 +9037,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "תמכו במשחק"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:217
+#: src/components/_economy/inventory/DismantleModal.tsx:229
 msgid "Support the game and quickly dismantle items!"
 msgstr "תמכו במשחק ופרקו במהירות פריטים!"
 
@@ -9135,7 +9124,7 @@ msgstr "אויב מושבע: פקודות נגד האויב המושבע שלך 
 msgid "System revolt"
 msgstr "מרד מערכת"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:124
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:120
 msgid "Take back"
 msgstr ""
 
@@ -9874,7 +9863,7 @@ msgstr "אי שקט"
 msgid "Unrest Contributors"
 msgstr "תורמים לתסיסה"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:257
+#: src/components/_economy/inventory/DismantleModal.tsx:269
 msgid "Unselect all"
 msgstr "בטל את הבחירה בכולם"
 
@@ -9919,7 +9908,7 @@ msgstr "שדרוג מיומנויות"
 msgid "Upgrade storage"
 msgstr "שדרג אחסון"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:213
+#: src/components/_economy/inventory/DismantleModal.tsx:225
 msgid "Upgrade to supporter"
 msgstr "שדרג לתומך"
 
@@ -10469,7 +10458,7 @@ msgid "Write a law"
 msgstr "כתוב חוק"
 
 #. placeholder {0}: familyMeta?.workplace ?? 'another company'
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:101
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
 msgid "Wrong tool here, it belongs in {0}"
 msgstr ""
 
@@ -10572,7 +10561,7 @@ msgstr "הבאת 10 תינוקות לעולם (>= רמה {0})"
 msgid "You can change it later."
 msgstr "תוכל לשנות זאת מאוחר יותר."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:219
+#: src/components/_economy/inventory/DismantleModal.tsx:231
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "אתה יכול לפרק פריטים מהמלאי שלך על ידי בחירת פריט."
 

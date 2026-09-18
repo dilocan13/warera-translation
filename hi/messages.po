@@ -179,7 +179,7 @@ msgstr "{completedCount}/{totalCount} पूर्ण हुए"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:208
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgstr ""
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:187
+#: src/components/_economy/inventory/DismantleModal.tsx:199
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -217,11 +217,11 @@ msgstr ""
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} राउंड"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:178
+#: src/components/_economy/inventory/DismantleModal.tsx:190
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:283
+#: src/components/_economy/inventory/DismantleModal.tsx:312
 msgid "{selectedCount} selected"
 msgstr ""
 
@@ -246,10 +246,8 @@ msgid "/day"
 msgstr "दिन"
 
 #. placeholder {0}: status?.bonusPercent ?? held.skills?.production ?? 0
-#. placeholder {1}: held.state
-#. placeholder {2}: held.maxState
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:108
-msgid "+{0}% production, {1}/{2} durability"
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:104
+msgid "+{0}% production"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
@@ -2309,15 +2307,6 @@ msgstr ""
 msgid "Brigadier"
 msgstr "ब्रिगेडियर"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:120
-#: src/components/_economy/inventory/Inventory.tsx:764
-msgid "Broken"
-msgstr ""
-
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
-msgid "Broken, take it back to dismantle it"
-msgstr ""
-
 #: src/components/_other/shop/SkinCollectionModal.tsx:103
 msgid "Browse Packs"
 msgstr "पैक देखें"
@@ -2705,7 +2694,7 @@ msgstr "प्राप्त किया गया"
 msgid "Claimed so far"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/DismantleModal.tsx:324
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
@@ -3751,7 +3740,7 @@ msgstr ""
 msgid "Dismantle Item"
 msgstr "वस्तु विघटित करें"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "Dismantle items"
 msgstr ""
 
@@ -4116,7 +4105,7 @@ msgstr "उपकरण:"
 msgid "Equipments"
 msgstr "उपकरण"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:246
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4601,7 +4590,7 @@ msgstr "एक विशेष <0>सदस्य स्किन</0> प्र�
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "30% छूट के साथ एक साथ कई स्किन प्राप्त करें!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:230
+#: src/components/_economy/inventory/DismantleModal.tsx:242
 msgid "Get supporter plan"
 msgstr "समर्थक योजना प्राप्त करें"
 
@@ -4637,7 +4626,7 @@ msgstr "यह पैक किसी को उपहार में दें
 msgid "gifted"
 msgstr "उपहार दिया गया"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:141
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Give a tool to work faster"
 msgstr ""
 
@@ -4997,8 +4986,8 @@ msgstr "i. अन्य खेलों, उत्पादों या से�
 msgid "I'm proud of you"
 msgstr "मुझे आप पर गर्व है"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:122
-#: src/components/_economy/inventory/Inventory.tsx:766
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:115
+#: src/components/_economy/inventory/Inventory.tsx:759
 msgid "Idle"
 msgstr ""
 
@@ -6584,7 +6573,7 @@ msgstr "अभी तक कोई ग्राउंड रैंकिंग �
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/DismantleModal.tsx:275
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
@@ -6686,11 +6675,11 @@ msgstr "कोई शपथ लिया हुआ दुश्मन नही�
 msgid "No tier yet"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:126
 msgid "No tool"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:134
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
 msgid "No tool here fits what this company produces. Toolboxes drop them."
 msgstr ""
 
@@ -6707,7 +6696,7 @@ msgstr "कोई लेन-देन नहीं मिला"
 msgid "No wars found"
 msgstr "कोई युद्ध नहीं मिला"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:239
+#: src/components/_economy/inventory/DismantleModal.tsx:251
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -7639,8 +7628,8 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "खुद को काम पर लगाइए!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:46
-#: src/components/_economy/inventory/DismantleModal.tsx:306
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:336
 msgid "Quick dismantle"
 msgstr "त्वरित विघटन"
 
@@ -8481,7 +8470,7 @@ msgid "Select a region"
 msgstr "एक क्षेत्र चुनें"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:258
+#: src/components/_economy/inventory/DismantleModal.tsx:270
 msgid "Select all ({0})"
 msgstr ""
 
@@ -9047,7 +9036,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "खेल का समर्थन करें"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:217
+#: src/components/_economy/inventory/DismantleModal.tsx:229
 msgid "Support the game and quickly dismantle items!"
 msgstr "खेल का समर्थन करें और वस्तुओं को जल्दी से विघटित करें!"
 
@@ -9134,7 +9123,7 @@ msgstr ""
 msgid "System revolt"
 msgstr "सिस्टम विद्रोह"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:124
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:120
 msgid "Take back"
 msgstr ""
 
@@ -9873,7 +9862,7 @@ msgstr "अशांति"
 msgid "Unrest Contributors"
 msgstr "अशांति योगदानकर्ता"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:257
+#: src/components/_economy/inventory/DismantleModal.tsx:269
 msgid "Unselect all"
 msgstr "सभी चयन हटाएँ"
 
@@ -9918,7 +9907,7 @@ msgstr "कौशल अपग्रेड करें"
 msgid "Upgrade storage"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:213
+#: src/components/_economy/inventory/DismantleModal.tsx:225
 msgid "Upgrade to supporter"
 msgstr "समर्थक योजना में अपग्रेड करें"
 
@@ -10468,7 +10457,7 @@ msgid "Write a law"
 msgstr "कानून लिखें"
 
 #. placeholder {0}: familyMeta?.workplace ?? 'another company'
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:101
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
 msgid "Wrong tool here, it belongs in {0}"
 msgstr ""
 
@@ -10571,7 +10560,7 @@ msgstr "आप 10 नए खिलाड़ियों को खेल मे�
 msgid "You can change it later."
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:219
+#: src/components/_economy/inventory/DismantleModal.tsx:231
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "आप अपनी इन्वेंटरी से किसी वस्तु को चुनकर उसे विघटित कर सकते हैं।"
 

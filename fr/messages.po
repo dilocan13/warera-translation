@@ -179,7 +179,7 @@ msgstr "{completedCount}/{totalCount} terminées"
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} point(s) de prestige sur cette compétence ({savedPrestigeCount} sauvegardé(s), verrouillé(s) jusqu'à la réinitialisation)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:196
+#: src/components/_economy/inventory/DismantleModal.tsx:208
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
 msgstr "{equippedCount, plural, one {# d'entre eux est équipé} other {# d'entre eux sont équipés}}"
 
@@ -187,7 +187,7 @@ msgstr "{equippedCount, plural, one {# d'entre eux est équipé} other {# d'entr
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} Points de compétence"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:187
+#: src/components/_economy/inventory/DismantleModal.tsx:199
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr "{rareCount, plural, one {# d'entre eux est de rareté rare ou supérieure} other {# d'entre eux sont de rareté rare ou supérieure}}"
 
@@ -217,11 +217,11 @@ msgstr "{savedPrestigeCount} point(s) de prestige actif(s) sur cette compétence
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Manches"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:178
+#: src/components/_economy/inventory/DismantleModal.tsx:190
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr "{selectedCount, plural, one {Démonter # objet pour} other {Démonter # objets pour}}"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:283
+#: src/components/_economy/inventory/DismantleModal.tsx:312
 msgid "{selectedCount} selected"
 msgstr "{selectedCount} sélectionnés"
 
@@ -246,10 +246,8 @@ msgid "/day"
 msgstr "/jour"
 
 #. placeholder {0}: status?.bonusPercent ?? held.skills?.production ?? 0
-#. placeholder {1}: held.state
-#. placeholder {2}: held.maxState
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:108
-msgid "+{0}% production, {1}/{2} durability"
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:104
+msgid "+{0}% production"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
@@ -2309,15 +2307,6 @@ msgstr "Briser le pacte de défense avec <0/>"
 msgid "Brigadier"
 msgstr "Brigadier"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:120
-#: src/components/_economy/inventory/Inventory.tsx:764
-msgid "Broken"
-msgstr ""
-
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
-msgid "Broken, take it back to dismantle it"
-msgstr ""
-
 #: src/components/_other/shop/SkinCollectionModal.tsx:103
 msgid "Browse Packs"
 msgstr "Parcourir les packs"
@@ -2705,7 +2694,7 @@ msgstr "Réclamé"
 msgid "Claimed so far"
 msgstr "Réclamé jusqu'à présent"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:294
+#: src/components/_economy/inventory/DismantleModal.tsx:324
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr "Effacer"
@@ -3751,7 +3740,7 @@ msgstr "Démanteler <0/> objets"
 msgid "Dismantle Item"
 msgstr "Démanteler un équipement"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:175
+#: src/components/_economy/inventory/DismantleModal.tsx:187
 msgid "Dismantle items"
 msgstr "Démanteler des objets"
 
@@ -4116,7 +4105,7 @@ msgstr "Équipement :"
 msgid "Equipments"
 msgstr "Équipements"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:246
+#: src/components/_economy/inventory/DismantleModal.tsx:258
 msgid "Equipped items are left out of select all."
 msgstr "Les objets équipés sont exclus de la sélection globale."
 
@@ -4601,7 +4590,7 @@ msgstr "Reçois un <0>skin d'abonné</0> exclusif !"
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Obtiens plusieurs skins d'un coup avec une réduction de 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:230
+#: src/components/_economy/inventory/DismantleModal.tsx:242
 msgid "Get supporter plan"
 msgstr "Devenir supporter"
 
@@ -4637,7 +4626,7 @@ msgstr "Offrir ce pack à quelqu'un"
 msgid "gifted"
 msgstr "a offert à"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:141
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:137
 msgid "Give a tool to work faster"
 msgstr ""
 
@@ -4997,8 +4986,8 @@ msgstr "i. Promotion d'autres jeux, produits ou services"
 msgid "I'm proud of you"
 msgstr "Je suis fier de toi"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:122
-#: src/components/_economy/inventory/Inventory.tsx:766
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:115
+#: src/components/_economy/inventory/Inventory.tsx:759
 msgid "Idle"
 msgstr ""
 
@@ -6584,7 +6573,7 @@ msgstr "Pas encore de classement de terrain."
 msgid "No home region set"
 msgstr "Aucune région d'origine établie"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:263
+#: src/components/_economy/inventory/DismantleModal.tsx:275
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr "Pas d'objet trouvé"
@@ -6686,11 +6675,11 @@ msgstr "Aucun ennemi juré"
 msgid "No tier yet"
 msgstr "Pas encore de palier"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:126
 msgid "No tool"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:134
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
 msgid "No tool here fits what this company produces. Toolboxes drop them."
 msgstr ""
 
@@ -6707,7 +6696,7 @@ msgstr "Aucune transaction"
 msgid "No wars found"
 msgstr "Aucune guerre"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:239
+#: src/components/_economy/inventory/DismantleModal.tsx:251
 msgid "No weapons or equipment to dismantle"
 msgstr "Pas d'armes ou d'équipement à démanteler"
 
@@ -7639,8 +7628,8 @@ msgstr "Exerce une résistance ici en premier."
 msgid "Put yourself to work!"
 msgstr "Mets-toi au travail !"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:46
-#: src/components/_economy/inventory/DismantleModal.tsx:306
+#: src/components/_economy/inventory/DismantleModal.tsx:47
+#: src/components/_economy/inventory/DismantleModal.tsx:336
 msgid "Quick dismantle"
 msgstr "Démontage rapide"
 
@@ -8481,7 +8470,7 @@ msgid "Select a region"
 msgstr "Sélectionner une région"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:258
+#: src/components/_economy/inventory/DismantleModal.tsx:270
 msgid "Select all ({0})"
 msgstr "Tout sélectionner ({0})"
 
@@ -9047,7 +9036,7 @@ msgstr "Prix suggéré <0>{0}</0>"
 msgid "Support the game"
 msgstr "Soutenir le jeu"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:217
+#: src/components/_economy/inventory/DismantleModal.tsx:229
 msgid "Support the game and quickly dismantle items!"
 msgstr "Soutiens le jeu et démonte rapidement tes objets !"
 
@@ -9134,7 +9123,7 @@ msgstr "Ennemi juré : les ordres contre votre ennemi juré coûtent {orderDisco
 msgid "System revolt"
 msgstr "Révolte du système"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:124
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:120
 msgid "Take back"
 msgstr ""
 
@@ -9873,7 +9862,7 @@ msgstr "Mécontentement"
 msgid "Unrest Contributors"
 msgstr "Contributeurs du mécontentement"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:257
+#: src/components/_economy/inventory/DismantleModal.tsx:269
 msgid "Unselect all"
 msgstr "Tout désélectionner"
 
@@ -9918,7 +9907,7 @@ msgstr "Améliorer les compétences"
 msgid "Upgrade storage"
 msgstr "Améliorer l'entrepôt"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:213
+#: src/components/_economy/inventory/DismantleModal.tsx:225
 msgid "Upgrade to supporter"
 msgstr "Devenir supporter"
 
@@ -10468,7 +10457,7 @@ msgid "Write a law"
 msgstr "Proposer une loi"
 
 #. placeholder {0}: familyMeta?.workplace ?? 'another company'
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:101
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
 msgid "Wrong tool here, it belongs in {0}"
 msgstr ""
 
@@ -10571,7 +10560,7 @@ msgstr "Tu as mis au monde 10 bébés (>= lvl {0})"
 msgid "You can change it later."
 msgstr "Tu peux le changer plus tard"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:219
+#: src/components/_economy/inventory/DismantleModal.tsx:231
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Tu peux démonter des objets de ton inventaire en les sélectionnant."
 
