@@ -469,7 +469,7 @@ msgstr "<0/> hyökkää alueella <1/>"
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> hyökkää maahasi alueella <1/>"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:142
+#: src/components/_economy/employee/TrainingDraftModal.tsx:167
 msgid "<0/> is gone"
 msgstr ""
 
@@ -1997,7 +1997,7 @@ msgstr ""
 msgid "Automated engine"
 msgstr "Automaattinen moottori"
 
-#: src/components/_economy/work/WorkChart.tsx:252
+#: src/components/_economy/work/WorkChart.tsx:255
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:74
 msgid "Automated Engine"
 msgstr "Automatisoitu Moottori"
@@ -2999,7 +2999,7 @@ msgstr "Sen nauttiminen lisää <0>hyökkäystäsi</0> {0}h.<1/> ja vähennä si
 msgid "Contextual borders"
 msgstr "Kontekstuaaliset rajat"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:307
+#: src/components/_economy/employee/TrainingDraftModal.tsx:333
 msgid "Continue"
 msgstr ""
 
@@ -3182,7 +3182,7 @@ msgstr "Maaturnauksen voittaja"
 msgid "Country wars"
 msgstr "Maan sodat"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:425
+#: src/components/_economy/employee/EmployeeModal.tsx:430
 msgid "Coworkers"
 msgstr ""
 
@@ -3751,7 +3751,7 @@ msgstr "Hylkää"
 
 #. placeholder {0}: employee.name || 'this employee'
 #. placeholder {1}: employeeConfig.fireSeverance
-#: src/components/_economy/employee/EmployeeModal.tsx:599
+#: src/components/_economy/employee/EmployeeModal.tsx:604
 #: src/components/_economy/employee/EmployeePanel.tsx:103
 msgid "Dismiss {0} and pay <0>{1}</0> severance? This cannot be undone."
 msgstr ""
@@ -4005,7 +4005,7 @@ msgstr ""
 msgid "employees"
 msgstr ""
 
-#: src/components/_economy/work/WorkChart.tsx:231
+#: src/components/_economy/work/WorkChart.tsx:234
 #: src/pages/company/[companyId]/index.tsx:39
 msgid "Employees"
 msgstr ""
@@ -4426,7 +4426,7 @@ msgid "Find a military unit"
 msgstr "Etsi sotilasyksikkö"
 
 #: src/components/_economy/employee/employeeCards.tsx:250
-#: src/components/_economy/employee/EmployeeModal.tsx:592
+#: src/components/_economy/employee/EmployeeModal.tsx:597
 #: src/components/_political/government/Government.tsx:253
 #: src/components/_user/user/UserEffectSelector.tsx:61
 msgid "Fire"
@@ -5320,7 +5320,7 @@ msgstr "Viimeksi käytetty"
 msgid "Last used:"
 msgstr "Viimeksi käytetty:"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:412
+#: src/components/_economy/employee/EmployeeModal.tsx:417
 msgid "Last works"
 msgstr ""
 
@@ -5705,7 +5705,7 @@ msgid "Max rarity"
 msgstr ""
 
 #: src/components/_economy/employee/employeeCards.tsx:239
-#: src/components/_economy/employee/EmployeeModal.tsx:575
+#: src/components/_economy/employee/EmployeeModal.tsx:580
 msgid "Maxed"
 msgstr ""
 
@@ -6123,7 +6123,7 @@ msgstr "Esitysehdotus"
 msgid "Motions"
 msgstr "Liikkeet"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:586
+#: src/components/_economy/employee/EmployeeModal.tsx:591
 #: src/components/_political/region/MoveButton.tsx:120
 #: src/components/_political/region/MoveButton.tsx:132
 msgid "Move"
@@ -6655,6 +6655,10 @@ msgstr ""
 #: src/pages/country/[countryId]/index.tsx:382
 msgid "No production bonus from resources. This country has no specialization."
 msgstr "Ei tuotantobonusta resursseista. Tällä maalla ei ole erikoisalaa."
+
+#: src/components/_economy/employee/EmployeeModal.tsx:408
+msgid "No production yet"
+msgstr ""
 
 #: src/components/_user/referral/ReferralList.tsx:88
 msgid "No referrals yet"
@@ -7239,7 +7243,7 @@ msgstr "Puhelinvahvistus pyydetty"
 msgid "Phone verification required"
 msgstr "Puhelinvahvistus vaaditaan"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:324
+#: src/components/_economy/employee/TrainingDraftModal.tsx:350
 msgid "Pick {cardTitle}"
 msgstr ""
 
@@ -7248,8 +7252,8 @@ msgid "Pick a candidate!"
 msgstr ""
 
 #: src/components/_economy/employee/employeeCards.tsx:235
-#: src/components/_economy/employee/EmployeeModal.tsx:571
-#: src/components/_economy/employee/TrainingDraftModal.tsx:326
+#: src/components/_economy/employee/EmployeeModal.tsx:576
+#: src/components/_economy/employee/TrainingDraftModal.tsx:352
 msgid "Pick a card"
 msgstr ""
 
@@ -7261,7 +7265,7 @@ msgstr ""
 msgid "Pick a fight!"
 msgstr "Haastaa riitaa!"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:242
+#: src/components/_economy/employee/TrainingDraftModal.tsx:268
 msgid "Pick one card, the others are lost."
 msgstr ""
 
@@ -8501,7 +8505,7 @@ msgstr "Valitse liiketyyppi"
 msgid "Select skin"
 msgstr "Valitse ulkoasu"
 
-#: src/components/_economy/work/WorkChart.tsx:241
+#: src/components/_economy/work/WorkChart.tsx:244
 #: src/components/_user/mission/mission.frontConfig.tsx:85
 msgid "Self Work"
 msgstr "Itsetyö"
@@ -9045,7 +9049,7 @@ msgstr "Tue peliä ja pura esineet nopeasti!"
 msgid "Support us"
 msgstr "Tue meitä"
 
-#: src/components/_economy/work/WorkChart.tsx:305
+#: src/components/_economy/work/WorkChart.tsx:308
 #: src/components/_ui/PremiumButtonTag.tsx:25
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:141
 msgid "Supporter"
@@ -9142,7 +9146,7 @@ msgstr "Ota talletukset huomioon"
 msgid "Tank"
 msgstr "Tankki"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:298
+#: src/components/_economy/employee/TrainingDraftModal.tsx:324
 msgid "Tap a card to look at it."
 msgstr ""
 
@@ -9572,7 +9576,7 @@ msgstr "kokonais-"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/itemTrading/TradingOrders.tsx:55
 #: src/components/_economy/itemTrading/TradingOrders.tsx:86
-#: src/components/_economy/work/WorkChart.tsx:206
+#: src/components/_economy/work/WorkChart.tsx:209
 #: src/components/_military/mu/MuMemberList.tsx:190
 #: src/components/_political/law/LawCostExplanation.tsx:50
 #: src/components/_user/user/WealthPanel.tsx:28
@@ -9684,11 +9688,11 @@ msgid "Trading transaction"
 msgstr "Kaupankäyntitapahtuma"
 
 #: src/components/_economy/employee/employeeCards.tsx:237
-#: src/components/_economy/employee/EmployeeModal.tsx:573
+#: src/components/_economy/employee/EmployeeModal.tsx:578
 msgid "Train"
 msgstr ""
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:231
+#: src/components/_economy/employee/TrainingDraftModal.tsx:256
 msgid "Train {name}"
 msgstr ""
 
@@ -9704,11 +9708,11 @@ msgstr ""
 msgid "Trainee"
 msgstr "Harjoittelija"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:231
+#: src/components/_economy/employee/TrainingDraftModal.tsx:256
 msgid "Training"
 msgstr ""
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:240
+#: src/components/_economy/employee/TrainingDraftModal.tsx:266
 msgid "Training complete."
 msgstr ""
 
@@ -9718,7 +9722,7 @@ msgstr ""
 
 #: src/components/_economy/employee/EmployeeModal.tsx:224
 #: src/components/_economy/employee/TrainingCard.tsx:161
-#: src/components/_economy/employee/TrainingDraftModal.tsx:151
+#: src/components/_economy/employee/TrainingDraftModal.tsx:176
 msgid "Training potential"
 msgstr ""
 
@@ -10212,10 +10216,10 @@ msgid "VS"
 msgstr "vs."
 
 #: src/components/_economy/employee/EmployeeModal.tsx:103
-#: src/components/_economy/employee/EmployeeModal.tsx:505
-#: src/components/_economy/employee/EmployeeModal.tsx:531
+#: src/components/_economy/employee/EmployeeModal.tsx:510
+#: src/components/_economy/employee/EmployeeModal.tsx:536
 #: src/components/_economy/transaction/TransactionList.tsx:77
-#: src/components/_economy/work/WorkChart.tsx:262
+#: src/components/_economy/work/WorkChart.tsx:265
 msgid "Wage"
 msgstr "Palkka"
 
@@ -10423,7 +10427,7 @@ msgstr ""
 msgid "Worker left"
 msgstr "Työntekijä lähti"
 
-#: src/components/_economy/work/WorkChart.tsx:221
+#: src/components/_economy/work/WorkChart.tsx:224
 msgid "Workers"
 msgstr "Työntekijät"
 
@@ -10431,7 +10435,7 @@ msgstr "Työntekijät"
 msgid "Workforce"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:432
+#: src/components/_economy/employee/EmployeeModal.tsx:437
 msgid "Works alone"
 msgstr ""
 
