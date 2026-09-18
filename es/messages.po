@@ -142,7 +142,7 @@ msgstr "Empresas de {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:237
+#: src/components/_economy/company/CompanyDropdown.tsx:267
 msgid "{0}/{1} active"
 msgstr "{0}/{1} activas"
 
@@ -162,7 +162,7 @@ msgid "{0}% income tax will be deducted from your employees wages."
 msgstr ""
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:283
+#: src/components/_economy/company/CompanyDropdown.tsx:313
 msgid "{0}% of invested"
 msgstr "{0}% de lo invertido"
 
@@ -2577,7 +2577,7 @@ msgstr "Cambiar nacionalidad"
 msgid "Change produced item"
 msgstr "Cambiar el objeto producido"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:178
+#: src/components/_economy/company/CompanyDropdown.tsx:190
 msgid "Change production"
 msgstr "Cambiar producción"
 
@@ -2844,7 +2844,7 @@ msgstr "Límite de empresas"
 msgid "Companies limit reached"
 msgstr "Límite de empresas alcanzado"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:82
+#: src/components/_economy/company/CompanyDropdown.tsx:83
 msgid "Company destroyed!"
 msgstr "¡Empresa destruida!"
 
@@ -2852,11 +2852,11 @@ msgstr "¡Empresa destruida!"
 msgid "Company disabled"
 msgstr "Empresa desactivada"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:109
+#: src/components/_economy/company/CompanyDropdown.tsx:110
 msgid "Company disabled!"
 msgstr "¡Empresa desactivada!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:108
+#: src/components/_economy/company/CompanyDropdown.tsx:109
 msgid "Company enabled!"
 msgstr "¡Empresa activada!"
 
@@ -2872,7 +2872,7 @@ msgstr "Almacén de producción de la empresa"
 msgid "Company renamed!"
 msgstr "¡Empresa renombrada!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:132
+#: src/components/_economy/company/CompanyDropdown.tsx:137
 msgid "Company upgraded!"
 msgstr "¡Empresa actualizada!"
 
@@ -3642,7 +3642,7 @@ msgstr "Descripción eliminada"
 msgid "Description updated!"
 msgstr "¡Descripción actualizada!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:273
+#: src/components/_economy/company/CompanyDropdown.tsx:303
 msgid "Destruct"
 msgstr "Demoler"
 
@@ -3726,7 +3726,7 @@ msgstr "Diplomático"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Diplomático: los costos de mantenimiento del pacto defensivo {less}% menos <0>{0}</0>."
 
-#: src/components/_economy/company/CompanyDropdown.tsx:244
+#: src/components/_economy/company/CompanyDropdown.tsx:274
 msgid "Disable company"
 msgstr "Desactivar empresa"
 
@@ -4028,7 +4028,7 @@ msgstr ""
 msgid "Empty"
 msgstr "Vacío"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:234
+#: src/components/_economy/company/CompanyDropdown.tsx:264
 msgid "Enable company"
 msgstr "Activar empresa"
 
@@ -5719,8 +5719,9 @@ msgstr ""
 msgid "Maxed"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:198
-#: src/components/_economy/company/CompanyDropdown.tsx:216
+#: src/components/_economy/company/CompanyDropdown.tsx:210
+#: src/components/_economy/company/CompanyDropdown.tsx:228
+#: src/components/_economy/company/CompanyDropdown.tsx:246
 msgid "Maxed!"
 msgstr "¡Al máximo!"
 
@@ -6152,7 +6153,7 @@ msgstr ""
 msgid "Move a company to another region"
 msgstr "Mueve una empresa a otra región"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:182
 #: src/components/_economy/company/MoveCompanyForm.tsx:66
 msgid "Move company"
 msgstr "Mover empresa"
@@ -6177,7 +6178,7 @@ msgstr "Mover la empresa"
 msgid "Move to"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:255
 msgid "Move to top"
 msgstr "Mover al principio"
 
@@ -8097,7 +8098,7 @@ msgstr "Remover al líder actual del Partido de su posición"
 msgid "Removed from Military Unit"
 msgstr "Eliminado de la Unidad Militar"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:258
+#: src/components/_economy/company/CompanyDropdown.tsx:288
 msgid "Rename"
 msgstr "Renombrar"
 
@@ -8523,7 +8524,7 @@ msgstr ""
 msgid "Sell an item"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:293
+#: src/components/_economy/company/CompanyDropdown.tsx:323
 msgid "Sell company? Its employees will be let go and their tools returned to your inventory."
 msgstr ""
 
@@ -9897,9 +9898,13 @@ msgstr "Actualizar información"
 msgid "Upgrade a company"
 msgstr "Mejora una empresa"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:184
+#: src/components/_economy/company/CompanyDropdown.tsx:196
 msgid "Upgrade automated engine"
 msgstr "Mejora el motor automatizado"
+
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Upgrade break room"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:398
 msgid "Upgrade Company"
@@ -9909,7 +9914,7 @@ msgstr "Mejorar empresa"
 msgid "Upgrade Skills"
 msgstr "Mejorar habilidades"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:214
 msgid "Upgrade storage"
 msgstr "Actualizar el almacenamiento"
 
@@ -10492,7 +10497,7 @@ msgid "XP earned"
 msgstr ""
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:252
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Ya tienes {0} empresas activas. Desactiva una primero."
 

@@ -142,7 +142,7 @@ msgstr "{0} کی کمپنیاں"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:237
+#: src/components/_economy/company/CompanyDropdown.tsx:267
 msgid "{0}/{1} active"
 msgstr "{0}/{1} فعال"
 
@@ -162,7 +162,7 @@ msgid "{0}% income tax will be deducted from your employees wages."
 msgstr ""
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:283
+#: src/components/_economy/company/CompanyDropdown.tsx:313
 msgid "{0}% of invested"
 msgstr "{0}٪ سرمایہ کا"
 
@@ -2577,7 +2577,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:178
+#: src/components/_economy/company/CompanyDropdown.tsx:190
 msgid "Change production"
 msgstr "پیداوار بدلیں"
 
@@ -2844,7 +2844,7 @@ msgstr ""
 msgid "Companies limit reached"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:82
+#: src/components/_economy/company/CompanyDropdown.tsx:83
 msgid "Company destroyed!"
 msgstr "کمپنی تباہ ہو گئی!"
 
@@ -2852,11 +2852,11 @@ msgstr "کمپنی تباہ ہو گئی!"
 msgid "Company disabled"
 msgstr "کمپنی مطعل"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:109
+#: src/components/_economy/company/CompanyDropdown.tsx:110
 msgid "Company disabled!"
 msgstr "کمپنی مطعل!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:108
+#: src/components/_economy/company/CompanyDropdown.tsx:109
 msgid "Company enabled!"
 msgstr ""
 
@@ -2872,7 +2872,7 @@ msgstr ""
 msgid "Company renamed!"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:132
+#: src/components/_economy/company/CompanyDropdown.tsx:137
 msgid "Company upgraded!"
 msgstr ""
 
@@ -3642,7 +3642,7 @@ msgstr "بیان حذف ہو گیا"
 msgid "Description updated!"
 msgstr "بیان تجدید ہو گئی!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:273
+#: src/components/_economy/company/CompanyDropdown.tsx:303
 msgid "Destruct"
 msgstr ""
 
@@ -3726,7 +3726,7 @@ msgstr "سفارتی"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:244
+#: src/components/_economy/company/CompanyDropdown.tsx:274
 msgid "Disable company"
 msgstr "کمپنی کو معطل کر دیں"
 
@@ -4028,7 +4028,7 @@ msgstr ""
 msgid "Empty"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:234
+#: src/components/_economy/company/CompanyDropdown.tsx:264
 msgid "Enable company"
 msgstr ""
 
@@ -5719,8 +5719,9 @@ msgstr ""
 msgid "Maxed"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:198
-#: src/components/_economy/company/CompanyDropdown.tsx:216
+#: src/components/_economy/company/CompanyDropdown.tsx:210
+#: src/components/_economy/company/CompanyDropdown.tsx:228
+#: src/components/_economy/company/CompanyDropdown.tsx:246
 msgid "Maxed!"
 msgstr ""
 
@@ -6152,7 +6153,7 @@ msgstr ""
 msgid "Move a company to another region"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:182
 #: src/components/_economy/company/MoveCompanyForm.tsx:66
 msgid "Move company"
 msgstr ""
@@ -6177,7 +6178,7 @@ msgstr ""
 msgid "Move to"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:255
 msgid "Move to top"
 msgstr ""
 
@@ -8097,7 +8098,7 @@ msgstr "حالی بانی جماعت کو اپنے عہدے سے نکالیں"
 msgid "Removed from Military Unit"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:258
+#: src/components/_economy/company/CompanyDropdown.tsx:288
 msgid "Rename"
 msgstr "نام دیں"
 
@@ -8523,7 +8524,7 @@ msgstr ""
 msgid "Sell an item"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:293
+#: src/components/_economy/company/CompanyDropdown.tsx:323
 msgid "Sell company? Its employees will be let go and their tools returned to your inventory."
 msgstr ""
 
@@ -9897,8 +9898,12 @@ msgstr ""
 msgid "Upgrade a company"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:184
+#: src/components/_economy/company/CompanyDropdown.tsx:196
 msgid "Upgrade automated engine"
+msgstr ""
+
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Upgrade break room"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:398
@@ -9909,7 +9914,7 @@ msgstr ""
 msgid "Upgrade Skills"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:214
 msgid "Upgrade storage"
 msgstr ""
 
@@ -10492,7 +10497,7 @@ msgid "XP earned"
 msgstr ""
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:252
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "You already have {0} active companies. Disable one first."
 msgstr "آپ کے پاس پہلے سے ہی {0} فعال کمپنیاں ہیں۔ پہلے ایک کو مطعل کریں۔"
 

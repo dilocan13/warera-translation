@@ -142,7 +142,7 @@ msgstr "{0}'s Kompanioj"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:237
+#: src/components/_economy/company/CompanyDropdown.tsx:267
 msgid "{0}/{1} active"
 msgstr "{0}/{1} aktiva"
 
@@ -162,7 +162,7 @@ msgid "{0}% income tax will be deducted from your employees wages."
 msgstr ""
 
 #. placeholder {0}: gameConfig.company.destructionValuePercent
-#: src/components/_economy/company/CompanyDropdown.tsx:283
+#: src/components/_economy/company/CompanyDropdown.tsx:313
 msgid "{0}% of invested"
 msgstr "{0}% de investita"
 
@@ -2577,7 +2577,7 @@ msgstr ""
 msgid "Change produced item"
 msgstr "Ŝanĝi produced objekto"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:178
+#: src/components/_economy/company/CompanyDropdown.tsx:190
 msgid "Change production"
 msgstr "Ŝanĝi produktado"
 
@@ -2844,7 +2844,7 @@ msgstr "Kompanioj limit"
 msgid "Companies limit reached"
 msgstr "Kompanioj limit reached"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:82
+#: src/components/_economy/company/CompanyDropdown.tsx:83
 msgid "Company destroyed!"
 msgstr "Kompanio destroyed!"
 
@@ -2852,11 +2852,11 @@ msgstr "Kompanio destroyed!"
 msgid "Company disabled"
 msgstr "Kompanio malŝaltita"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:109
+#: src/components/_economy/company/CompanyDropdown.tsx:110
 msgid "Company disabled!"
 msgstr "Kompanio malŝaltita!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:108
+#: src/components/_economy/company/CompanyDropdown.tsx:109
 msgid "Company enabled!"
 msgstr "Kompanio enabled!"
 
@@ -2872,7 +2872,7 @@ msgstr "Kompanio produktado stokado"
 msgid "Company renamed!"
 msgstr "Kompanio renamed!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:132
+#: src/components/_economy/company/CompanyDropdown.tsx:137
 msgid "Company upgraded!"
 msgstr ""
 
@@ -3642,7 +3642,7 @@ msgstr "Priskribo forigita"
 msgid "Description updated!"
 msgstr "Priskribo updated!"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:273
+#: src/components/_economy/company/CompanyDropdown.tsx:303
 msgid "Destruct"
 msgstr "Detrui"
 
@@ -3726,7 +3726,7 @@ msgstr "Diplomatia"
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:244
+#: src/components/_economy/company/CompanyDropdown.tsx:274
 msgid "Disable company"
 msgstr "Malŝalti kompanio"
 
@@ -4028,7 +4028,7 @@ msgstr ""
 msgid "Empty"
 msgstr "Malplena"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:234
+#: src/components/_economy/company/CompanyDropdown.tsx:264
 msgid "Enable company"
 msgstr "Enable kompanio"
 
@@ -5719,8 +5719,9 @@ msgstr ""
 msgid "Maxed"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:198
-#: src/components/_economy/company/CompanyDropdown.tsx:216
+#: src/components/_economy/company/CompanyDropdown.tsx:210
+#: src/components/_economy/company/CompanyDropdown.tsx:228
+#: src/components/_economy/company/CompanyDropdown.tsx:246
 msgid "Maxed!"
 msgstr ""
 
@@ -6152,7 +6153,7 @@ msgstr ""
 msgid "Move a company to another region"
 msgstr "Move kompanio al alia regiono"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:170
+#: src/components/_economy/company/CompanyDropdown.tsx:182
 #: src/components/_economy/company/MoveCompanyForm.tsx:66
 msgid "Move company"
 msgstr "Move kompanio"
@@ -6177,7 +6178,7 @@ msgstr "Move la kompanio"
 msgid "Move to"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:225
+#: src/components/_economy/company/CompanyDropdown.tsx:255
 msgid "Move to top"
 msgstr "Move al supra"
 
@@ -8097,7 +8098,7 @@ msgstr "Forigi la nuna partio leader de ilia position"
 msgid "Removed from Military Unit"
 msgstr "Forigita de Militista Unuo"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:258
+#: src/components/_economy/company/CompanyDropdown.tsx:288
 msgid "Rename"
 msgstr "Renomi"
 
@@ -8523,7 +8524,7 @@ msgstr ""
 msgid "Sell an item"
 msgstr ""
 
-#: src/components/_economy/company/CompanyDropdown.tsx:293
+#: src/components/_economy/company/CompanyDropdown.tsx:323
 msgid "Sell company? Its employees will be let go and their tools returned to your inventory."
 msgstr ""
 
@@ -9897,8 +9898,12 @@ msgstr "Ĝisdatigi informojn"
 msgid "Upgrade a company"
 msgstr "Plibonigo kompanio"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:184
+#: src/components/_economy/company/CompanyDropdown.tsx:196
 msgid "Upgrade automated engine"
+msgstr ""
+
+#: src/components/_economy/company/CompanyDropdown.tsx:232
+msgid "Upgrade break room"
 msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:398
@@ -9909,7 +9914,7 @@ msgstr "Plibonigo Kompanio"
 msgid "Upgrade Skills"
 msgstr "Plibonigo Skills"
 
-#: src/components/_economy/company/CompanyDropdown.tsx:202
+#: src/components/_economy/company/CompanyDropdown.tsx:214
 msgid "Upgrade storage"
 msgstr ""
 
@@ -10492,7 +10497,7 @@ msgid "XP earned"
 msgstr ""
 
 #. placeholder {0}: companiesLimit ?? 1
-#: src/components/_economy/company/CompanyDropdown.tsx:252
+#: src/components/_economy/company/CompanyDropdown.tsx:282
 msgid "You already have {0} active companies. Disable one first."
 msgstr "Vi jam havas {0} aktiva Kompanioj. Malŝalti one first."
 
