@@ -109,7 +109,7 @@ msgid "{0} days cooldown"
 msgstr "התקררות של {0} ימים"
 
 #. placeholder {0}: user.data.leveling.freeReset
-#: src/pages/user/[userId]/skills.tsx:219
+#: src/pages/user/[userId]/skills.tsx:227
 msgid "{0} Free"
 msgstr "{0} חינם"
 
@@ -168,7 +168,7 @@ msgid "{0}% of invested"
 msgstr "{0}% מההשקעה"
 
 #. placeholder {0}: employee.age
-#: src/components/_economy/employee/EmployeeModal.tsx:278
+#: src/components/_economy/employee/EmployeeModal.tsx:291
 msgid "{0}y old"
 msgstr ""
 
@@ -470,6 +470,10 @@ msgstr "<0/> תוקף ב<1/>"
 #: src/components/_user/notification/notification.frontConfig.tsx:895
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> תוקף את המדינה שלך ב<1/>"
+
+#: src/components/_economy/employee/TrainingDraftModal.tsx:142
+msgid "<0/> is gone"
+msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:304
 msgid "<0/> is in bankruptcy. Removing all alliances and disabling every region upgrades."
@@ -825,14 +829,14 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> בצ׳אט"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:62
-msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>כל נזק של <1/> שנגרם בסיבוב הזה על פני שני הצדדים מגלגל <2>{0}</2> למאגר שלל הסיבוב.</0><3>שלל הסיבוב מתחלק בסיום הסיבוב: מי שגרם לנזק הגבוה ביותר מקבל את הפריט הטוב ביותר, וכן הלאה...</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:64
+msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>The pool is handed out at the end of the round: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:75
-msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
-msgstr "<0>כל נזק כולל של <1/> שנגרם לשני הצדדים מגלגל <2>{0}</2> למאגר שלל הקרב.</0><3>שלל הקרב מתחלק בסיום הקרב: מי שגרם לנזק הגבוה ביותר מקבל את הפריט הטוב ביותר, וכן הלאה...</3>"
+#: src/components/_military/damageRanking/BattleLoot.tsx:79
+msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>The pool is handed out at the end of the battle: the top damage dealer gets the most valuable item, #2 the next one, and so on. The item you are in line for is shown on your row in the ranking below.</3>"
+msgstr ""
 
 #: src/components/_economy/company/CompanyProduce.tsx:76
 msgid "<0>Filled with <1>Production Points</1> when you work, by your employees and by the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
@@ -1301,7 +1305,7 @@ msgstr "נדרשת עמלה בסך <0>{0}</0> כדי לקבל חוזה זה. ה�
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
 msgstr "נדרשה עמלה בסך <0>{0}</0> כדי לקבל חוזה זה. האגרה הוחזרה לאחר השלמת הנזק המינימלי."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:79
+#: src/components/_other/tour/tuto.frontConfig.tsx:89
 msgid "A good wage makes your employee happier, and a happy employee produces more. Click to raise their wage."
 msgstr ""
 
@@ -1311,6 +1315,10 @@ msgstr ""
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:57
 msgid "A random resource stack"
+msgstr ""
+
+#: src/components/_economy/employee/training.frontConfig.tsx:61
+msgid "A random trait, good or bad, only revealed once picked. Also raises a random stat."
 msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:143
@@ -1813,7 +1821,7 @@ msgstr "האם אתה בטוח שברצונך לגלגל מחדש את המשי�
 msgid "Are you sure you want to revoke \"{0}\"? This action cannot be undone."
 msgstr "האם אתה בטוח שברצונך לבטל את ״{0}״? לא ניתן לבטל פעולה זו."
 
-#: src/components/_other/tour/TutorialStep.tsx:203
+#: src/components/_other/tour/TutorialStep.tsx:205
 msgid "Are you sure you want to skip this tutorial?"
 msgstr "האם אתה בטוח שברצונך לדלג על הדרכה זו?"
 
@@ -2135,11 +2143,7 @@ msgstr "קרב על {regionName} {score}"
 msgid "Battle Hero"
 msgstr "גיבור קרב"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Battle loot"
-msgstr "שלל קרב"
-
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Battle loot pool"
 msgstr "בריכת שלל קרב"
 
@@ -2255,7 +2259,7 @@ msgstr "אלת עצם"
 msgid "Bonus damages"
 msgstr "נזקי בונוס"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:137
+#: src/components/_other/tour/tuto.frontConfig.tsx:147
 msgid "Boost your production!"
 msgstr "שפר את ההפקה שלך!"
 
@@ -2453,12 +2457,12 @@ msgstr "בוטל על ידי אדמין"
 msgid "Candidacy is open for <0/>"
 msgstr "המועמדות פתוחה עבור <0/>"
 
-#: src/components/_economy/employee/employeeCards.tsx:282
+#: src/components/_economy/employee/employeeCards.tsx:283
 #: src/components/_political/election/CandidateFormModal.tsx:87
 msgid "Candidate"
 msgstr "מועמד"
 
-#: src/components/_economy/employee/RecruitModal.tsx:94
+#: src/components/_economy/employee/RecruitModal.tsx:97
 msgid "Candidates"
 msgstr ""
 
@@ -2510,7 +2514,7 @@ msgstr "תם הזמן הקצוב לאימות CAPTCHA. מאפס..."
 msgid "Case"
 msgstr "תיבה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:117
+#: src/components/_other/tour/tuto.frontConfig.tsx:127
 msgid "Cases contain random items. Click to open it!"
 msgstr "התיבות מכילות פריטים אקראיים. לחץ כדי לפתוח אותו!"
 
@@ -2611,7 +2615,7 @@ msgstr "שנה את שם הברית."
 msgid "Change the tax of {0} to"
 msgstr "שנה את המס של {0} ל"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:107
+#: src/components/_other/tour/tuto.frontConfig.tsx:117
 msgid "Check your loot!"
 msgstr "בדוק את השלל שלך!"
 
@@ -2648,7 +2652,7 @@ msgstr ""
 msgid "Choose your country"
 msgstr "בחר את המדינה שלך"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:169
+#: src/components/_other/tour/tuto.frontConfig.tsx:179
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "בחר את הצד שלך ולחץ כדי לגרום <0>נזק</0>! המשך להכות כדי לעזור לקבוצה שלך לנצח."
 
@@ -2687,7 +2691,7 @@ msgstr "מלחמת אזרחים"
 msgid "Claim"
 msgstr "קבל"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:220
+#: src/components/_other/tour/tuto.frontConfig.tsx:230
 msgid "Claim your rewards!"
 msgstr "קבל את התגמולים שלך!"
 
@@ -2711,15 +2715,15 @@ msgstr ""
 msgid "Clear selection"
 msgstr "נקה בחירה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:139
+#: src/components/_other/tour/tuto.frontConfig.tsx:149
 msgid "Click multiple times to increase this skill. Higher skills = more power!"
 msgstr "לחץ מספר פעמים כדי להגביר את המיומנות הזו. מיומנויות גבוהות יותר = יותר כוח!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:162
+#: src/components/_other/tour/tuto.frontConfig.tsx:172
 msgid "Click on a battle to see what's happening and join in."
 msgstr "לחץ על קרב כדי לראות מה קורה ולהצטרף."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:250
+#: src/components/_other/tour/tuto.frontConfig.tsx:260
 msgid "Click on your country's conversation to chat with fellow citizens."
 msgstr "לחץ על השיחה של המדינה שלך כדי לשוחח עם אזרחים אחרים."
 
@@ -2731,7 +2735,7 @@ msgstr ""
 msgid "Click to consume."
 msgstr "לחץ כדי לצרוך."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:123
+#: src/components/_other/tour/tuto.frontConfig.tsx:133
 msgid "Click to reveal what's inside. You might get something valuable!"
 msgstr "לחץ כדי לחשוף מה יש בפנים. אולי תקבל משהו בעל ערך!"
 
@@ -2873,7 +2877,7 @@ msgstr "שם החברה שונה!"
 msgid "Company upgraded!"
 msgstr "החברה שודרגה!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:231
+#: src/components/_other/tour/tuto.frontConfig.tsx:241
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "השלם משימות מדי יום כדי להרוויח XP ולעלות רמה מהר יותר. לחץ לתביעה!"
 
@@ -3006,6 +3010,10 @@ msgstr "צריכתו מגדילה את ה-<0>Attack</0> שלך במהלך {0}h.<
 msgid "Contextual borders"
 msgstr "גבולות הקשרים"
 
+#: src/components/_economy/employee/TrainingDraftModal.tsx:307
+msgid "Continue"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2136
 msgid "Contract cancelled"
 msgstr "החוזה בוטל"
@@ -3096,7 +3104,7 @@ msgstr "אזורי ליבה"
 msgid "Corporal"
 msgstr "רב״ט"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:313
+#: src/components/_economy/employee/EmployeeModal.tsx:326
 msgid "Cost/PP"
 msgstr ""
 
@@ -3185,7 +3193,7 @@ msgstr "זוכה טורניר המדינה"
 msgid "Country wars"
 msgstr "מלחמות מדינות"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:412
+#: src/components/_economy/employee/EmployeeModal.tsx:425
 msgid "Coworkers"
 msgstr ""
 
@@ -3345,7 +3353,7 @@ msgstr "תחזוקה יומית"
 msgid "Daily Missions Reset"
 msgstr "איפוס משימות יומיות"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:385
+#: src/components/_economy/employee/EmployeeModal.tsx:398
 msgid "Daily production"
 msgstr ""
 
@@ -3754,7 +3762,7 @@ msgstr "בטל"
 
 #. placeholder {0}: employee.name || 'this employee'
 #. placeholder {1}: employeeConfig.fireSeverance
-#: src/components/_economy/employee/EmployeeModal.tsx:577
+#: src/components/_economy/employee/EmployeeModal.tsx:599
 #: src/components/_economy/employee/EmployeePanel.tsx:103
 msgid "Dismiss {0} and pay <0>{1}</0> severance? This cannot be undone."
 msgstr ""
@@ -3768,7 +3776,7 @@ msgstr "פרק ברית"
 msgid "Dissolve the alliance permanently, removing every member country."
 msgstr "פרק את הברית לצמיתות, תוך הסרת כל מדינות החברות."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:97
+#: src/components/_military/damageRanking/BattleLoot.tsx:103
 msgid "Distributed"
 msgstr "מופץ"
 
@@ -3790,7 +3798,7 @@ msgstr ""
 msgid "Don't forget to drink water"
 msgstr "אל תשכח לשתות מים"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:148
+#: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "Don't forget to save your skill upgrades."
 msgstr "אל תשכח לשמור את שדרוגי המיומנות שלך."
 
@@ -3839,12 +3847,20 @@ msgstr "גרור את הפקודות כדי לשנות את מספר העדיפ�
 msgid "Dragon"
 msgstr "דרקון"
 
+#: src/components/_economy/employee/training.frontConfig.tsx:34
+msgid "Drill"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:262
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "ה. תוכן על מלחמות מתמשכות בעולם האמיתי וסכסוכים מזוינים (בעיקר מלחמת רוסיה-אוקראינה והסכסוך הישראלי-פלסטיני)"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:50
 msgid "Each candidate has different stats and traits. Hiring costs <0>Entrepreneurship</0>, then they earn a wage paid from your <1>Money</1>."
+msgstr ""
+
+#: src/components/_other/tour/tuto.frontConfig.tsx:79
+msgid "Each card trains your employee differently. Tap one to see what it does, then pick it: the other cards are lost."
 msgstr ""
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:211
@@ -3892,7 +3908,7 @@ msgstr "מצב אקו"
 msgid "Economic laws"
 msgstr "חוקים כלכליים"
 
-#: src/components/_user/user/skills.frontConfig.tsx:256
+#: src/components/_user/user/skills.frontConfig.tsx:255
 msgid "Economic skills"
 msgstr "כישורים כלכליים"
 
@@ -3988,9 +4004,9 @@ msgstr "קסדת עילית"
 msgid "Elite Pants"
 msgstr "מכנסי עילית"
 
-#: src/components/_economy/employee/employeeCards.tsx:177
-#: src/components/_economy/employee/EmployeeModal.tsx:253
-#: src/components/_economy/employee/EmployeeModal.tsx:275
+#: src/components/_economy/employee/employeeCards.tsx:178
+#: src/components/_economy/employee/EmployeeModal.tsx:266
+#: src/components/_economy/employee/EmployeeModal.tsx:288
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:70
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:85
 msgid "Employee"
@@ -4109,7 +4125,7 @@ msgstr ""
 msgid "Error"
 msgstr "שגיאה"
 
-#: src/components/_economy/employee/EmployeeList.tsx:106
+#: src/components/_economy/employee/EmployeeList.tsx:107
 msgid "Est."
 msgstr ""
 
@@ -4165,7 +4181,7 @@ msgstr ""
 msgid "Expansionist"
 msgstr "אקספנסיוניסט"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:106
+#: src/components/_economy/employee/EmployeeModal.tsx:109
 msgid "Expected"
 msgstr ""
 
@@ -4359,11 +4375,11 @@ msgstr "להילחם על <0/> ב<1/>"
 msgid "Fight for <0/> in<1/><2/>"
 msgstr "להילחם על <0/> ב<1/><2/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:241
+#: src/components/_user/user/skills.frontConfig.tsx:240
 msgid "Fight skills"
 msgstr "כישורי לחימה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:167
+#: src/components/_other/tour/tuto.frontConfig.tsx:177
 msgid "Fight!"
 msgstr "מאבק!"
 
@@ -4420,8 +4436,8 @@ msgstr "מצא עבודה בחברה"
 msgid "Find a military unit"
 msgstr "מצא יחידה צבאית"
 
-#: src/components/_economy/employee/employeeCards.tsx:243
-#: src/components/_economy/employee/EmployeeModal.tsx:570
+#: src/components/_economy/employee/employeeCards.tsx:250
+#: src/components/_economy/employee/EmployeeModal.tsx:592
 #: src/components/_political/government/Government.tsx:253
 #: src/components/_user/user/UserEffectSelector.tsx:61
 msgid "Fire"
@@ -4590,8 +4606,12 @@ msgstr "קבל מספר סקינים בבת אחת עם 30% הנחה!"
 msgid "Get supporter plan"
 msgstr "קבל תוכנית תומכים"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:180
+#: src/components/_other/tour/tuto.frontConfig.tsx:190
 msgid "Get to the front!"
+msgstr ""
+
+#: src/components/_economy/employee/training.frontConfig.tsx:46
+msgid "Gets rid of a bad trait for good."
 msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:94
@@ -4706,7 +4726,7 @@ msgstr "תבואה"
 msgid "Graticule"
 msgstr "גרטיקולה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:213
+#: src/components/_other/tour/tuto.frontConfig.tsx:223
 msgid "Great job! Hit a few more times to help your side win the battle."
 msgstr "עבודה נהדרת! הכה עוד כמה פעמים כדי לעזור לצד שלך לנצח בקרב."
 
@@ -4896,7 +4916,7 @@ msgstr "עזרו לחברי MU"
 msgid "Help the game to grow"
 msgstr "עזרו למשחק לצמוח"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:367
+#: src/components/_economy/employee/EmployeeModal.tsx:380
 msgid "hidden"
 msgstr ""
 
@@ -4904,7 +4924,7 @@ msgstr ""
 msgid "High Commander"
 msgstr "מפקד בכיר"
 
-#: src/components/_economy/employee/employeeCards.tsx:315
+#: src/components/_economy/employee/employeeCards.tsx:309
 msgid "Hire"
 msgstr ""
 
@@ -4912,7 +4932,7 @@ msgstr ""
 msgid "Hire your first employee!"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:323
+#: src/components/_economy/employee/EmployeeModal.tsx:336
 msgid "Hired"
 msgstr ""
 
@@ -5101,6 +5121,10 @@ msgstr "מדינת מקור"
 msgid "Initiate"
 msgstr "מתחיל"
 
+#: src/components/_economy/employee/training.frontConfig.tsx:32
+msgid "Intensive drill"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:81
 msgid "Intentional or repeated violations of this policy will result in a permanent ban."
 msgstr "הפרות מכוונות או חוזרות של מדיניות זו תגרום לאיסור קבוע."
@@ -5219,7 +5243,7 @@ msgstr "הצטרף ליחידה"
 msgid "Join the world"
 msgstr "הצטרף לעולם"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:248
+#: src/components/_other/tour/tuto.frontConfig.tsx:258
 msgid "Join your country chat!"
 msgstr "הצטרף לצ׳אט במדינה שלך!"
 
@@ -5243,7 +5267,7 @@ msgstr "רק עוד אחד... מה יכול להשתבש?"
 msgid "Keep chasing that Mythic"
 msgstr "תמשיך לרדוף אחרי המיתוס הזה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:211
+#: src/components/_other/tour/tuto.frontConfig.tsx:221
 msgid "Keep fighting!"
 msgstr "תמשיך להילחם!"
 
@@ -5285,10 +5309,6 @@ msgstr ""
 msgid "Language"
 msgstr "שפה"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:116
-msgid "Last"
-msgstr "אחרון"
-
 #: src/components/_user/user/UserHeader.tsx:356
 msgid "Last connection"
 msgstr "החיבור האחרון"
@@ -5311,7 +5331,7 @@ msgstr "בשימוש אחרון"
 msgid "Last used:"
 msgstr "בשימוש אחרון:"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:399
+#: src/components/_economy/employee/EmployeeModal.tsx:412
 msgid "Last works"
 msgstr ""
 
@@ -5361,8 +5381,8 @@ msgstr "עופרת"
 msgid "Leader"
 msgstr "מנהיג"
 
+#: src/components/_user/user/skills.frontConfig.tsx:233
 #: src/components/_user/user/skills.frontConfig.tsx:234
-#: src/components/_user/user/skills.frontConfig.tsx:235
 msgid "Leadership"
 msgstr ""
 
@@ -5436,7 +5456,7 @@ msgstr "רמה {level}"
 msgid "Level too low"
 msgstr "רמה נמוכה מדי"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:130
+#: src/components/_other/tour/tuto.frontConfig.tsx:140
 msgid "Level up your skills!"
 msgstr "העלו את הכישורים שלכם ברמה!"
 
@@ -5593,10 +5613,6 @@ msgstr "סיכוי שלל"
 msgid "Loot reward"
 msgstr "גמול שלל"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:130
-msgid "Loots"
-msgstr "שלל"
-
 #: src/components/_other/shop/skin.frontConfig.tsx:23
 msgid "Love Paper Jet"
 msgstr "אוהב נייר סילון"
@@ -5699,8 +5715,8 @@ msgstr "הגיעה לרמה המקסימלית!"
 msgid "Max rarity"
 msgstr "נדירות מקסימלית"
 
-#: src/components/_economy/employee/employeeCards.tsx:233
-#: src/components/_economy/employee/EmployeeModal.tsx:554
+#: src/components/_economy/employee/employeeCards.tsx:239
+#: src/components/_economy/employee/EmployeeModal.tsx:575
 msgid "Maxed"
 msgstr ""
 
@@ -5775,7 +5791,7 @@ msgstr "חץ פלדה מימי הביניים"
 msgid "Medieval Stone Arrow"
 msgstr "חץ האבן מימי הביניים"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:241
+#: src/components/_other/tour/tuto.frontConfig.tsx:251
 msgid "Meet other players in the chat. Don't be shy, introduce yourself!"
 msgstr "פגשו שחקנים אחרים בצ׳אט. אל תתביישו, הציגו את עצמכם!"
 
@@ -5825,6 +5841,10 @@ msgstr "החברות מושעית"
 #: src/components/_user/notification/notification.frontConfig.tsx:2157
 msgid "Mentioned in message"
 msgstr "מוזכר בהודעה"
+
+#: src/components/_economy/employee/training.frontConfig.tsx:40
+msgid "Mentoring"
+msgstr ""
 
 #: src/pages/country/[countryId]/auctions.tsx:25
 #: src/pages/country/[countryId]/index.tsx:304
@@ -6113,7 +6133,7 @@ msgstr "הצעה הוצעה"
 msgid "Motions"
 msgstr "הצעות"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:564
+#: src/components/_economy/employee/EmployeeModal.tsx:586
 #: src/components/_political/region/MoveButton.tsx:120
 #: src/components/_political/region/MoveButton.tsx:132
 msgid "Move"
@@ -6165,6 +6185,10 @@ msgstr "העבר למעלה"
 #: src/components/_user/notification/notification.frontConfig.tsx:2006
 msgid "Moved to a new company"
 msgstr "עבר לחברה חדשה"
+
+#: src/components/_economy/employee/training.frontConfig.tsx:41
+msgid "Moves a trait one step up its ladder."
+msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:124
 #: src/components/_military/tournament/TournamentHeader.tsx:55
@@ -6337,6 +6361,10 @@ msgstr "חוזה חדש התקבל"
 msgid "New ethics configuration"
 msgstr "תצורת אתיקה חדשה"
 
+#: src/components/_economy/employee/training.frontConfig.tsx:50
+msgid "New habit"
+msgstr ""
+
 #: src/components/_economy/itemOffer/ItemOfferList.tsx:69
 msgid "New item offer"
 msgstr "הצעת פריט חדש"
@@ -6456,7 +6484,7 @@ msgstr "נחמד"
 msgid "Nice one"
 msgstr "נחמד אחד"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:229
+#: src/components/_other/tour/tuto.frontConfig.tsx:239
 msgid "Nice work!"
 msgstr "עבודה יפה!"
 
@@ -6508,7 +6536,7 @@ msgstr "עדיין אין קרבות"
 msgid "No bids yet"
 msgstr "עדיין אין הצעות"
 
-#: src/components/_economy/employee/RecruitModal.tsx:100
+#: src/components/_economy/employee/RecruitModal.tsx:103
 msgid "No candidates available"
 msgstr ""
 
@@ -6540,7 +6568,7 @@ msgstr "אין ברית הגנה"
 msgid "No donations yet"
 msgstr "עדיין אין תרומות"
 
-#: src/components/_economy/employee/EmployeeList.tsx:100
+#: src/components/_economy/employee/EmployeeList.tsx:101
 msgid "No employees"
 msgstr ""
 
@@ -6795,12 +6823,8 @@ msgstr "כבוש על ידי"
 msgid "Occupied region"
 msgstr "אזור כבוש"
 
-#: src/components/_user/user/skills.frontConfig.tsx:229
-msgid "Odds to improve an employee's traits when you train them in your companies."
-msgstr ""
-
 #: src/components/_user/user/skills.frontConfig.tsx:217
-msgid "Odds to reveal an employee's hidden traits, when you hire them and when you train them."
+msgid "Odds to reveal an employee's hidden traits when you hire them."
 msgstr ""
 
 #: src/components/_political/government/Government.tsx:204
@@ -6830,6 +6854,10 @@ msgstr "עם השלמת החוזה: +1 נציג לכל <0/> ששולמו."
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:26
 msgid "On contract failure: -1 rep per <0/> in budget, and -1 rep per <1/> short of completing the contract."
 msgstr "במקרה של כישלון בחוזה: נציג -1 לכל <0/> בתקציב, ו-1 חזרה לכל <1/> קצר להשלמת החוזה."
+
+#: src/components/_economy/employee/training.frontConfig.tsx:70
+msgid "One more training session for this employee."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:70
 msgid "One step away from legendary..."
@@ -6924,7 +6952,7 @@ msgstr "פתח את הצ׳אט"
 msgid "Open to all"
 msgstr "פתוח לכולם"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:121
+#: src/components/_other/tour/tuto.frontConfig.tsx:131
 msgid "Open your case!"
 msgstr "פתח את התיבה שלך!"
 
@@ -6980,7 +7008,7 @@ msgstr "אחר"
 msgid "Outcome"
 msgstr "תוצאה"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:304
+#: src/components/_economy/employee/EmployeeModal.tsx:317
 msgid "Output"
 msgstr ""
 
@@ -7160,7 +7188,7 @@ msgstr ""
 msgid "Paused: nobody produces here"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:77
+#: src/components/_other/tour/tuto.frontConfig.tsx:87
 msgid "Pay them well!"
 msgstr ""
 
@@ -7184,8 +7212,8 @@ msgstr "תלוי ועומד"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "אנשים כועסים, החל מרד אוטומטי ב<0/>"
 
+#: src/components/_user/user/skills.frontConfig.tsx:221
 #: src/components/_user/user/skills.frontConfig.tsx:222
-#: src/components/_user/user/skills.frontConfig.tsx:223
 msgid "Perception"
 msgstr ""
 
@@ -7221,13 +7249,31 @@ msgstr "התבקש אימות טלפוני"
 msgid "Phone verification required"
 msgstr "נדרש אימות טלפוני"
 
+#: src/components/_economy/employee/TrainingDraftModal.tsx:324
+msgid "Pick {cardTitle}"
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:48
 msgid "Pick a candidate!"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:160
+#: src/components/_economy/employee/employeeCards.tsx:235
+#: src/components/_economy/employee/EmployeeModal.tsx:571
+#: src/components/_economy/employee/TrainingDraftModal.tsx:326
+msgid "Pick a card"
+msgstr ""
+
+#: src/components/_other/tour/tuto.frontConfig.tsx:77
+msgid "Pick a card!"
+msgstr ""
+
+#: src/components/_other/tour/tuto.frontConfig.tsx:170
 msgid "Pick a fight!"
 msgstr "בחר קרב!"
+
+#: src/components/_economy/employee/TrainingDraftModal.tsx:242
+msgid "Pick one card, the others are lost."
+msgstr ""
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:217
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
@@ -7307,7 +7353,7 @@ msgstr ""
 msgid "Post announcement"
 msgstr "פרסם הודעה"
 
-#: src/components/_economy/employee/employeeCards.tsx:213
+#: src/components/_economy/employee/employeeCards.tsx:214
 msgid "Potential"
 msgstr ""
 
@@ -7383,7 +7429,7 @@ msgstr "בחירות לנשיאות"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:135
 #: src/components/_user/user/Level.tsx:156
-#: src/pages/user/[userId]/skills.tsx:189
+#: src/pages/user/[userId]/skills.tsx:197
 msgid "Prestige"
 msgstr "פרסטיז׳"
 
@@ -7589,7 +7635,7 @@ msgstr ""
 msgid "Push the resistance here first."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:87
+#: src/components/_other/tour/tuto.frontConfig.tsx:97
 msgid "Put yourself to work!"
 msgstr "שים את עצמך לעבודה!"
 
@@ -7614,6 +7660,14 @@ msgstr ""
 msgid "Rainbow"
 msgstr ""
 
+#: src/components/_economy/employee/training.frontConfig.tsx:36
+msgid "Raises one stat."
+msgstr ""
+
+#: src/components/_economy/employee/TrainingCard.tsx:152
+msgid "Random trait, +1 random stat"
+msgstr ""
+
 #: src/components/_user/user/UserTooltip.tsx:158
 msgid "Rank"
 msgstr "דרגה"
@@ -7636,6 +7690,10 @@ msgstr "דירוגים"
 #: src/components/_layout/LayoutRightIcons.tsx:231
 msgid "Ranks"
 msgstr "מדרג"
+
+#: src/components/_user/user/skills.frontConfig.tsx:228
+msgid "Rarer cards when you train your employees: every level moves odds away from Common toward the rarer tiers."
+msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:175
 msgid "Rate"
@@ -7755,7 +7813,7 @@ msgstr "קרא מאמר"
 msgid "Read the article"
 msgstr "קרא את המאמר"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:153
+#: src/components/_other/tour/tuto.frontConfig.tsx:163
 msgid "Ready for battle!"
 msgstr "מוכן לקרב!"
 
@@ -7790,8 +7848,8 @@ msgstr "מקבל"
 msgid "Recommended regions"
 msgstr "אזורים מומלצים"
 
-#: src/components/_economy/employee/EmployeeList.tsx:149
-#: src/components/_economy/employee/RecruitModal.tsx:167
+#: src/components/_economy/employee/EmployeeList.tsx:150
+#: src/components/_economy/employee/RecruitModal.tsx:179
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:21
 msgid "Recruit"
 msgstr "טירון"
@@ -7925,6 +7983,10 @@ msgstr "ההרשמה נסגרת בעוד"
 msgid "Registration open"
 msgstr "ההרשמה פתוחה"
 
+#: src/components/_economy/employee/training.frontConfig.tsx:45
+msgid "Rehab"
+msgstr ""
+
 #: src/utils/translations.tsx:213
 msgid "Reinforced Boots"
 msgstr "נעליים מחוזקים"
@@ -7963,6 +8025,10 @@ msgstr "משך הבאף שנותר"
 #: src/components/_layout/LayoutUserMenu.tsx:240
 msgid "Remaining debuff duration"
 msgstr "משך הדיבאף שנותר"
+
+#: src/components/_economy/employee/TrainingCard.tsx:121
+msgid "Remove <0/>"
+msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:201
 msgid "Remove <0/> from congress due to inactivity"
@@ -8105,7 +8171,7 @@ msgstr "בקש אימות טלפוני"
 msgid "Requests:"
 msgstr "בקשות:"
 
-#: src/components/_economy/employee/RecruitModal.tsx:71
+#: src/components/_economy/employee/RecruitModal.tsx:74
 msgid "Reroll all"
 msgstr ""
 
@@ -8113,7 +8179,7 @@ msgstr ""
 msgid "Reroll Mission"
 msgstr "משימה מחדש"
 
-#: src/pages/user/[userId]/skills.tsx:216
+#: src/pages/user/[userId]/skills.tsx:224
 msgid "Reset"
 msgstr "אפס"
 
@@ -8203,7 +8269,7 @@ msgstr "תגובה להודעה"
 msgid "Responsibility"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:201
+#: src/components/_other/tour/tuto.frontConfig.tsx:211
 msgid "Restore your health!"
 msgstr "שחזר את הבריאות שלך!"
 
@@ -8274,7 +8340,7 @@ msgstr "סיבוב"
 msgid "Round {0}"
 msgstr "סיבוב {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:90
+#: src/components/_military/damageRanking/BattleLoot.tsx:61
 msgid "Round {roundNumber} loot pool"
 msgstr "בריכת השלל של סיבוב {roundNumber}"
 
@@ -8305,10 +8371,6 @@ msgstr "ETA לסיבוב"
 msgid "Round Hero"
 msgstr "גיבור הסיבוב"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:60
-msgid "Round loot"
-msgstr "שלל הסיבוב"
-
 #: src/components/_military/battle/BattleTimeline.tsx:78
 msgid "Rounds timeline"
 msgstr "ציר זמן סיבוב"
@@ -8331,7 +8393,7 @@ msgstr "כללים"
 msgid "Ruling Party"
 msgstr "מפלגת שלטון"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:191
+#: src/components/_other/tour/tuto.frontConfig.tsx:201
 msgid "Running low on health?"
 msgstr "חסר לבריאות?"
 
@@ -8342,15 +8404,15 @@ msgstr ""
 #: src/components/_military/order/BattleOrderList.tsx:217
 #: src/components/_political/party/PartyDescriptionModal.tsx:72
 #: src/components/_user/auth/WelcomeModal.tsx:182
-#: src/pages/user/[userId]/skills.tsx:247
+#: src/pages/user/[userId]/skills.tsx:252
 msgid "Save"
 msgstr "שמור"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:147
+#: src/components/_other/tour/tuto.frontConfig.tsx:157
 msgid "Save your progress!"
 msgstr "שמור את ההתקדמות שלך!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:239
+#: src/components/_other/tour/tuto.frontConfig.tsx:249
 msgid "Say hello!"
 msgstr "תגיד שלום!"
 
@@ -8388,6 +8450,10 @@ msgstr "חפש שם משתמש למועמדות..."
 
 #: src/utils/translations.tsx:259
 msgid "Seasoned Skillet"
+msgstr ""
+
+#: src/components/_economy/employee/training.frontConfig.tsx:69
+msgid "Second wind"
 msgstr ""
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:65
@@ -8495,7 +8561,7 @@ msgstr "שלח <0/> אל <1/>"
 msgid "Send a message"
 msgstr "שלח הודעה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:259
+#: src/components/_other/tour/tuto.frontConfig.tsx:269
 msgid "Send a message to complete the tutorial. Welcome to the community!"
 msgstr "שלח הודעה להשלמת ההדרכה. ברוכים הבאים לקהילה!"
 
@@ -8605,7 +8671,7 @@ msgid "Settings"
 msgstr "הגדרות"
 
 #. placeholder {0}: employeeConfig.fireSeverance
-#: src/components/_economy/employee/employeeCards.tsx:245
+#: src/components/_economy/employee/employeeCards.tsx:252
 msgid "Severance: <0>{0}</0>"
 msgstr ""
 
@@ -8696,11 +8762,11 @@ msgstr ""
 msgid "Skills"
 msgstr "מיומנויות"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:132
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "Skills make you stronger. Let's boost your abilities!"
 msgstr "מיומנויות מחזקות אותך. בואו לחזק את היכולות שלכם!"
 
-#: src/pages/user/[userId]/skills.tsx:55
+#: src/pages/user/[userId]/skills.tsx:56
 msgid "Skills saved!"
 msgstr "מיומנויות נשמרו!"
 
@@ -8742,7 +8808,7 @@ msgstr "סקינים בחבילה זו"
 msgid "Skins owned"
 msgstr ""
 
-#: src/components/_other/tour/TutorialStep.tsx:202
+#: src/components/_other/tour/TutorialStep.tsx:204
 msgid "Skip Tutorial"
 msgstr "דלג על הדרכה"
 
@@ -9086,6 +9152,10 @@ msgstr "קח בחשבון מרבצים"
 msgid "Tank"
 msgstr "טנק"
 
+#: src/components/_economy/employee/TrainingDraftModal.tsx:298
+msgid "Tap a card to look at it."
+msgstr ""
+
 #: src/components/_user/milestone/MilestoneItem.tsx:163
 #: src/components/_user/milestone/MilestoneItem.tsx:251
 msgid "Tap for the full tier breakdown"
@@ -9110,6 +9180,10 @@ msgstr "סוג מס"
 #: src/pages/country/[countryId]/account.tsx:37
 msgid "Taxes"
 msgstr "מיסים"
+
+#: src/components/_economy/employee/training.frontConfig.tsx:52
+msgid "Teaches a good trait. It replaces the trait already on that stat."
+msgstr ""
 
 #. placeholder {0}: tournamentTeam.number
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:56
@@ -9349,11 +9423,11 @@ msgstr "זה ידרוש מהמשתמש לאמת את מספר הטלפון הנ�
 msgid "Tier {0}"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:155
+#: src/components/_other/tour/tuto.frontConfig.tsx:165
 msgid "Time to fight for your country! Let's join the action."
 msgstr "הגיע הזמן להילחם למען המדינה שלך! בואו נצטרף לפעולה."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:97
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "Time to produce!"
 msgstr "הגיע הזמן לייצר!"
 
@@ -9453,7 +9527,6 @@ msgstr ""
 msgid "Toolbox"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:209
 msgid "Top"
 msgstr "מוביל"
@@ -9620,12 +9693,16 @@ msgstr "מסחר"
 msgid "Trading transaction"
 msgstr "עסקת מסחר"
 
-#: src/components/_economy/employee/employeeCards.tsx:233
-#: src/components/_economy/employee/EmployeeModal.tsx:554
+#: src/components/_economy/employee/employeeCards.tsx:237
+#: src/components/_economy/employee/EmployeeModal.tsx:573
 msgid "Train"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:362
+#: src/components/_economy/employee/TrainingDraftModal.tsx:231
+msgid "Train {name}"
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeModal.tsx:375
 msgid "Train to reveal traits"
 msgstr ""
 
@@ -9637,11 +9714,21 @@ msgstr ""
 msgid "Trainee"
 msgstr "חניך"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:68
-msgid "Training costs <0>Entrepreneurship</0> and makes them better at their job. It can also reveal their hidden traits."
+#: src/components/_economy/employee/TrainingDraftModal.tsx:231
+msgid "Training"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:211
+#: src/components/_economy/employee/TrainingDraftModal.tsx:240
+msgid "Training complete."
+msgstr ""
+
+#: src/components/_other/tour/tuto.frontConfig.tsx:68
+msgid "Training costs <0>Entrepreneurship</0> and deals you three cards to choose from."
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeModal.tsx:224
+#: src/components/_economy/employee/TrainingCard.tsx:161
+#: src/components/_economy/employee/TrainingDraftModal.tsx:151
 msgid "Training potential"
 msgstr ""
 
@@ -9835,7 +9922,7 @@ msgstr "שדרג לתומך"
 msgid "Upgrade your skills <0/> times"
 msgstr ""
 
-#: src/pages/user/[userId]/skills.tsx:169
+#: src/pages/user/[userId]/skills.tsx:177
 msgid "Upgrade your skills!"
 msgstr "שדרג את הכישורים שלך!"
 
@@ -9855,11 +9942,11 @@ msgstr ""
 msgid "Use Pills"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:89
+#: src/components/_other/tour/tuto.frontConfig.tsx:99
 msgid "Use your <0>Entrepreneurship</0> to work in your own company and fill its production bar."
 msgstr "השתמש ב-<0>יזמות</0> שלך כדי לעבוד בחברה משלך ולמלא את סרגל הייצור שלה."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:203
+#: src/components/_other/tour/tuto.frontConfig.tsx:213
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "השתמש ב-<0>רעב</0> שלך כדי לאכול אוכל ולמלא מחדש את ה-<1>חיים</1> שלך. ואז תחזור להילחם!"
 
@@ -10130,9 +10217,9 @@ msgstr "בוחר"
 msgid "VS"
 msgstr "נגד"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:100
-#: src/components/_economy/employee/EmployeeModal.tsx:489
-#: src/components/_economy/employee/EmployeeModal.tsx:515
+#: src/components/_economy/employee/EmployeeModal.tsx:103
+#: src/components/_economy/employee/EmployeeModal.tsx:505
+#: src/components/_economy/employee/EmployeeModal.tsx:531
 #: src/components/_economy/transaction/TransactionList.tsx:77
 #: src/components/_economy/work/WorkChart.tsx:262
 msgid "Wage"
@@ -10258,7 +10345,7 @@ msgstr "בעת הגנה על מרד, קבל בונוס קרב נוסף של <0>{
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "בעת מרד, אתה מעתיק את בונוס הקרב ההגנתי של האויב משדרוגי אזור הבונקר."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:193
+#: src/components/_other/tour/tuto.frontConfig.tsx:203
 msgid "When your <0>Health</0> runs out, open this menu to restore it with food."
 msgstr "כאשר <0>החיים</0> שלך נגמר, פתח את התפריט הזה כדי לשחזר אותו עם אוכל."
 
@@ -10278,6 +10365,10 @@ msgstr "ייצור שלם"
 #: src/components/_political/law/LawFormModal.tsx:180
 msgid "Why do you want to propose this law?"
 msgstr "למה אתה רוצה להציע את החוק הזה?"
+
+#: src/components/_economy/employee/training.frontConfig.tsx:59
+msgid "Wild card"
+msgstr ""
 
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:39
 msgid "Winner"
@@ -10346,7 +10437,7 @@ msgstr "עובדים"
 msgid "Workforce"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:419
+#: src/components/_economy/employee/EmployeeModal.tsx:432
 msgid "Works alone"
 msgstr ""
 
@@ -10480,7 +10571,7 @@ msgstr "תוכל לשנות זאת מאוחר יותר."
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "אתה יכול לפרק פריטים מהמלאי שלך על ידי בחירת פריט."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:182
+#: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "You can only fight where you stand. Move to the battle region, it costs <0>Stamina</0>, then hit to deal <1>Damages</1>."
 msgstr ""
 
@@ -10524,7 +10615,7 @@ msgstr "הענקת מנוי לתוכנית תומכים למישהו <3"
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "אתה תאושר אוטומטית כי אוכלוסיית המדינה נמוכה"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:116
+#: src/components/_other/tour/tuto.frontConfig.tsx:126
 msgid "You have a case!"
 msgstr "יש לך תיבה!"
 
@@ -10743,7 +10834,7 @@ msgstr "היית מועמד כסגן נשיא המדינה שלך"
 msgid "You were so close"
 msgstr "היית כל כך קרוב"
 
-#: src/pages/user/[userId]/skills.tsx:120
+#: src/pages/user/[userId]/skills.tsx:128
 msgid "You will drop to level 25 (losing 65,000 XP), gain a permanent +50% XP bonus (+10% per additional prestige level) and a prestige point, and your skills will be reset for free."
 msgstr "תרד לרמה 25 (איבוד 65,000 נקודות ניסיון), תקבל בונוס קבוע של +50% לנקודות ניסיון (+10% לכל רמת פרסטיז׳ נוספת) ונקודת פרסטיז׳ אחת, והמיומנויות שלך יאופסו בחינם."
 
@@ -10768,7 +10859,7 @@ msgstr "ניצחת בטורניר יחידות צבאיות"
 msgid "You worked 100 times"
 msgstr "עבדת 100 פעמים"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:257
+#: src/components/_other/tour/tuto.frontConfig.tsx:267
 msgid "You're all set!"
 msgstr "אתה מוכן!"
 
@@ -10796,7 +10887,7 @@ msgstr "אתה רשמית יותר טוב מ-80% מהשחקנים"
 msgid "You're peaking"
 msgstr "אתה מגיע לשיא"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:222
+#: src/components/_other/tour/tuto.frontConfig.tsx:232
 msgid "You've completed some missions! Let's collect your XP rewards."
 msgstr "השלמת כמה משימות! בוא נאסוף את תגמולי נקודות הניסיון שלך."
 
@@ -10804,7 +10895,7 @@ msgstr "השלמת כמה משימות! בוא נאסוף את תגמולי נק
 msgid "You've reached max level!"
 msgstr "הגעת לרמה המקסימלית!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:99
+#: src/components/_other/tour/tuto.frontConfig.tsx:109
 msgid "Your <0>Production</0> bar is full! Click to produce items and add them to your inventory."
 msgstr "הסרגל <0>ייצור</0> שלך מלא! לחץ כדי לייצר פריטים ולהוסיף אותם למלאי שלך."
 
@@ -10909,7 +11000,7 @@ msgstr ""
 msgid "Your infos have been saved."
 msgstr "המידע שלך נשמר."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:109
+#: src/components/_other/tour/tuto.frontConfig.tsx:119
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "המלאי שלך מכיל את כל הפריטים שלך. בוא נראה מה יש לך!"
 
