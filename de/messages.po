@@ -78,7 +78,7 @@ msgid "(own development)"
 msgstr "(eigene Entwicklung)"
 
 #. placeholder {0}: poll.totalVoters
-#: src/components/_social/poll/PollCard.tsx:386
+#: src/components/_social/poll/PollCard.tsx:382
 msgid "{0, plural, one {# vote} other {# votes}}"
 msgstr ""
 
@@ -246,7 +246,7 @@ msgstr ""
 msgid "{selectedCount} selected"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:221
+#: src/components/_social/poll/PollCard.tsx:217
 msgid "{timeLeft} left"
 msgstr ""
 
@@ -2114,10 +2114,6 @@ msgstr "Babyboomer"
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:398
-#~ msgid "Back to vote"
-#~ msgstr ""
-
 #: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr ""
@@ -2304,10 +2300,6 @@ msgstr "Beste"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:37
 msgid "Better than nothing, right?"
 msgstr "Besser als nichts, oder?"
-
-#: src/components/_social/poll/PollEditorModal.tsx:261
-#~ msgid "Between 1 and {0}"
-#~ msgstr ""
 
 #: src/components/_social/poll/PollEditorModal.tsx:262
 msgid "Between 1 and {maxMinLevel}"
@@ -2707,10 +2699,6 @@ msgstr "Ändere den Namen der Allianz."
 #: src/components/_political/law/law.frontConfig.tsx:76
 msgid "Change the tax of {0} to"
 msgstr "Die Steuer von {0} ändern auf"
-
-#: src/components/_social/poll/PollCard.tsx:387
-#~ msgid "Change vote"
-#~ msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:494
 msgid "Changing citizenship has a {citizenshipDaysCooldown}-day cooldown: choose your country wisely."
@@ -4187,7 +4175,7 @@ msgstr "Verzauberte Hose"
 msgid "End an existing defensive pact with another country"
 msgstr "Verteidigungsbündnis mit einem anderen Land auflösen"
 
-#: src/components/_social/poll/PollCard.tsx:434
+#: src/components/_social/poll/PollCard.tsx:430
 msgid "End poll"
 msgstr ""
 
@@ -4195,7 +4183,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr "Verteidigungsbündnis mit <0/> auflösen."
 
-#: src/components/_social/poll/PollCard.tsx:429
+#: src/components/_social/poll/PollCard.tsx:425
 msgid "End this poll?"
 msgstr ""
 
@@ -5090,7 +5078,7 @@ msgstr "Hilf dem Spiel zu wachsen"
 msgid "hidden"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:401
+#: src/components/_social/poll/PollCard.tsx:397
 msgid "Hide results"
 msgstr ""
 
@@ -5637,7 +5625,7 @@ msgstr ""
 msgid "Level {level}"
 msgstr "Level {level}"
 
-#: src/components/_social/poll/PollCard.tsx:309
+#: src/components/_social/poll/PollCard.tsx:305
 msgid "Level {minLevel}+"
 msgstr ""
 
@@ -5754,7 +5742,7 @@ msgstr "Mehr Parteien laden"
 msgid "Loading {status}..."
 msgstr "Lade {status}..."
 
-#: src/components/_social/poll/PollCard.tsx:165
+#: src/components/_social/poll/PollCard.tsx:161
 msgid "Loading poll..."
 msgstr ""
 
@@ -5771,7 +5759,7 @@ msgstr "Standort"
 msgid "Locked, reset your skills to reassign"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:227
+#: src/components/_social/poll/PollCard.tsx:223
 msgid "Log in to vote."
 msgstr ""
 
@@ -7126,7 +7114,7 @@ msgstr ""
 msgid "Only {0}% of active players reached tier {1} on this milestone."
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:232
+#: src/components/_social/poll/PollCard.tsx:228
 msgid "Only citizens of <0/> can vote."
 msgstr ""
 
@@ -7138,7 +7126,7 @@ msgstr ""
 msgid "Only players who are already citizens when the poll starts can vote."
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:244
+#: src/components/_social/poll/PollCard.tsx:240
 msgid "Only players who were already citizens of <0/> when the poll started can vote."
 msgstr ""
 
@@ -7590,8 +7578,8 @@ msgstr "Political Take Overs (PTOs) sind erlaubt. Sie zu missbrauchen, um Ressou
 msgid "Politics & Government"
 msgstr "Politik & Regierung"
 
-#: src/components/_social/poll/PollCard.tsx:154
-#: src/components/_social/poll/PollCard.tsx:220
+#: src/components/_social/poll/PollCard.tsx:150
+#: src/components/_social/poll/PollCard.tsx:216
 msgid "Poll ended"
 msgstr ""
 
@@ -8367,7 +8355,7 @@ msgstr ""
 msgid "Remove the current party leader from their position"
 msgstr "Den aktuellen Parteivorsitzenden von seiner Position entfernen"
 
-#: src/components/_social/poll/PollCard.tsx:416
+#: src/components/_social/poll/PollCard.tsx:412
 msgid "Remove vote"
 msgstr ""
 
@@ -8798,11 +8786,11 @@ msgstr "Kartenakzent auswählen"
 msgid "Select motion type"
 msgstr "Antragstyp auswählen"
 
-#: src/components/_social/poll/PollCard.tsx:295
+#: src/components/_social/poll/PollCard.tsx:291
 msgid "Select one answer"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:293
+#: src/components/_social/poll/PollCard.tsx:289
 msgid "Select one or more answers"
 msgstr ""
 
@@ -9017,7 +9005,7 @@ msgstr "Mehr anzeigen ({0} verbleibend)"
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "Zeige nur Artikel mit positiver Bewertung (Bewertung >= -5)"
 
-#: src/components/_social/poll/PollCard.tsx:403
+#: src/components/_social/poll/PollCard.tsx:399
 msgid "Show results"
 msgstr ""
 
@@ -9266,7 +9254,7 @@ msgstr ""
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr "startet bei 1% und erhält 1% pro Tag bis zu <0>{0}</0>"
 
-#: src/components/_social/poll/PollCard.tsx:218
+#: src/components/_social/poll/PollCard.tsx:214
 msgid "Starts when the article is published"
 msgstr ""
 
@@ -9710,7 +9698,7 @@ msgstr "Dieses Gesetz erfordert mindestens {minActiveCitizen} aktive Bürger (Le
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Dieses Mitglied kann für {cooldownDays} Tage nicht erneut nominiert werden."
 
-#: src/components/_social/poll/PollCard.tsx:167
+#: src/components/_social/poll/PollCard.tsx:163
 msgid "This poll is not available."
 msgstr ""
 
@@ -10553,7 +10541,7 @@ msgstr ""
 msgid "Voter"
 msgstr "Wähler"
 
-#: src/components/_social/poll/PollCard.tsx:430
+#: src/components/_social/poll/PollCard.tsx:426
 msgid "Voting closes now for everyone. This can't be undone."
 msgstr ""
 
@@ -11078,7 +11066,7 @@ msgstr ""
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:229
+#: src/components/_social/poll/PollCard.tsx:225
 msgid "You need to be level {minLevel} to vote."
 msgstr ""
 

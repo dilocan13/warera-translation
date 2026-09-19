@@ -76,7 +76,7 @@ msgid "(own development)"
 msgstr ""
 
 #. placeholder {0}: poll.totalVoters
-#: src/components/_social/poll/PollCard.tsx:386
+#: src/components/_social/poll/PollCard.tsx:382
 msgid "{0, plural, one {# vote} other {# votes}}"
 msgstr ""
 
@@ -244,7 +244,7 @@ msgstr ""
 msgid "{selectedCount} selected"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:221
+#: src/components/_social/poll/PollCard.tsx:217
 msgid "{timeLeft} left"
 msgstr ""
 
@@ -2112,10 +2112,6 @@ msgstr "Baby Boomer"
 msgid "Back to home region"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:398
-#~ msgid "Back to vote"
-#~ msgstr ""
-
 #: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr ""
@@ -2302,10 +2298,6 @@ msgstr ""
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:37
 msgid "Better than nothing, right?"
 msgstr "Mai bine decât nimic, nu?"
-
-#: src/components/_social/poll/PollEditorModal.tsx:261
-#~ msgid "Between 1 and {0}"
-#~ msgstr ""
 
 #: src/components/_social/poll/PollEditorModal.tsx:262
 msgid "Between 1 and {maxMinLevel}"
@@ -2705,10 +2697,6 @@ msgstr ""
 #: src/components/_political/law/law.frontConfig.tsx:76
 msgid "Change the tax of {0} to"
 msgstr "Schimbă taxa {0} la"
-
-#: src/components/_social/poll/PollCard.tsx:387
-#~ msgid "Change vote"
-#~ msgstr ""
 
 #: src/components/_layout/loadingTips.tsx:494
 msgid "Changing citizenship has a {citizenshipDaysCooldown}-day cooldown: choose your country wisely."
@@ -4185,7 +4173,7 @@ msgstr "Enchanted Trousers"
 msgid "End an existing defensive pact with another country"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:434
+#: src/components/_social/poll/PollCard.tsx:430
 msgid "End poll"
 msgstr ""
 
@@ -4193,7 +4181,7 @@ msgstr ""
 msgid "End the defensive pact with <0/>."
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:429
+#: src/components/_social/poll/PollCard.tsx:425
 msgid "End this poll?"
 msgstr ""
 
@@ -5088,7 +5076,7 @@ msgstr "Ajută jocul să crească"
 msgid "hidden"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:401
+#: src/components/_social/poll/PollCard.tsx:397
 msgid "Hide results"
 msgstr ""
 
@@ -5635,7 +5623,7 @@ msgstr ""
 msgid "Level {level}"
 msgstr "Nivel {level}"
 
-#: src/components/_social/poll/PollCard.tsx:309
+#: src/components/_social/poll/PollCard.tsx:305
 msgid "Level {minLevel}+"
 msgstr ""
 
@@ -5752,7 +5740,7 @@ msgstr "Încarcă mai multe partide"
 msgid "Loading {status}..."
 msgstr "Se încarcă {status}..."
 
-#: src/components/_social/poll/PollCard.tsx:165
+#: src/components/_social/poll/PollCard.tsx:161
 msgid "Loading poll..."
 msgstr ""
 
@@ -5769,7 +5757,7 @@ msgstr "Locație"
 msgid "Locked, reset your skills to reassign"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:227
+#: src/components/_social/poll/PollCard.tsx:223
 msgid "Log in to vote."
 msgstr ""
 
@@ -7124,7 +7112,7 @@ msgstr ""
 msgid "Only {0}% of active players reached tier {1} on this milestone."
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:232
+#: src/components/_social/poll/PollCard.tsx:228
 msgid "Only citizens of <0/> can vote."
 msgstr ""
 
@@ -7136,7 +7124,7 @@ msgstr ""
 msgid "Only players who are already citizens when the poll starts can vote."
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:244
+#: src/components/_social/poll/PollCard.tsx:240
 msgid "Only players who were already citizens of <0/> when the poll started can vote."
 msgstr ""
 
@@ -7588,8 +7576,8 @@ msgstr ""
 msgid "Politics & Government"
 msgstr "Politică & Guvernare"
 
-#: src/components/_social/poll/PollCard.tsx:154
-#: src/components/_social/poll/PollCard.tsx:220
+#: src/components/_social/poll/PollCard.tsx:150
+#: src/components/_social/poll/PollCard.tsx:216
 msgid "Poll ended"
 msgstr ""
 
@@ -8365,7 +8353,7 @@ msgstr ""
 msgid "Remove the current party leader from their position"
 msgstr "Demite liderul curent al partidului din poziție"
 
-#: src/components/_social/poll/PollCard.tsx:416
+#: src/components/_social/poll/PollCard.tsx:412
 msgid "Remove vote"
 msgstr ""
 
@@ -8796,11 +8784,11 @@ msgstr "Selectează tentă"
 msgid "Select motion type"
 msgstr "Selectează tip moțiune"
 
-#: src/components/_social/poll/PollCard.tsx:295
+#: src/components/_social/poll/PollCard.tsx:291
 msgid "Select one answer"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:293
+#: src/components/_social/poll/PollCard.tsx:289
 msgid "Select one or more answers"
 msgstr ""
 
@@ -9015,7 +9003,7 @@ msgstr "Mai multe ({0} rămase)"
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "Afișează doar articole cu scor pozitiv (>= -5)"
 
-#: src/components/_social/poll/PollCard.tsx:403
+#: src/components/_social/poll/PollCard.tsx:399
 msgid "Show results"
 msgstr ""
 
@@ -9264,7 +9252,7 @@ msgstr ""
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:218
+#: src/components/_social/poll/PollCard.tsx:214
 msgid "Starts when the article is published"
 msgstr ""
 
@@ -9708,7 +9696,7 @@ msgstr "Această lege necesită un minumim de {minActiveCitizen} cetățeni acti
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Acest membru nu poate fi nominalizat pentru {cooldownDays} zile."
 
-#: src/components/_social/poll/PollCard.tsx:167
+#: src/components/_social/poll/PollCard.tsx:163
 msgid "This poll is not available."
 msgstr ""
 
@@ -10551,7 +10539,7 @@ msgstr ""
 msgid "Voter"
 msgstr "Votant"
 
-#: src/components/_social/poll/PollCard.tsx:430
+#: src/components/_social/poll/PollCard.tsx:426
 msgid "Voting closes now for everyone. This can't be undone."
 msgstr ""
 
@@ -11076,7 +11064,7 @@ msgstr ""
 msgid "You need to be level {minLevel} to sell equipment"
 msgstr ""
 
-#: src/components/_social/poll/PollCard.tsx:229
+#: src/components/_social/poll/PollCard.tsx:225
 msgid "You need to be level {minLevel} to vote."
 msgstr ""
 
