@@ -55,12 +55,12 @@ msgid " Gift a sub"
 msgstr " Поклони претплату"
 
 #. placeholder {0}: gameConfig?.battle.regionNotLinkedToCapitalMalusPercent
-#: src/pages/region/[regionId]/index.tsx:182
+#: src/pages/region/[regionId]/index.tsx:186
 msgid "- Defending this region will have a malus of <0>{0}</0>."
 msgstr "- Одбрана овог региона ће имати малус од <0>{0}</0>."
 
 #. placeholder {0}: -region.development * 0.5
-#: src/pages/region/[regionId]/index.tsx:191
+#: src/pages/region/[regionId]/index.tsx:195
 msgid "- Development income is reduced by 50%:<0>{0}</0>."
 msgstr "- Приход од развоја је смањен за 50%:<0>{0}</0>."
 
@@ -76,6 +76,11 @@ msgstr "(просечан развој чланица)"
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:236
 msgid "(own development)"
 msgstr "(сопствени развој)"
+
+#. placeholder {0}: poll.totalVoters
+#: src/components/_social/poll/PollCard.tsx:386
+msgid "{0, plural, one {# vote} other {# votes}}"
+msgstr ""
 
 #. placeholder {0}: Math.max(items.length, 1)
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:327
@@ -103,7 +108,7 @@ msgid "{0} bought your item offer"
 msgstr "{0} је купио твоју понуду предмета"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
-#: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:144
+#: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:145
 msgid "{0} days cooldown"
 msgstr "Период чекања: {0} дана"
 
@@ -152,12 +157,12 @@ msgid "{0}% base chance, plus your Luck skill"
 msgstr ""
 
 #. placeholder {0}: companyCountry.taxes.income
-#: src/components/_economy/company/CompanyTags.tsx:50
+#: src/components/_economy/company/CompanyTags.tsx:51
 msgid "{0}% income tax will be deducted from earnings when working in this company."
 msgstr "{0}% пореза на приход ће бити одузето од зараде при раду у овој компанији."
 
 #. placeholder {0}: region.taxPercent
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:155
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:107
 msgid "{0}% income tax will be deducted from your employees wages."
 msgstr ""
 
@@ -166,8 +171,14 @@ msgstr ""
 msgid "{0}% of invested"
 msgstr "{0}% од уложеног"
 
+#. placeholder {0}: days[code] ?? 0
+#. placeholder {1}: specializationBonusPercent(employee, code)
+#: src/components/_economy/employee/EmployeeSpecializations.tsx:68
+msgid "{0}d worked: <0>{1}</0>"
+msgstr ""
+
 #. placeholder {0}: employee.age
-#: src/components/_economy/employee/EmployeeModal.tsx:291
+#: src/components/_economy/employee/EmployeeModal.tsx:308
 msgid "{0}y old"
 msgstr ""
 
@@ -175,19 +186,29 @@ msgstr ""
 msgid "{completedCount}/{totalCount} completed"
 msgstr "{completedCount}/{totalCount} завршено"
 
-#: src/components/_user/user/SkillUpgrade.tsx:267
+#: src/components/_user/user/SkillUpgrade.tsx:273
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
 msgstr "{draftPrestigeCount} поен(а) престижа на овој вештини ({savedPrestigeCount} сачувано, закључано до ресетовања)"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:208
+#: src/components/_economy/inventory/DismantleModal.tsx:216
 msgid "{equippedCount, plural, one {# of them is equipped} other {# of them are equipped}}"
+msgstr ""
+
+#. placeholder {0}: ts.grain
+#. placeholder {1}: ts.bread
+#. placeholder {2}: ts.iron
+#. placeholder {3}: ts.steel
+#. placeholder {4}: ts.limestone
+#. placeholder {5}: ts.concrete
+#: src/components/_layout/loadingTips.tsx:343
+msgid "{grainPerBread} <0>{0}</0> make one <1>{1}</1>, {ironPerSteel} <2>{2}</2> one <3>{3}</3> and {limestonePerConcrete} <4>{4}</4> one <5>{5}</5>."
 msgstr ""
 
 #: src/components/_user/user/Level.tsx:126
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:199
+#: src/components/_economy/inventory/DismantleModal.tsx:207
 msgid "{rareCount, plural, one {# of them is rare or better} other {# of them are rare or better}}"
 msgstr ""
 
@@ -208,7 +229,7 @@ msgstr "{registeredCount} регистрованих ВЈ"
 msgid "{roundsToWin} Rounds to win "
 msgstr "{roundsToWin} рунди до победе "
 
-#: src/components/_user/user/SkillUpgrade.tsx:376
+#: src/components/_user/user/SkillUpgrade.tsx:382
 msgid "{savedPrestigeCount} prestige point(s) active on this skill"
 msgstr "{savedPrestigeCount} активних поена престижа на овој вештини"
 
@@ -217,12 +238,16 @@ msgstr "{savedPrestigeCount} активних поена престижа на �
 msgid "{score}/{0} Rounds"
 msgstr "{score}/{0} Рунди"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:190
+#: src/components/_economy/inventory/DismantleModal.tsx:198
 msgid "{selectedCount, plural, one {Dismantle # item for} other {Dismantle # items for}}"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:312
+#: src/components/_economy/inventory/DismantleModal.tsx:320
 msgid "{selectedCount} selected"
+msgstr ""
+
+#: src/components/_social/poll/PollCard.tsx:221
+msgid "{timeLeft} left"
 msgstr ""
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:79
@@ -246,8 +271,10 @@ msgid "/day"
 msgstr "/дан"
 
 #. placeholder {0}: status?.bonusPercent ?? held.skills?.production ?? 0
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:104
-msgid "+{0}% production"
+#. placeholder {1}: held.state
+#. placeholder {2}: held.maxState
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:108
+msgid "+{0}% production, {1}/{2} durability"
 msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
@@ -723,13 +750,8 @@ msgstr "<0>{0}</0> од <1>Отпор</1>"
 msgid "<0>{0}</0> from a defensive pact with <1/>"
 msgstr "<0>{0}</0> од одбрамбеног пакта са <1/>"
 
-#. placeholder {0}: region.ethicDepositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:138
-msgid "<0>{0}</0> from agrarian ethics deposit bonus."
-msgstr "<0>{0}</0> од бонуса на депозит за аграрну етику."
-
 #. placeholder {0}: region.depositBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:128
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:90
 msgid "<0>{0}</0> from deposit resources."
 msgstr "<0>{0}</0> од налазишта ресурса."
 
@@ -748,20 +770,10 @@ msgstr "<0>{0}</0> од етике Фанатичног пацифизма (бу
 msgid "<0>{0}</0> from fighting for your country"
 msgstr "<0>{0}</0> од борбе за своју земљу"
 
-#. placeholder {0}: region.ethicSpecializationBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:118
-msgid "<0>{0}</0> from industrialist ethics specialization bonus."
-msgstr "<0>{0}</0> од бонуса за специјализацију етике индустријалаца."
-
 #. placeholder {0}: sideBonus.countryOrderBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:136
 msgid "<0>{0}</0> from orders of <1/>"
 msgstr "<0>{0}</0> од наређења <1/>"
-
-#. placeholder {0}: region.strategicBonus
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:108
-msgid "<0>{0}</0> from strategic resources production bonus."
-msgstr "<0>{0}</0> од бонуса за производњу стратешких ресурса."
 
 #. placeholder {0}: gameConfig.battle.pointsToWinRound
 #: src/components/_common/RoundPoints.tsx:17
@@ -788,26 +800,29 @@ msgstr "<0>{0}</0>/дан"
 msgid "<0>{activeCompaniesCount}/{0}</0> Companies"
 msgstr "<0>{activeCompaniesCount}/{0}</0> компанија"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:78
+#: src/components/_user/user/EcoSkillEffects.tsx:169
+msgid "<0>{bonus}</0> employee production"
+msgstr ""
+
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:47
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> од ресурса налазишта у <1/>."
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:89
-msgid "<0>{ethicDepositBonus}</0> from <1/> agrarian ethics deposit bonus."
-msgstr "<0>{ethicDepositBonus}</0> од <1/> бонуса на депозит за аграрну етику."
+#: src/components/_economy/employee/EmployeeSpecializations.tsx:41
+msgid "<0>{percentPerDay}</0> per day worked in a good, up to <1>{maxPercent}</1>. Each good keeps its own days, so a moved employee starts over in the new good and keeps the old bonus for later."
+msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:67
-msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
-msgstr "<0>{ethicSpecializationBonus}</0> од <1/> бонуса за специјализацију етике индустријалаца."
+#: src/components/_user/user/EcoSkillEffects.tsx:181
+msgid "<0>{traits}</0> traits revealed at hire"
+msgstr ""
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:56
-msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
-msgstr "<0>{strategicBonus}</0> од бонуса за производњу стратешких ресурса у <1/>."
-
-#: src/pages/country/[countryId]/index.tsx:352
-#: src/pages/country/[countryId]/index.tsx:401
+#: src/pages/country/[countryId]/index.tsx:348
 msgid "<0>#{key}</0> resource of each type = <1>{value}</1>"
 msgstr "<0>#{key}</0> ресурса сваке врсте = <1>{value}</1>"
+
+#: src/components/_layout/loadingTips.tsx:227
+msgid "<0>Armor</0> and <1>Dodge</1> have diminishing returns: each point is worth a bit less than the one before."
+msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:251
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
@@ -816,6 +831,10 @@ msgstr "<0>Просечан развој</0> је просек <1>Матично
 #: src/components/_political/country/CountryHeader.tsx:215
 msgid "<0>Core development</0> is calculated depending on the country's <1>Population</1> and average <2>Level</2>. then distributed equally among the country's <3>Core regions</3>."
 msgstr "<0>Матични развој</0> се рачуна на основу <1>Становништва</1> земље и просечног <2>Нивоа</2>, а затим се равномерно распоређује међу <3>Матичним регионима</3> земље."
+
+#: src/components/_layout/loadingTips.tsx:214
+msgid "<0>Critical chance</0> caps at 100%: every point above turns into <1>{criticalOverflow}</1> critical damages."
+msgstr ""
 
 #: src/components/_political/country/CountryHeader.tsx:279
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
@@ -839,6 +858,14 @@ msgstr ""
 msgid "<0>Filled with <1>Production Points</1> when you work, by your employees and by the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
 msgstr ""
 
+#: src/components/_layout/loadingTips.tsx:201
+msgid "<0>Precision</0> caps at 100%: every point above turns into <1>{precisionOverflow}</1>."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:315
+msgid "<0>Production</0> stays in a company until you produce: it then turns into items, using the raw materials in your inventory."
+msgstr ""
+
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
 #. placeholder {2}: gameConfig?.unrest.contributionValue
@@ -857,9 +884,17 @@ msgstr "<0>Твој налог захтева додатну верификац�
 msgid "= consumes more power"
 msgstr "= троши више енергије"
 
+#: src/components/_social/poll/PollEditorModal.tsx:96
+msgid "1 hour"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:86
 msgid "1 legendary down, 5 more to go for a full stuff, keep gambling!"
 msgstr "1 легендарни је пао, још 5 за пуну ратну опрему, настави да се коцкаш!"
+
+#: src/components/_social/poll/PollEditorModal.tsx:101
+msgid "1 week"
+msgstr ""
 
 #: src/components/_common/GameRules.tsx:226
 msgid "1. English is the only allowed language in World/Global chat"
@@ -985,6 +1020,10 @@ msgstr "1★ Заставник"
 msgid "100% historically accurate"
 msgstr "100% историјски тачно"
 
+#: src/components/_social/poll/PollEditorModal.tsx:102
+msgid "2 weeks"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:90
 msgid "2. IP and Device Sharing"
 msgstr "2. Дељење IP адресе и уређаја"
@@ -1104,6 +1143,14 @@ msgstr "2★ Вицеадмирал"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:78
 msgid "2★ Warrant Officer"
 msgstr "2★ Заставник"
+
+#: src/components/_social/poll/PollEditorModal.tsx:99
+msgid "24 hours"
+msgstr ""
+
+#: src/components/_social/poll/PollEditorModal.tsx:100
+msgid "3 days"
+msgstr ""
 
 #: src/components/_common/GameRules.tsx:114
 msgid "3. Bots and Automation"
@@ -1225,6 +1272,10 @@ msgstr "3★ Вицеадмирал"
 msgid "3★ Warrant Officer"
 msgstr "3★ Заставник"
 
+#: src/components/_social/poll/PollEditorModal.tsx:97
+msgid "4 hours"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:134
 msgid "4. Bug Exploits"
 msgstr "4. Злоупотреба грешака"
@@ -1265,6 +1316,15 @@ msgstr "6. Преузимање и злоупотреба ресурса држ�
 msgid "7. Community Behavior"
 msgstr "7. Понашање заједнице"
 
+#: src/components/_social/poll/PollEditorModal.tsx:98
+msgid "8 hours"
+msgstr ""
+
+#. placeholder {0}: ts.cocain
+#: src/components/_layout/loadingTips.tsx:154
+msgid "A <0>{0}</0> boosts your <1>Attack</1> by {pillAttack}% for {pillBuffHours}h, then lowers it just as much for {pillDebuffHours}h. Save it for the battle that matters."
+msgstr ""
+
 #: src/components/_user/premium/PremiumFeatureList.tsx:80
 msgid "A <0>supporter badge</0>"
 msgstr "Значка <0>подршке</0>"
@@ -1277,7 +1337,15 @@ msgstr "Лепо обојено корисничко име које ће те �
 msgid "A civil war has started by <0/> in <1/>"
 msgstr "<0/> је започео грађански рат у <1/>"
 
-#: src/pages/region/[regionId]/index.tsx:57
+#: src/components/_layout/loadingTips.tsx:325
+msgid "A company with a full storage can't be worked and makes its employees unhappy. Produce often, or upgrade its Storage."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:423
+msgid "A company's Break Room level is the number of employees it can hold."
+msgstr ""
+
+#: src/pages/region/[regionId]/index.tsx:61
 msgid "A deposit has been found in this region, it can be exploited by companies to produce raws."
 msgstr "У овом региону је откривено налазиште, које компаније могу да експлоатишу ради производње сировина."
 
@@ -1306,23 +1374,31 @@ msgstr "Такса од <0>{0}</0> је била потребна за прих�
 msgid "A good wage makes your employee happier, and a happy employee produces more. Click to raise their wage."
 msgstr ""
 
-#: src/components/_economy/inventory/case/RarityChances.tsx:60
+#: src/components/_layout/loadingTips.tsx:192
+msgid "A Military Unit's Headquarters gives its members up to +{maxHqBonus}% damage."
+msgstr ""
+
+#: src/components/_economy/inventory/case/RarityChances.tsx:67
 msgid "A random employee tool"
 msgstr ""
 
-#: src/components/_economy/inventory/case/RarityChances.tsx:57
-msgid "A random resource stack"
+#: src/components/_economy/inventory/case/RarityChances.tsx:60
+msgid "A random resource stack, or a case"
 msgstr ""
 
 #: src/components/_economy/employee/training.frontConfig.tsx:61
 msgid "A random trait, good or bad, only revealed once picked. Also raises a random stat."
 msgstr ""
 
+#: src/components/_layout/loadingTips.tsx:366
+msgid "A region's <0>Development</0> turns into daily <1>Money</1> for the country that owns it."
+msgstr ""
+
 #: src/components/_political/event/event.frontConfig.tsx:143
 msgid "A revolution has started in <0/>"
 msgstr "Револуција је почела у <0/>"
 
-#: src/pages/region/[regionId]/index.tsx:94
+#: src/pages/region/[regionId]/index.tsx:98
 msgid "A strategic resource has been found in this region, it gives its owner a production and development bonus."
 msgstr "Стратешки ресурс је пронађен у овом региону, власнику даје бонус на производњу и развој."
 
@@ -1334,7 +1410,7 @@ msgstr "Верификациони код је послат на {phoneNumber}"
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "а. Увреде, погрдни изрази и циљано узнемиравање"
 
-#: src/utils/translations.tsx:289
+#: src/utils/translations.tsx:290
 msgid "Absolute Caliper"
 msgstr ""
 
@@ -1348,7 +1424,7 @@ msgstr "Уздржан"
 msgid "Abusing or spamming the report system may lead to sanctions."
 msgstr "Злоупотреба или спамовање система за пријаве може довести до санкција."
 
-#: src/pages/country/[countryId]/index.tsx:128
+#: src/pages/country/[countryId]/index.tsx:125
 msgid "Abusing this power to advantage another country will lead to a <0>ban.</0>"
 msgstr "Злоупотреба ове моћи у корист друге земље довешће до <0>бановања.</0>"
 
@@ -1397,7 +1473,7 @@ msgstr "Погледај рат"
 #: src/components/_political/party/PartyHeader.tsx:117
 #: src/components/_user/user/UserHeader.tsx:186
 #: src/pages/country/[countryId]/account.tsx:43
-#: src/pages/country/[countryId]/index.tsx:253
+#: src/pages/country/[countryId]/index.tsx:250
 #: src/pages/user/[userId]/account.tsx:32
 #: src/pages/user/[userId]/index.tsx:166
 msgid "Account"
@@ -1417,15 +1493,15 @@ msgstr "Акције"
 #: src/components/_military/tournament/TournamentTeamHeader.tsx:47
 #: src/components/_user/user/Level.tsx:193
 #: src/pages/events/index.tsx:148
-#: src/utils/translations.tsx:334
+#: src/utils/translations.tsx:335
 msgid "Active"
 msgstr "Активно"
 
-#: src/pages/region/[regionId]/index.tsx:206
+#: src/pages/region/[regionId]/index.tsx:210
 msgid "Active battle"
 msgstr "Активна битка"
 
-#: src/pages/country/[countryId]/index.tsx:203
+#: src/pages/country/[countryId]/index.tsx:200
 msgid "Active battles"
 msgstr "Активне битке"
 
@@ -1438,7 +1514,7 @@ msgstr "Активни грађани"
 msgid "Active citizens (citizenship of this country, active and level {0}+)"
 msgstr "Активни грађани (држављанство ове земље, активни и ниво {0}+)"
 
-#: src/pages/region/[regionId]/index.tsx:212
+#: src/pages/region/[regionId]/index.tsx:216
 msgid "Active construction"
 msgstr "Активна изградња"
 
@@ -1454,12 +1530,20 @@ msgstr "Тренутни ратови"
 msgid "Activity"
 msgstr "Активност"
 
+#: src/components/_social/poll/PollEditorModal.tsx:223
+msgid "Add answer"
+msgstr ""
+
+#: src/components/_social/poll/PollEditorModal.tsx:276
+msgid "Add poll"
+msgstr ""
+
 #: src/components/_user/user/FamilyGroup.tsx:59
 msgid "Add User"
 msgstr "Додај корисника"
 
 #: src/components/_political/law/Law.tsx:110
-#: src/components/_political/law/LawFormModal.tsx:327
+#: src/components/_political/law/LawFormModal.tsx:314
 #: src/components/_political/partyMotion/PartyMotion.tsx:116
 #: src/components/_political/partyMotion/PartyMotionFormModal.tsx:170
 msgid "Additional cost"
@@ -1478,33 +1562,33 @@ msgstr "Админ обавештење"
 msgid "Admiral"
 msgstr "Адмирал"
 
-#: src/utils/translations.tsx:214
+#: src/utils/translations.tsx:215
 msgid "Advanced Boots"
 msgstr "Напредне чизме"
 
-#: src/utils/translations.tsx:205
+#: src/utils/translations.tsx:206
 msgid "Advanced Chest"
 msgstr "Напредни панцир"
 
-#: src/utils/translations.tsx:223
+#: src/utils/translations.tsx:224
 msgid "Advanced Gloves"
 msgstr "Напредне рукавице"
 
-#: src/utils/translations.tsx:196
+#: src/utils/translations.tsx:197
 msgid "Advanced Helmet"
 msgstr "Напредна кацига"
 
-#: src/utils/translations.tsx:232
+#: src/utils/translations.tsx:233
 msgid "Advanced Pants"
 msgstr "Напредне панталоне"
 
-#: src/components/_political/party/party.frontConfig.tsx:355
-#: src/components/_political/party/party.frontConfig.tsx:372
+#: src/components/_political/party/party.frontConfig.tsx:341
+#: src/components/_political/party/party.frontConfig.tsx:346
 msgid "Agrarian"
 msgstr "Аграризам"
 
-#: src/components/_economy/inventory/ItemGridFilters.tsx:119
-#: src/components/_economy/inventory/ItemGridFilters.tsx:147
+#: src/components/_economy/inventory/ItemGridFilters.tsx:134
+#: src/components/_economy/inventory/ItemGridFilters.tsx:172
 #: src/components/_military/battle/ActiveBattlesList.tsx:134
 #: src/components/_military/battle/EndedBattlesList.tsx:78
 #: src/components/_military/mercenaryContract/MercenaryContractList.tsx:79
@@ -1515,23 +1599,9 @@ msgstr "Све"
 msgid "All categories"
 msgstr "Све категорије"
 
-#. placeholder {0}: formatPercent(ethicsBonuses.industrialism['-1'].depositBonus)
-#. placeholder {0}: formatPercent(ethicsBonuses.industrialism['-2'].depositBonus)
-#: src/components/_political/party/party.frontConfig.tsx:338
-#: src/components/_political/party/party.frontConfig.tsx:359
-msgid "All coca, grain, livestock and fish deposits in your borders give <0>+{0}</0> more production bonus."
-msgstr "Сва налазишта коке, жита, стоке и рибе у вашим границама дају <0>+{0}</0> додатни бонус на производњу."
-
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:264
 msgid "All companies"
 msgstr ""
-
-#. placeholder {0}: formatPercent(ethicsBonuses.industrialism[1].specializationBonus)
-#. placeholder {0}: formatPercent(ethicsBonuses.industrialism[2].specializationBonus)
-#: src/components/_political/party/party.frontConfig.tsx:381
-#: src/components/_political/party/party.frontConfig.tsx:395
-msgid "All companies in your borders get <0>+{0}</0> bonus towards ammo or construction specialization good."
-msgstr "Све компаније у вашим границама добијају бонус <0>+{0}</0> за муницију или специјализована грађевинска добра."
 
 #: src/components/_political/event/EventList.tsx:197
 msgid "All event types"
@@ -1566,7 +1636,7 @@ msgid "All transactions must stay fair and balanced."
 msgstr "Све трансакције морају остати правичне и уравнотежене."
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism['-2'].treatyMaintenanceMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:161
+#: src/components/_political/party/party.frontConfig.tsx:160
 msgid "All treaty maintenance costs are increased by <0>{0}</0>."
 msgstr "Сви трошкови одржавања уговора су повећани за <0>{0}</0>."
 
@@ -1574,11 +1644,11 @@ msgstr "Сви трошкови одржавања уговора су пове�
 msgid "All types"
 msgstr "Сви типови"
 
-#: src/components/_layout/map.frontConfig.tsx:33
+#: src/components/_layout/map.frontConfig.tsx:36
 #: src/components/_political/alliance/AllianceHeader.tsx:68
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:203
 #: src/components/_political/country/CountryHeader.tsx:183
-#: src/components/_political/country/CountryTooltip.tsx:109
+#: src/components/_political/country/CountryTooltip.tsx:103
 #: src/components/_political/map/MapMenu.tsx:430
 msgid "Alliance"
 msgstr "Савез"
@@ -1608,8 +1678,8 @@ msgstr "Предложен закон савеза"
 msgid "Alliance laws"
 msgstr "Закони савеза"
 
-#: src/components/_political/law/LawFormModal.tsx:202
-#: src/components/_political/law/LawFormModal.tsx:203
+#: src/components/_political/law/LawFormModal.tsx:198
+#: src/components/_political/law/LawFormModal.tsx:199
 msgid "Alliance name"
 msgstr "Назив савеза"
 
@@ -1617,6 +1687,10 @@ msgstr "Назив савеза"
 #: src/components/_military/battle/ActiveBattlesList.tsx:155
 msgid "Allies"
 msgstr "Савезници"
+
+#: src/components/_social/poll/PollEditorModal.tsx:238
+msgid "Allow multiple answers"
+msgstr ""
 
 #. placeholder {0}: sharedRange.min
 #. placeholder {1}: sharedRange.max
@@ -1628,7 +1702,7 @@ msgstr ""
 msgid "Almost feels like cheating"
 msgstr "Скоро као варање"
 
-#: src/components/_layout/LoadingScreenContent.tsx:58
+#: src/components/_layout/LoadingScreenContent.tsx:59
 msgid "Almost ready..."
 msgstr "Учитавам..."
 
@@ -1636,7 +1710,7 @@ msgstr "Учитавам..."
 msgid "Alpha Tester"
 msgstr "Алфа тестер"
 
-#: src/utils/translations.tsx:262
+#: src/utils/translations.tsx:263
 msgid "Ambrosia Pan"
 msgstr ""
 
@@ -1645,20 +1719,20 @@ msgstr ""
 msgid "Ammo"
 msgstr "Муниција"
 
-#: src/components/_user/user/SkillValue.tsx:173
+#: src/components/_user/user/SkillValue.tsx:176
 msgid "Ammo:"
 msgstr "Муниција:"
 
-#: src/components/_political/law/LawFormModal.tsx:276
-#: src/components/_political/law/LawFormModal.tsx:277
+#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Amount"
 msgstr "Износ"
 
-#: src/components/_economy/company/CompanyTags.tsx:110
+#: src/components/_economy/company/CompanyTags.tsx:111
 msgid "Amount of <0>Production Points</0> that can be stored inside the company before production stops."
 msgstr "Количина <0>поена производње</0> која може бити ускладиштена у компанији пре него што се производња заустави."
 
-#: src/components/_user/user/skills.frontConfig.tsx:125
+#: src/components/_user/user/skills.frontConfig.tsx:138
 msgid "Amount of companies you can own"
 msgstr "Број компанија који можеш поседовати"
 
@@ -1683,7 +1757,7 @@ msgstr "Савез је позвао твоју земљу да се придр�
 msgid "An alliance's battle <0>damage</0> bonus depends on its share of the world's total <1>Development</1>."
 msgstr "Бонус савеза на <0>штету</0> у бици зависи од његовог удела у укупном светском <1>Развоју</1>."
 
-#: src/components/_user/auth/LoginFormModal.tsx:94
+#: src/components/_user/auth/LoginFormModal.tsx:97
 msgid "An email with the verification code has been sent to {email}"
 msgstr "Имејл са верификационим кодом је послат на {email}"
 
@@ -1703,11 +1777,19 @@ msgstr "Обавештења"
 msgid "Another country proposed a defensive pact to yours"
 msgstr "Друга земља је предложила одбрамбени пакт твојој"
 
+#: src/components/_social/poll/PollEditorModal.tsx:190
+msgid "Answer {answerNumber}"
+msgstr ""
+
+#: src/components/_social/poll/PollEditorModal.tsx:182
+msgid "Answers"
+msgstr ""
+
 #: src/components/_other/shop/skinPack.frontConfig.tsx:40
 msgid "Anti Terrorist Pack"
 msgstr "Противтерористички пакет"
 
-#: src/utils/translations.tsx:269
+#: src/utils/translations.tsx:270
 msgid "Anvilbreaker"
 msgstr ""
 
@@ -1761,7 +1843,7 @@ msgstr "Пријаве"
 msgid "Apply"
 msgstr "Пријави се"
 
-#: src/utils/translations.tsx:337
+#: src/utils/translations.tsx:338
 msgid "Approved"
 msgstr "Прихваћено"
 
@@ -1826,12 +1908,12 @@ msgstr "Да ли сигурно желите да прескочите води
 msgid "Are you sure you want to transfer ownership to this member? This action cannot be undone."
 msgstr "Да ли сте сигурни да желите да пренесете власништво овом члану? Ова радња се не може поништити."
 
-#: src/components/_user/user/skills.frontConfig.tsx:74
-#: src/components/_user/user/skills.frontConfig.tsx:75
+#: src/components/_user/user/skills.frontConfig.tsx:87
+#: src/components/_user/user/skills.frontConfig.tsx:88
 msgid "Armor"
 msgstr "Панцир"
 
-#: src/components/_political/law/LawFormModal.tsx:243
+#: src/components/_political/law/LawFormModal.tsx:239
 msgid "Article ID"
 msgstr "ID чланка"
 
@@ -1925,7 +2007,7 @@ msgstr "AT тактички прслук"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "По истеку тајмера, <0>{actualTickPoints}</0> ће бити додељено страни са највише нанесене штете."
 
-#: src/components/_political/country/CountryTooltip.tsx:141
+#: src/components/_political/country/CountryTooltip.tsx:135
 msgid "At war with"
 msgstr "У рату са"
 
@@ -1935,8 +2017,8 @@ msgstr ""
 
 #: src/components/_military/hit/HitButton.tsx:531
 #: src/components/_political/map/MapMenu.tsx:438
-#: src/components/_user/user/skills.frontConfig.tsx:47
-#: src/components/_user/user/skills.frontConfig.tsx:48
+#: src/components/_user/user/skills.frontConfig.tsx:60
+#: src/components/_user/user/skills.frontConfig.tsx:61
 msgid "Attack"
 msgstr "Напад"
 
@@ -1984,7 +2066,7 @@ msgstr "Аутоматско одобравање"
 msgid "Auto-equip when item breaks"
 msgstr "Аутоматски опреми када се предмет поломи"
 
-#: src/components/_economy/company/CompanyTags.tsx:89
+#: src/components/_economy/company/CompanyTags.tsx:90
 msgid "Auto-generates <0>Production Points</0> over time, without the need to work."
 msgstr "Аутоматски генерише <0>поене производње</0> током времена, без потребе за радом."
 
@@ -1992,7 +2074,7 @@ msgstr "Аутоматски генерише <0>поене производње
 msgid "Autobuy when empty"
 msgstr "Аутоматски купи кад нестане"
 
-#: src/components/_economy/company/CompanyTags.tsx:87
+#: src/components/_economy/company/CompanyTags.tsx:88
 msgid "Automated engine"
 msgstr "Аутоматизовани механизам"
 
@@ -2032,6 +2114,10 @@ msgstr "Бејби бумер"
 msgid "Back to home region"
 msgstr ""
 
+#: src/components/_social/poll/PollCard.tsx:398
+#~ msgid "Back to vote"
+#~ msgstr ""
+
 #: src/components/_layout/LayoutOptions.tsx:175
 msgid "Background pattern"
 msgstr "Шаблон позадине"
@@ -2044,16 +2130,16 @@ msgstr "Значка освојена"
 msgid "Badge Won"
 msgstr "Значка освојена"
 
-#: src/pages/country/[countryId]/index.tsx:260
+#: src/pages/country/[countryId]/index.tsx:257
 #: src/pages/user/[userId]/index.tsx:143
 msgid "Badges"
 msgstr "Значке"
 
-#: src/components/_political/party/party.frontConfig.tsx:436
+#: src/components/_political/party/party.frontConfig.tsx:393
 msgid "Balanced"
 msgstr "Балансирано"
 
-#: src/components/_political/party/party.frontConfig.tsx:437
+#: src/components/_political/party/party.frontConfig.tsx:394
 msgid "Balanced - No modifiers"
 msgstr "Балансирано - без модификатора"
 
@@ -2094,23 +2180,23 @@ msgstr "Банови"
 msgid "Base cost"
 msgstr "Основна цена"
 
-#: src/utils/translations.tsx:212
+#: src/utils/translations.tsx:213
 msgid "Basic Boots"
 msgstr "Основне чизме"
 
-#: src/utils/translations.tsx:203
+#: src/utils/translations.tsx:204
 msgid "Basic Chest"
 msgstr "Основни панцир"
 
-#: src/utils/translations.tsx:221
+#: src/utils/translations.tsx:222
 msgid "Basic Gloves"
 msgstr "Основне рукавице"
 
-#: src/utils/translations.tsx:194
+#: src/utils/translations.tsx:195
 msgid "Basic Helmet"
 msgstr "Основна кацига"
 
-#: src/utils/translations.tsx:230
+#: src/utils/translations.tsx:231
 msgid "Basic Pants"
 msgstr "Основне панталоне"
 
@@ -2157,21 +2243,21 @@ msgid "Battle Orders"
 msgstr "Наређења"
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism['-2'].enemyBattleOrderMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:152
+#: src/components/_political/party/party.frontConfig.tsx:151
 msgid "Battle orders against your sworn enemy cost <0>{0}</0> less."
 msgstr "Наређења против твог заклетог непријатеља коштају <0>{0}</0> мање."
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].pactBattleOrderMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:224
+#: src/components/_political/party/party.frontConfig.tsx:223
 msgid "Battle orders supporting a defensive pact partner cost <0>{0}</0> less."
 msgstr "Наређења у корист партнера из одбрамбеног пакта коштају <0>{0}</0> мање."
 
-#: src/components/_political/party/party.frontConfig.tsx:60
+#: src/components/_political/party/party.frontConfig.tsx:59
 msgid "Battle orders to defend your core regions and revolts are free."
 msgstr "Наређења за одбрану твојих матичних региона и буна су бесплатна."
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.militarism['-1'].defendCoreRevoltOrderMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:75
+#: src/components/_political/party/party.frontConfig.tsx:74
 msgid "Battle orders to defend your core regions and revolts cost <0>{0}</0> less."
 msgstr "Наређења за одбрану твојих матичних региона и буна коштају <0>{0}</0> мање."
 
@@ -2184,7 +2270,7 @@ msgstr "Плен са бојишта"
 #: src/components/_military/war/WarHeader.tsx:55
 #: src/components/_military/war/WarHeader.tsx:85
 #: src/components/_political/region/RegionHeader.tsx:65
-#: src/pages/region/[regionId]/index.tsx:132
+#: src/pages/region/[regionId]/index.tsx:136
 #: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
 msgstr "Битке"
@@ -2219,6 +2305,14 @@ msgstr "Најбоље"
 msgid "Better than nothing, right?"
 msgstr "Боље ишта него ништа, зар не?"
 
+#: src/components/_social/poll/PollEditorModal.tsx:261
+#~ msgid "Between 1 and {0}"
+#~ msgstr ""
+
+#: src/components/_social/poll/PollEditorModal.tsx:262
+msgid "Between 1 and {maxMinLevel}"
+msgstr ""
+
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:296
 msgid "Bid"
 msgstr "Понуда"
@@ -2231,7 +2325,7 @@ msgstr "Биом"
 msgid "Birthday Hat for 1st year of Beta"
 msgstr "Рођенданска капа за прву годину Бете"
 
-#: src/utils/translations.tsx:267
+#: src/utils/translations.tsx:268
 msgid "Blacksmith's Hammer"
 msgstr ""
 
@@ -2261,7 +2355,7 @@ msgid "Boost your production!"
 msgstr "Појачај своју производњу!"
 
 #: src/components/_user/UserEquipments.tsx:219
-#: src/utils/translations.tsx:211
+#: src/utils/translations.tsx:212
 msgid "Boots"
 msgstr "Чизме"
 
@@ -2282,7 +2376,7 @@ msgstr "Зарађене награде"
 msgid "Bounty will be available in"
 msgstr "Награда ће бити доступна за"
 
-#: src/utils/translations.tsx:285
+#: src/utils/translations.tsx:286
 msgid "Brass Caliper"
 msgstr ""
 
@@ -2295,6 +2389,7 @@ msgstr "Хлеб"
 msgid "Break defensive pact"
 msgstr "Раскини одбрамбени пакт"
 
+#: src/components/_economy/company/CompanyTags.tsx:127
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:119
 msgid "Break room"
 msgstr "Соба за одмор"
@@ -2306,6 +2401,15 @@ msgstr "Раскини одбрамбени пакт са <0/>"
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:111
 msgid "Brigadier"
 msgstr "Бригадир"
+
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:144
+#: src/components/_economy/inventory/Inventory.tsx:764
+msgid "Broken"
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
+msgid "Broken, take it back to dismantle it"
+msgstr ""
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:103
 msgid "Browse Packs"
@@ -2332,7 +2436,7 @@ msgstr "Ојачање ускоро истиче"
 msgid "Buff started"
 msgstr "Ојачање започето"
 
-#: src/components/_user/user/SkillValue.tsx:205
+#: src/components/_user/user/SkillValue.tsx:208
 msgid "Buffs:"
 msgstr "Ојачања:"
 
@@ -2395,7 +2499,7 @@ msgstr "ц. Сексуалне, експлицитне или сугестивн
 msgid "Cadet"
 msgstr "Кадет"
 
-#: src/utils/translations.tsx:283
+#: src/utils/translations.tsx:284
 msgid "Caliper"
 msgstr ""
 
@@ -2404,7 +2508,8 @@ msgid "Campaign Article Link (optional)"
 msgstr "Линк до чланка кампање (опционо)"
 
 #: src/components/_military/order/BattleOrderList.tsx:207
-#: src/components/_political/election/CandidateFormModal.tsx:84
+#: src/components/_political/election/CandidateFormModal.tsx:79
+#: src/components/_social/poll/PollEditorModal.tsx:268
 msgid "Cancel"
 msgstr "Откажи"
 
@@ -2429,11 +2534,11 @@ msgstr "Откажи плаћенички уговор"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:232
 #: src/pages/events/index.tsx:156
-#: src/utils/translations.tsx:329
+#: src/utils/translations.tsx:330
 msgid "Cancelled"
 msgstr "Отказано"
 
-#: src/utils/translations.tsx:330
+#: src/utils/translations.tsx:331
 msgid "Cancelled by admin"
 msgstr "Отказао администратор"
 
@@ -2446,29 +2551,25 @@ msgid "Candidacy is open for <0/>"
 msgstr "Кандидатура је отворена за <0/>"
 
 #: src/components/_economy/employee/employeeCards.tsx:283
-#: src/components/_political/election/CandidateFormModal.tsx:87
+#: src/components/_political/election/CandidateFormModal.tsx:82
 msgid "Candidate"
 msgstr "Кандидат"
 
-#: src/components/_economy/employee/RecruitModal.tsx:97
+#: src/components/_economy/employee/RecruitModal.tsx:102
 msgid "Candidates"
 msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:315
+#: src/components/_political/party/party.frontConfig.tsx:314
 msgid "Cannot have a vice president or ministers."
 msgstr "Не може имати потпредседника или министре."
 
-#: src/components/_political/party/party.frontConfig.tsx:425
+#: src/components/_political/party/party.frontConfig.tsx:382
 msgid "Cannot have any treaty (sworn enemy, defensive pact or alliance)."
 msgstr "Не може имати ниједан уговор (заклети непријатељ, одбрамбени пакт или савез)."
 
-#: src/components/_political/party/party.frontConfig.tsx:67
+#: src/components/_political/party/party.frontConfig.tsx:66
 msgid "Cannot have sworn enemies."
 msgstr "Не може имати заклете непријатеље."
-
-#: src/components/_political/party/party.frontConfig.tsx:349
-msgid "Cannot pick a specialization good / no benefit from specialization."
-msgstr "Не може изабрати специјализовано добро / нема користи од специјализације."
 
 #: src/components/_political/region/RegionTooltip.tsx:68
 msgid "Capital"
@@ -2498,6 +2599,10 @@ msgstr "CAPTCHA је истекла. Ресетујем..."
 msgid "CAPTCHA verification timed out. Resetting..."
 msgstr "CAPTCHA верификација је истекла. Ресетујем..."
 
+#: src/components/_user/user/EcoSkillEffects.tsx:190
+msgid "Card odds: <0/>"
+msgstr ""
+
 #: src/utils/translations.tsx:110
 msgid "Case"
 msgstr "Сандуче"
@@ -2510,11 +2615,11 @@ msgstr "Сандучад садрже насумичне предмете. Кл�
 msgid "Cases opened"
 msgstr "Отворених сандучића"
 
-#: src/utils/translations.tsx:258
+#: src/utils/translations.tsx:259
 msgid "Cast Iron Skillet"
 msgstr ""
 
-#: src/utils/translations.tsx:278
+#: src/utils/translations.tsx:279
 msgid "Catalyst Flask"
 msgstr ""
 
@@ -2526,15 +2631,15 @@ msgstr "Катапулт"
 msgid "Cave Bear Headdress"
 msgstr "Капа од пећинског медведа"
 
-#: src/components/_user/user/skills.frontConfig.tsx:168
+#: src/components/_user/user/skills.frontConfig.tsx:181
 msgid "Chance per hit to instantly loot:<0/>Each <1>1%</1> gives<2>1%</2> and <3>0.01%</3> to loot cases per hit."
 msgstr "Шанса по ударцу за тренутни плен:<0/>Сваких <1>1%</1> даје <2>1%</2> и <3>0,01%</3> шансе за добијање сандучића по ударцу."
 
-#: src/components/_user/user/skills.frontConfig.tsx:154
+#: src/components/_user/user/skills.frontConfig.tsx:167
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
 msgstr "Шанса за избегавање све долазне штете током борбе у биткама.<0/>Избегавање такође спречава трошење издржљивости опреме."
 
-#: src/components/_user/user/skills.frontConfig.tsx:140
+#: src/components/_user/user/skills.frontConfig.tsx:153
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "Шанса да погодиш мету.<0/>Промашаји не могу бити критични и наносе пола штете."
 
@@ -2603,16 +2708,24 @@ msgstr "Промени назив савеза."
 msgid "Change the tax of {0} to"
 msgstr "Промени порез за {0} на"
 
+#: src/components/_social/poll/PollCard.tsx:387
+#~ msgid "Change vote"
+#~ msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:494
+msgid "Changing citizenship has a {citizenshipDaysCooldown}-day cooldown: choose your country wisely."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:118
 msgid "Check your loot!"
 msgstr "Провери свој плен!"
 
-#: src/utils/translations.tsx:260
+#: src/utils/translations.tsx:261
 msgid "Chef's Skillet"
 msgstr ""
 
 #: src/components/_user/UserEquipments.tsx:185
-#: src/utils/translations.tsx:202
+#: src/utils/translations.tsx:203
 msgid "Chest"
 msgstr "Панцир"
 
@@ -2624,7 +2737,7 @@ msgstr "Старешина"
 msgid "Chief Commander"
 msgstr "Главни командант"
 
-#: src/utils/translations.tsx:248
+#: src/utils/translations.tsx:249
 msgid "Chipped Pickaxe"
 msgstr ""
 
@@ -2657,7 +2770,7 @@ msgstr "Држављанин од"
 msgid "Citizens"
 msgstr "Грађани"
 
-#: src/pages/country/[countryId]/index.tsx:190
+#: src/pages/country/[countryId]/index.tsx:187
 msgid "Citizens get a bonus when fighting for allies, or against the sworn enemy"
 msgstr "Грађани добијају бонус када се боре за савезнике, или против заклетог непријатеља"
 
@@ -2694,7 +2807,7 @@ msgstr "Преузето"
 msgid "Claimed so far"
 msgstr "До сада преузето"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:324
+#: src/components/_economy/inventory/DismantleModal.tsx:332
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:166
 msgid "Clear"
 msgstr ""
@@ -2736,7 +2849,11 @@ msgstr "Кликни да изабереш закон"
 msgid "Click to select motion"
 msgstr "Кликните да бисте изабрали предлог"
 
-#: src/components/_layout/map.frontConfig.tsx:78
+#: src/components/_layout/loadingTips.tsx:357
+msgid "Clicking a cost you can't afford opens the market, already filled with exactly what you're missing."
+msgstr ""
+
+#: src/components/_layout/map.frontConfig.tsx:76
 msgid "Climate"
 msgstr "Клима"
 
@@ -2745,7 +2862,7 @@ msgstr "Клима"
 msgid "Close"
 msgstr "Затвори"
 
-#: src/utils/translations.tsx:275
+#: src/utils/translations.tsx:276
 msgid "Cloudy Flask"
 msgstr ""
 
@@ -2812,6 +2929,10 @@ msgstr "Провизија зарађена"
 msgid "Commodore"
 msgstr "Комодор"
 
+#: src/components/_user/user/EcoSkillEffects.tsx:32
+msgid "Common"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:147
 msgid "Community"
 msgstr "Заједница"
@@ -2824,8 +2945,8 @@ msgstr "Заједница"
 msgid "Companies"
 msgstr "Компаније"
 
-#: src/components/_user/user/skills.frontConfig.tsx:126
-#: src/components/_user/user/skills.frontConfig.tsx:127
+#: src/components/_user/user/skills.frontConfig.tsx:139
+#: src/components/_user/user/skills.frontConfig.tsx:140
 msgid "Companies limit"
 msgstr "Лимит компанија"
 
@@ -2837,7 +2958,7 @@ msgstr "Лимит компанија достигнут"
 msgid "Company destroyed!"
 msgstr "Компанија уништена!"
 
-#: src/components/_economy/company/CompanyTags.tsx:62
+#: src/components/_economy/company/CompanyTags.tsx:63
 msgid "Company disabled"
 msgstr "Компанија онемогућена"
 
@@ -2849,7 +2970,7 @@ msgstr "Компанија онемогућена!"
 msgid "Company enabled!"
 msgstr "Компанија омогућена!"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:57
+#: src/components/_economy/company/MoveCompanyForm.tsx:54
 msgid "Company moved"
 msgstr "Компанија премештена"
 
@@ -2865,13 +2986,17 @@ msgstr "Компанија преименована!"
 msgid "Company upgraded!"
 msgstr "Компанија надограђена!"
 
+#: src/components/_layout/loadingTips.tsx:442
+msgid "Complete {missionSetPercent}% of a daily, weekly or monthly set to unlock its bonus <0>XP</0>."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:242
 msgid "Complete missions daily to earn XP and level up faster. Click to claim!"
 msgstr "Завршавај мисије сваког дана да зарадиш искуство и брже напредујеш. Кликни за преузимање!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:234
 #: src/components/_user/milestone/MilestoneItem.tsx:327
-#: src/utils/translations.tsx:332
+#: src/utils/translations.tsx:333
 msgid "Completed"
 msgstr "Завршено"
 
@@ -2984,13 +3109,13 @@ msgstr "Изгради"
 msgid "Consume items"
 msgstr "Конзумирај предмете"
 
-#: src/components/_user/user/skills.frontConfig.tsx:81
+#: src/components/_user/user/skills.frontConfig.tsx:94
 msgid "Consumed when fighting in battles"
 msgstr "Троши се током борбе у биткама"
 
 #. placeholder {0}: staticGameConfig.items.cocain.flatStats?.buffDurationHours
 #. placeholder {1}: staticGameConfig.items.cocain.flatStats?.debuffDurationHours
-#: src/utils/translations.tsx:125
+#: src/utils/translations.tsx:127
 msgid "Consuming it increases your <0>Attack</0> during {0}h.<1/> Then decrease the same amount during {1}h"
 msgstr "Конзумирање повећава твој <0>напад</0> током {0}ч.<1/> Затим смањује за исти износ током {1}ч"
 
@@ -2998,7 +3123,7 @@ msgstr "Конзумирање повећава твој <0>напад</0> то�
 msgid "Contextual borders"
 msgstr "Контекстуалне границе"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:333
+#: src/components/_economy/employee/TrainingDraftModal.tsx:334
 msgid "Continue"
 msgstr ""
 
@@ -3061,7 +3186,7 @@ msgstr "Период чекања: {cooldownDays} дана"
 msgid "Copied to clipboard"
 msgstr "Копирано у клипборд"
 
-#: src/utils/translations.tsx:276
+#: src/utils/translations.tsx:277
 msgid "Copper Flask"
 msgstr ""
 
@@ -3092,7 +3217,7 @@ msgstr "Матични региони"
 msgid "Corporal"
 msgstr "Десетар"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:326
+#: src/components/_economy/employee/EmployeeModal.tsx:354
 msgid "Cost/PP"
 msgstr ""
 
@@ -3104,7 +3229,7 @@ msgstr "Члан савета за уклањање"
 msgid "Counter-strike the enemy"
 msgstr "Узврати ударац непријатељу"
 
-#: src/components/_layout/LoadingScreenContent.tsx:22
+#: src/components/_layout/LoadingScreenContent.tsx:23
 msgid "countries"
 msgstr "земље"
 
@@ -3128,7 +3253,7 @@ msgstr "Земља"
 msgid "Country buildings:"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:395
+#: src/pages/country/[countryId]/index.tsx:342
 msgid "Country development income bonus"
 msgstr "Бонус прихода од развоја земље"
 
@@ -3161,10 +3286,6 @@ msgstr "Држава је платила <0>{0}</0> за нанесену ште
 msgid "Country President"
 msgstr "Председник државе"
 
-#: src/pages/country/[countryId]/index.tsx:346
-msgid "Country production bonus"
-msgstr "Бонус производње земље"
-
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:139
 msgid "Country to invite"
 msgstr "Земља за позивање"
@@ -3181,11 +3302,11 @@ msgstr "Победник турнира земље"
 msgid "Country wars"
 msgstr "Ратови земље"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:430
+#: src/components/_economy/employee/EmployeeModal.tsx:462
 msgid "Coworkers"
 msgstr ""
 
-#: src/utils/translations.tsx:266
+#: src/utils/translations.tsx:267
 msgid "Cracked Hammer"
 msgstr ""
 
@@ -3264,13 +3385,13 @@ msgstr "Креирај токен"
 msgid "Created:"
 msgstr "Креирано:"
 
-#: src/components/_user/user/skills.frontConfig.tsx:54
-#: src/components/_user/user/skills.frontConfig.tsx:55
+#: src/components/_user/user/skills.frontConfig.tsx:67
+#: src/components/_user/user/skills.frontConfig.tsx:68
 msgid "Crit. chance"
 msgstr "Крит. шанса"
 
-#: src/components/_user/user/skills.frontConfig.tsx:66
-#: src/components/_user/user/skills.frontConfig.tsx:67
+#: src/components/_user/user/skills.frontConfig.tsx:79
+#: src/components/_user/user/skills.frontConfig.tsx:80
 msgid "Crit. damages"
 msgstr "Крит. штета"
 
@@ -3333,7 +3454,7 @@ msgid "Daily"
 msgstr "Дневне"
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:59
-#: src/components/_political/law/LawTypeSelect.tsx:188
+#: src/components/_political/law/LawTypeSelect.tsx:189
 msgid "Daily maintenance"
 msgstr "Дневно одржавање"
 
@@ -3341,7 +3462,7 @@ msgstr "Дневно одржавање"
 msgid "Daily Missions Reset"
 msgstr "Ресет дневних мисија"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:398
+#: src/components/_economy/employee/EmployeeModal.tsx:430
 msgid "Daily production"
 msgstr ""
 
@@ -3379,8 +3500,8 @@ msgstr "Дођавола, срећниче"
 msgid "Danger zone"
 msgstr "Опасна зона"
 
-#: src/components/_political/law/LawFormModal.tsx:218
-#: src/components/_political/law/LawFormModal.tsx:296
+#: src/components/_political/law/LawFormModal.tsx:214
+#: src/components/_political/law/LawFormModal.tsx:292
 msgid "Dark"
 msgstr "Тамно"
 
@@ -3461,7 +3582,7 @@ msgstr "Ослабљење завршено"
 msgid "Debuff ends"
 msgstr "Ослабљење истиче"
 
-#: src/components/_user/user/SkillValue.tsx:237
+#: src/components/_user/user/SkillValue.tsx:240
 msgid "Debuffs:"
 msgstr "Ослабљења:"
 
@@ -3488,7 +3609,7 @@ msgstr "Смањи"
 msgid "Decrease unrest"
 msgstr "Смањи немир"
 
-#: src/utils/translations.tsx:251
+#: src/utils/translations.tsx:252
 msgid "Deepcut Pickaxe"
 msgstr ""
 
@@ -3515,8 +3636,8 @@ msgstr "Одбрамбени пакт раскинут"
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[1].pactMaintenanceMultiplier, )
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].pactMaintenanceMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:199
-#: src/components/_political/party/party.frontConfig.tsx:215
+#: src/components/_political/party/party.frontConfig.tsx:198
+#: src/components/_political/party/party.frontConfig.tsx:214
 msgid "Defensive pact maintenance costs are reduced by <0>{0}</0>."
 msgstr "Трошкови одржавања одбрамбеног пакта су смањени за <0>{0}</0>."
 
@@ -3529,7 +3650,7 @@ msgstr "Одбрамбени пакт потписан"
 msgid "Defensive pact: orders supporting your pact partner cost {orderDiscountPercent}% less <0>{0}</0>"
 msgstr "Одбрамбени пакт: наређења у корист твог партнера коштају {orderDiscountPercent}% мање <0>{0}</0>"
 
-#: src/components/_political/country/CountryTooltip.tsx:127
+#: src/components/_political/country/CountryTooltip.tsx:121
 msgid "Defensive pacts"
 msgstr "Одбрамбени пактови"
 
@@ -3575,11 +3696,11 @@ msgstr "Снизи чин са команданта"
 msgid "Demoted from Commander"
 msgstr "Уклоњен са позиције команданта"
 
-#: src/utils/translations.tsx:257
+#: src/utils/translations.tsx:258
 msgid "Dented Skillet"
 msgstr ""
 
-#: src/pages/region/[regionId]/index.tsx:60
+#: src/pages/region/[regionId]/index.tsx:64
 msgid "Deposit"
 msgstr "Налазиште"
 
@@ -3596,21 +3717,17 @@ msgstr "Налазиште откривено"
 msgid "Deposit of <0>{0}</0> has been depleted in <1/>"
 msgstr "Налазиште <0>{0}</0> је исцрпљено у <1/>"
 
-#: src/pages/region/[regionId]/index.tsx:56
+#: src/pages/region/[regionId]/index.tsx:60
 msgid "Deposit resource"
 msgstr "Ресурс налазишта"
 
-#: src/components/_layout/map.frontConfig.tsx:60
+#: src/components/_layout/map.frontConfig.tsx:63
 msgid "Deposit resources"
 msgstr "Ресурси налазишта"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:90
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:72
 msgid "Deposit will be depleted in"
 msgstr "Налазиште ће бити исцрпљено за"
-
-#: src/components/_political/party/party.frontConfig.tsx:402
-msgid "Deposits cannot spawn within your borders."
-msgstr "Налазишта се не могу наћи у вашим границама."
 
 #: src/components/_political/party/PartyDescriptionModal.tsx:62
 #: src/components/_political/party/PartyFormModal.tsx:101
@@ -3635,13 +3752,13 @@ msgstr "Опис ажуриран!"
 msgid "Destruct"
 msgstr "Уништи"
 
-#: src/components/_layout/map.frontConfig.tsx:39
+#: src/components/_layout/map.frontConfig.tsx:42
 #: src/components/_political/region/RegionHeader.tsx:77
 #: src/components/_political/region/RegionTooltip.tsx:79
 msgid "Development"
 msgstr "Развој"
 
-#: src/utils/translations.tsx:253
+#: src/utils/translations.tsx:254
 msgid "Diamond Auger"
 msgstr ""
 
@@ -3701,17 +3818,17 @@ msgstr "Смањи <0/> примљену штету помоћу <1>Оклопа
 msgid "Diminish Received Damages"
 msgstr "Умањи примљену штету"
 
-#: src/pages/country/[countryId]/index.tsx:196
+#: src/pages/country/[countryId]/index.tsx:193
 msgid "Diplomacy"
 msgstr "Дипломатија"
 
-#: src/components/_political/party/party.frontConfig.tsx:195
-#: src/components/_political/party/party.frontConfig.tsx:244
+#: src/components/_political/party/party.frontConfig.tsx:194
+#: src/components/_political/party/party.frontConfig.tsx:243
 msgid "Diplomatic"
 msgstr "Дипломатија"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:173
+#: src/components/_political/law/LawEthicEffects.tsx:152
 msgid "Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Дипломатија: трошкови одржавања одбрамбеног пакта {less}% мање <0>{0}</0>."
 
@@ -3719,7 +3836,7 @@ msgstr "Дипломатија: трошкови одржавања одбрам
 msgid "Disable company"
 msgstr "Онемогући компанију"
 
-#: src/components/_economy/company/CompanyTags.tsx:81
+#: src/components/_economy/company/CompanyTags.tsx:82
 msgid "Disabled"
 msgstr "Онемогућено"
 
@@ -3740,7 +3857,7 @@ msgstr "Растави <0/> предмета"
 msgid "Dismantle Item"
 msgstr "Растави предмет"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:187
+#: src/components/_economy/inventory/DismantleModal.tsx:195
 msgid "Dismantle items"
 msgstr ""
 
@@ -3750,8 +3867,8 @@ msgstr "Одбаци"
 
 #. placeholder {0}: employee.name || 'this employee'
 #. placeholder {1}: employeeConfig.fireSeverance
-#: src/components/_economy/employee/EmployeeModal.tsx:604
-#: src/components/_economy/employee/EmployeePanel.tsx:103
+#: src/components/_economy/employee/EmployeeModal.tsx:619
+#: src/components/_economy/employee/EmployeePanel.tsx:108
 msgid "Dismiss {0} and pay <0>{1}</0> severance? This cannot be undone."
 msgstr ""
 
@@ -3773,8 +3890,8 @@ msgid "Do you even know what luck is?"
 msgstr "Знаш ли уопште шта је срећа?"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:291
-#: src/components/_user/user/skills.frontConfig.tsx:160
-#: src/components/_user/user/skills.frontConfig.tsx:161
+#: src/components/_user/user/skills.frontConfig.tsx:173
+#: src/components/_user/user/skills.frontConfig.tsx:174
 msgid "Dodge"
 msgstr "Избегавање"
 
@@ -3839,6 +3956,10 @@ msgstr "Змај"
 msgid "Drill"
 msgstr ""
 
+#: src/components/_social/poll/PollEditorModal.tsx:229
+msgid "Duration"
+msgstr ""
+
 #: src/components/_common/GameRules.tsx:262
 msgid "e. Content about ongoing real-world wars and armed conflicts (most notably the Russo-Ukrainian war and the Israeli–Palestinian conflict)"
 msgstr "е. Садржај о актуелним стварним ратовима и оружаним сукобима (нарочито рат у Украјини и израелско–палестински сукоб)"
@@ -3855,13 +3976,24 @@ msgstr ""
 msgid "Each item gets its own offer, all at the same price."
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:199
-msgid "Each level raises the production of your <0>employees</0>."
+#: src/components/_user/user/EcoSkillEffects.tsx:133
+msgid "Each level adds <0>{perLevel}</0> to the production bonus of every one of your employees."
 msgstr ""
 
-#: src/components/_user/user/SkillUpgrade.tsx:293
+#. placeholder {0}: ts.bread
+#. placeholder {1}: ts.steak
+#. placeholder {2}: ts.cookedFish
+#: src/components/_layout/loadingTips.tsx:126
+msgid "Each meal costs <0>1</0>. <1>{0}</1> restores {breadRegen}% of your max <2>Health</2>, <3>{1}</3> {steakRegen}% and <4>{2}</4> {cookedFishRegen}%."
+msgstr ""
+
+#: src/components/_user/user/SkillUpgrade.tsx:299
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
 msgstr "Сваки поен престижа даје еквивалент {skillBonusLevels} нивоа изабране вештине"
+
+#: src/components/_layout/loadingTips.tsx:249
+msgid "Each region you cross costs <0>{MOVE_STAMINA_PER_REGION}</0>. When the bar runs dry, the trip costs <1>{MOVE_OIL_PER_REGION}</1> per region instead."
+msgstr ""
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:34
 msgid "Earn <0/> in total"
@@ -3896,7 +4028,7 @@ msgstr "Еко мод"
 msgid "Economic laws"
 msgstr "Економски закони"
 
-#: src/components/_user/user/skills.frontConfig.tsx:252
+#: src/components/_user/user/skills.frontConfig.tsx:249
 msgid "Economic skills"
 msgstr "Економске вештине"
 
@@ -3924,6 +4056,10 @@ msgstr ""
 msgid "Edit MU order"
 msgstr "Измени наређење ВЈ"
 
+#: src/components/_social/poll/PollEditorModal.tsx:161
+msgid "Edit poll"
+msgstr ""
+
 #: src/components/_political/region/SetResistanceFocusModal.tsx:94
 msgid "Edit resistance focus"
 msgstr ""
@@ -3936,7 +4072,7 @@ msgstr "Измена постојећег наређења"
 msgid "Editing another order"
 msgstr "Измена другог наређења"
 
-#: src/components/_user/user/SkillValue.tsx:267
+#: src/components/_user/user/SkillValue.tsx:270
 msgid "Effective:"
 msgstr "Ефективно:"
 
@@ -3954,7 +4090,7 @@ msgstr "Гласање на изборима отворено"
 
 #: src/components/_political/country/CountryHeader.tsx:125
 #: src/pages/country/[countryId]/elections.tsx:28
-#: src/pages/country/[countryId]/index.tsx:281
+#: src/pages/country/[countryId]/index.tsx:278
 #: src/pages/events/index.tsx:398
 #: src/pages/party/[partyId]/index.tsx:101
 msgid "Elections"
@@ -3964,7 +4100,7 @@ msgstr "Избори"
 msgid "Eliminated"
 msgstr "Елиминисан"
 
-#: src/utils/translations.tsx:215
+#: src/utils/translations.tsx:216
 msgid "Elite Boots"
 msgstr "Елитне чизме"
 
@@ -3972,7 +4108,7 @@ msgstr "Елитне чизме"
 msgid "Elite Case"
 msgstr "Елитно сандуче"
 
-#: src/utils/translations.tsx:206
+#: src/utils/translations.tsx:207
 msgid "Elite Chest"
 msgstr "Елитни панцир"
 
@@ -3980,27 +4116,31 @@ msgstr "Елитни панцир"
 msgid "Elite counter-terrorism unit"
 msgstr "Елитна противтерористичка јединица"
 
-#: src/utils/translations.tsx:224
+#: src/utils/translations.tsx:225
 msgid "Elite Gloves"
 msgstr "Елитне рукавице"
 
-#: src/utils/translations.tsx:197
+#: src/utils/translations.tsx:198
 msgid "Elite Helmet"
 msgstr "Елитна кацига"
 
-#: src/utils/translations.tsx:233
+#: src/utils/translations.tsx:234
 msgid "Elite Pants"
 msgstr "Елитне панталоне"
 
 #: src/components/_economy/employee/employeeCards.tsx:178
-#: src/components/_economy/employee/EmployeeModal.tsx:266
-#: src/components/_economy/employee/EmployeeModal.tsx:288
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:70
+#: src/components/_economy/employee/EmployeeModal.tsx:283
+#: src/components/_economy/employee/EmployeeModal.tsx:305
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:78
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:85
 msgid "Employee"
 msgstr ""
 
-#: src/components/_economy/employee/WorkforceSummary.tsx:126
+#: src/components/_economy/employee/EmployeeRenameModal.tsx:48
+msgid "Employee renamed!"
+msgstr ""
+
+#: src/components/_economy/employee/WorkforceSummary.tsx:127
 msgid "employees"
 msgstr ""
 
@@ -4009,11 +4149,19 @@ msgstr ""
 msgid "Employees"
 msgstr ""
 
+#: src/components/_layout/loadingTips.tsx:387
+msgid "Employees below {happinessQuitThreshold} happiness may quit. A fair wage keeps them smiling."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:396
+msgid "Employees get +{specializationPerDay}% production for every day spent on the same good, up to +{specializationMax}%."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:41
 msgid "Employees work in your company every hour, even while you're offline. Click to see the candidates."
 msgstr ""
 
-#: src/pages/region/[regionId]/index.tsx:166
+#: src/pages/region/[regionId]/index.tsx:170
 msgid "Empty"
 msgstr "Празно"
 
@@ -4022,12 +4170,12 @@ msgid "Enable company"
 msgstr "Омогући компанију"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:87
-#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:102
+#: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:103
 #: src/components/_political/law/Law.tsx:92
 #: src/components/_political/law/Law.tsx:95
-#: src/components/_political/law/LawTypeSelect.tsx:176
+#: src/components/_political/law/LawTypeSelect.tsx:177
 #: src/components/_political/partyMotion/PartyMotion.tsx:106
-#: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:132
+#: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:133
 msgid "Enacting cost"
 msgstr "Цена усвајања"
 
@@ -4039,9 +4187,17 @@ msgstr "Зачаране панталоне"
 msgid "End an existing defensive pact with another country"
 msgstr "Прекини постојећи одбрамбени пакт са другом земљом"
 
+#: src/components/_social/poll/PollCard.tsx:434
+msgid "End poll"
+msgstr ""
+
 #: src/components/_political/law/law.frontConfig.tsx:321
 msgid "End the defensive pact with <0/>."
 msgstr "Прекини одбрамбени пакт са <0/>."
+
+#: src/components/_social/poll/PollCard.tsx:429
+msgid "End this poll?"
+msgstr ""
 
 #: src/components/_military/battle/BattleSystem.tsx:774
 #: src/components/_military/tournament/TournamentHeader.tsx:85
@@ -4059,8 +4215,8 @@ msgid "Enemies"
 msgstr "Непријатељи"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:53
-#: src/components/_user/user/skills.frontConfig.tsx:93
-#: src/components/_user/user/skills.frontConfig.tsx:94
+#: src/components/_user/user/skills.frontConfig.tsx:106
+#: src/components/_user/user/skills.frontConfig.tsx:107
 msgid "Energy"
 msgstr "Енергија"
 
@@ -4072,7 +4228,7 @@ msgstr "Потпоручник"
 msgid "Enter a price"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:244
+#: src/components/_political/law/LawFormModal.tsx:240
 msgid "Enter article ID"
 msgstr "Унеси ID чланка"
 
@@ -4081,13 +4237,17 @@ msgstr "Унеси ID чланка"
 msgid "Enter the code we sent to your email."
 msgstr "Унеси код који смо послали на твој имејл."
 
-#: src/components/_user/user/skills.frontConfig.tsx:192
-#: src/components/_user/user/skills.frontConfig.tsx:193
+#: src/components/_user/user/skills.frontConfig.tsx:203
+#: src/components/_user/user/skills.frontConfig.tsx:204
 msgid "Entrepreneurship"
 msgstr "Предузетништво"
 
-#: src/components/_economy/inventory/case/RarityChances.tsx:65
-#: src/components/_economy/inventory/ItemGridFilters.tsx:135
+#: src/components/_user/user/EcoSkillEffects.tsx:35
+msgid "Epic"
+msgstr ""
+
+#: src/components/_economy/inventory/case/RarityChances.tsx:72
+#: src/components/_economy/inventory/ItemGridFilters.tsx:150
 #: src/components/_layout/LayoutOptions.tsx:232
 #: src/components/_user/user/WealthPanel.tsx:56
 #: src/pages/market/index.tsx:80
@@ -4097,7 +4257,7 @@ msgid "Equipment"
 msgstr "Опрема"
 
 #: src/components/_user/user/SkillBar.tsx:47
-#: src/components/_user/user/SkillValue.tsx:104
+#: src/components/_user/user/SkillValue.tsx:107
 msgid "Equipment:"
 msgstr "Опрема:"
 
@@ -4105,7 +4265,7 @@ msgstr "Опрема:"
 msgid "Equipments"
 msgstr "Опрема"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:258
+#: src/components/_economy/inventory/DismantleModal.tsx:266
 msgid "Equipped items are left out of select all."
 msgstr ""
 
@@ -4113,7 +4273,7 @@ msgstr ""
 msgid "Error"
 msgstr "Грешка"
 
-#: src/components/_economy/employee/EmployeeList.tsx:107
+#: src/components/_economy/employee/EmployeeList.tsx:128
 msgid "Est."
 msgstr ""
 
@@ -4121,11 +4281,11 @@ msgstr ""
 msgid "Est. prod"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeePanel.tsx:56
+#: src/components/_economy/employee/EmployeePanel.tsx:61
 msgid "Est. production"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeePanel.tsx:69
+#: src/components/_economy/employee/EmployeePanel.tsx:74
 msgid "Est. wage cost"
 msgstr ""
 
@@ -4156,22 +4316,37 @@ msgstr "Етички поени:"
 
 #: src/components/_layout/LayoutRightIcons.tsx:243
 #: src/components/_layout/MoreButtonNav.tsx:91
-#: src/pages/country/[countryId]/index.tsx:266
+#: src/pages/country/[countryId]/index.tsx:263
 msgid "Events"
 msgstr "Догађаји"
+
+#: src/components/_layout/loadingTips.tsx:117
+msgid "Every hit in battle costs <0>{healthCost}</0>. Eat food to get back in the fight."
+msgstr ""
+
+#. placeholder {0}: ts.case1
+#. placeholder {1}: ts.case2
+#: src/components/_layout/loadingTips.tsx:236
+msgid "Every hit that lands rolls your <0>Loot chance</0> for a <1>{0}</1>, and a 100 times rarer roll for an <2>{1}</2>."
+msgstr ""
+
+#. placeholder {0}: ts.woodenCase
+#: src/components/_layout/loadingTips.tsx:284
+msgid "Every hour, you have a {woodenCaseChance}% chance that a <0>{0}</0> drops somewhere on the map, just for you. Go stand on it to claim it."
+msgstr ""
 
 #: src/components/_user/mission/MissionsHeader.tsx:77
 msgid "Every mission you ever completed and claimed"
 msgstr "Све мисије које си икада завршио и преузео"
 
-#: src/components/_political/party/party.frontConfig.tsx:91
-#: src/components/_political/party/party.frontConfig.tsx:130
+#: src/components/_social/poll/PollEditorModal.tsx:245
+msgid "Everyone can vote"
+msgstr ""
+
+#: src/components/_political/party/party.frontConfig.tsx:90
+#: src/components/_political/party/party.frontConfig.tsx:129
 msgid "Expansionist"
 msgstr "Експанзионизам"
-
-#: src/components/_economy/employee/EmployeeModal.tsx:109
-msgid "Expected"
-msgstr ""
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:233
 msgid "Expected loot"
@@ -4183,7 +4358,7 @@ msgstr "Искуство"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:73
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:236
-#: src/utils/translations.tsx:333
+#: src/utils/translations.tsx:334
 msgid "Expired"
 msgstr "Истекло"
 
@@ -4200,7 +4375,7 @@ msgid "Expired: round ended"
 msgstr "Истекло: рунда завршена"
 
 #: src/components/_social/announcement/Announcement.tsx:68
-#: src/pages/region/[regionId]/index.tsx:79
+#: src/pages/region/[regionId]/index.tsx:83
 msgid "Expires in"
 msgstr "Истиче за"
 
@@ -4249,62 +4424,58 @@ msgstr "Неуспешно покретање Google пријаве. Покуш�
 msgid "Family Group"
 msgstr "Породична група"
 
-#: src/components/_political/party/party.frontConfig.tsx:334
+#: src/components/_political/party/party.frontConfig.tsx:335
 msgid "Fanatic Agrarian"
 msgstr "Фанатични аграризам"
 
-#: src/components/_political/law/LawEthicEffects.tsx:58
-msgid "Fanatic Agrarian countries cannot pick a specialization — this law cannot be enacted."
-msgstr "Земље Фанатичног аграризма не могу изабрати специјализацију — овај закон не може бити донет."
-
-#: src/components/_political/party/party.frontConfig.tsx:211
+#: src/components/_political/party/party.frontConfig.tsx:210
 msgid "Fanatic Diplomatic"
 msgstr "Фанатична дипломатија"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:160
+#: src/components/_political/law/LawEthicEffects.tsx:139
 msgid "Fanatic Diplomatic: defensive pact maintenance costs {less}% less <0>{0}</0>."
 msgstr "Фанатична дипломатија: трошкови одржавања одбрамбеног пакта {less}% мање <0>{0}</0>."
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:143
+#: src/components/_political/law/LawEthicEffects.tsx:122
 msgid "Fanatic Diplomatic: sworn enemy maintenance costs {more}% more <0>{0}</0>."
 msgstr "Фанатична дипломатија: трошкови одржавања заклетог непријатеља {more}% више <0>{0}</0>."
 
-#: src/components/_political/party/party.frontConfig.tsx:105
+#: src/components/_political/party/party.frontConfig.tsx:104
 msgid "Fanatic Expansionist"
 msgstr "Фанатични експанзионизам"
 
-#: src/components/_political/party/party.frontConfig.tsx:304
+#: src/components/_political/party/party.frontConfig.tsx:303
 msgid "Fanatic Imperialist"
 msgstr "Фанатични империјализам"
 
-#: src/components/_political/party/party.frontConfig.tsx:391
+#: src/components/_political/party/party.frontConfig.tsx:357
 msgid "Fanatic Industrialist"
 msgstr "Фанатични индустријализам"
 
-#: src/components/_political/party/party.frontConfig.tsx:137
+#: src/components/_political/party/party.frontConfig.tsx:136
 msgid "Fanatic Isolationist"
 msgstr "Фанатични изолационизам"
 
 #. placeholder {0}: ts.paper
-#: src/components/_political/law/LawEthicEffects.tsx:188
+#: src/components/_political/law/LawEthicEffects.tsx:167
 msgid "Fanatic Isolationist: all treaty maintenance costs {more}% more <0>{0}</0>."
 msgstr "Фанатични изолационизам: сви трошкови одржавања уговора {more}% више <0>{0}</0>."
 
-#: src/components/_political/law/LawEthicEffects.tsx:114
+#: src/components/_political/law/LawEthicEffects.tsx:93
 msgid "Fanatic Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr "Фанатични изолационизам: овај заклети непријатељ почиње са {start}% бонуса и расте +{perDay}% дневно."
 
-#: src/components/_political/party/party.frontConfig.tsx:56
+#: src/components/_political/party/party.frontConfig.tsx:55
 msgid "Fanatic Pacifist"
 msgstr "Фанатични пацифизам"
 
-#: src/components/_political/law/LawEthicEffects.tsx:94
+#: src/components/_political/law/LawEthicEffects.tsx:73
 msgid "Fanatic Pacifist countries cannot have sworn enemies — this law cannot be enacted."
 msgstr "Земље Фанатичног пацифизма не могу имати заклете непријатеље — овај закон не може бити донет."
 
-#: src/components/_political/party/party.frontConfig.tsx:251
+#: src/components/_political/party/party.frontConfig.tsx:250
 msgid "Fanatic Republican"
 msgstr "Фанатични републиканизам"
 
@@ -4336,7 +4507,7 @@ msgstr "Пољопривреднички нож"
 msgid "Farmer Pants"
 msgstr "Пољопривредничке панталоне"
 
-#: src/utils/translations.tsx:240
+#: src/utils/translations.tsx:241
 msgid "Farmhand's Sickle"
 msgstr ""
 
@@ -4363,7 +4534,7 @@ msgstr "Бори се за <0/> у <1/>"
 msgid "Fight for <0/> in<1/><2/>"
 msgstr "Бори се за <0/> у<1/><2/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:237
+#: src/components/_user/user/skills.frontConfig.tsx:234
 msgid "Fight skills"
 msgstr "Борилачке вештине"
 
@@ -4374,6 +4545,14 @@ msgstr "Бори се!"
 #: src/utils/translations.tsx:27
 msgid "Fighter Jet"
 msgstr "Борбени авион"
+
+#: src/components/_layout/loadingTips.tsx:174
+msgid "Fighting for a country that occupies your own country's regions cuts your damage by {occupationMalus}%."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:165
+msgid "Fighting for your own country gives +{patrioticBonusPercent}% damage. Tournament battles don't count."
+msgstr ""
 
 #: src/components/_economy/transaction/TransactionList.tsx:143
 msgid "Filter by transaction type"
@@ -4425,7 +4604,7 @@ msgid "Find a military unit"
 msgstr "Пронађи војну јединицу"
 
 #: src/components/_economy/employee/employeeCards.tsx:250
-#: src/components/_economy/employee/EmployeeModal.tsx:597
+#: src/components/_economy/employee/EmployeeModal.tsx:612
 #: src/components/_political/government/Government.tsx:253
 #: src/components/_user/user/UserEffectSelector.tsx:61
 msgid "Fire"
@@ -4439,7 +4618,7 @@ msgstr "Отпусти члана владе"
 msgid "Fired from government"
 msgstr "Отпуштен из владе"
 
-#: src/utils/translations.tsx:261
+#: src/utils/translations.tsx:262
 msgid "Firestorm Skillet"
 msgstr ""
 
@@ -4455,7 +4634,7 @@ msgstr "Заставе"
 msgid "Flail"
 msgstr "Млатилица"
 
-#: src/utils/translations.tsx:274
+#: src/utils/translations.tsx:275
 msgid "Flask"
 msgstr ""
 
@@ -4470,6 +4649,10 @@ msgstr ""
 
 #: src/components/_political/region/RegionResistance.tsx:167
 msgid "Focus resistance here"
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:183
+msgid "Follow the battle orders of your country and your Military Unit: each one gives up to +{maxOrderBonus}% damage on the side it points to."
 msgstr ""
 
 #: src/components/_layout/LayoutOptions.tsx:278
@@ -4492,13 +4675,12 @@ msgstr "Фонт је ажуриран"
 msgid "for {penaltyDays} days, on everyone who changes desk"
 msgstr ""
 
-#. placeholder {0}: ts[country.specializedItem]
-#: src/pages/country/[countryId]/index.tsx:369
-msgid "for companies producing <0>{0}</0> located in <1/>."
-msgstr "за компаније које производе <0>{0}</0> које се налазе у <1/>."
-
-#: src/utils/translations.tsx:268
+#: src/utils/translations.tsx:269
 msgid "Forge Hammer"
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:520
+msgid "Found a bug? Report it instead of using it: valuable reports earn the Bug Finder badge."
 msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:333
@@ -4506,7 +4688,7 @@ msgid "Found a new alliance with your country as founding member"
 msgstr "Оснуј нови савез са твојом земљом као оснивачем"
 
 #: src/utils/translations.tsx:115
-msgid "Found on the map. Open it to get random resources"
+msgid "Found on the map. Open it to get random resources, or sometimes a case"
 msgstr ""
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:45
@@ -4590,7 +4772,7 @@ msgstr "Добиј ексклузивни <0>претплатнички скин
 msgid "Get multiple skins at once with a 30% discount!"
 msgstr "Набавите више скинова одједном са попустом од 30%!"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:242
+#: src/components/_economy/inventory/DismantleModal.tsx:250
 msgid "Get supporter plan"
 msgstr "Активирај претплату подржаваоца"
 
@@ -4626,7 +4808,7 @@ msgstr "Поклоните овај пакет некоме"
 msgid "gifted"
 msgstr "поклоњено"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:137
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:141
 msgid "Give a tool to work faster"
 msgstr ""
 
@@ -4660,7 +4842,7 @@ msgid "Globe view isn't supported on this device"
 msgstr ""
 
 #: src/components/_user/UserEquipments.tsx:236
-#: src/utils/translations.tsx:220
+#: src/utils/translations.tsx:221
 msgid "Gloves"
 msgstr "Рукавице"
 
@@ -4681,7 +4863,7 @@ msgid "Gold"
 msgstr "Злато"
 
 #: src/components/_political/country/CountryHeader.tsx:112
-#: src/pages/country/[countryId]/index.tsx:176
+#: src/pages/country/[countryId]/index.tsx:173
 msgid "Government"
 msgstr "Влада"
 
@@ -4854,7 +5036,7 @@ msgstr "Пиштољ"
 msgid "h. Glorification, promotion or encouragement of rule-breaking or cheating"
 msgstr "х. Глорификовање, промовисање или подстицање кршења правила или варања"
 
-#: src/utils/translations.tsx:265
+#: src/utils/translations.tsx:266
 msgid "Hammer"
 msgstr ""
 
@@ -4866,7 +5048,7 @@ msgstr "Хрчак тенк"
 msgid "Hard Worker"
 msgstr "Марљив радник"
 
-#: src/utils/translations.tsx:242
+#: src/utils/translations.tsx:243
 msgid "Harvester's Edge"
 msgstr ""
 
@@ -4874,8 +5056,8 @@ msgstr ""
 msgid "Headquarters"
 msgstr "Главни штаб"
 
-#: src/components/_user/user/skills.frontConfig.tsx:82
-#: src/components/_user/user/skills.frontConfig.tsx:83
+#: src/components/_user/user/skills.frontConfig.tsx:95
+#: src/components/_user/user/skills.frontConfig.tsx:96
 msgid "Health"
 msgstr "Здравље"
 
@@ -4884,7 +5066,7 @@ msgid "Heavy Ammo"
 msgstr "Тешка муниција"
 
 #: src/components/_user/UserEquipments.tsx:170
-#: src/utils/translations.tsx:193
+#: src/utils/translations.tsx:194
 msgid "Helmet"
 msgstr "Кацига"
 
@@ -4904,8 +5086,12 @@ msgstr "Помози члановима ВЈ"
 msgid "Help the game to grow"
 msgstr "Помози игри да расте"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:380
+#: src/components/_economy/employee/EmployeeModal.tsx:408
 msgid "hidden"
+msgstr ""
+
+#: src/components/_social/poll/PollCard.tsx:401
+msgid "Hide results"
 msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:157
@@ -4920,8 +5106,12 @@ msgstr ""
 msgid "Hire your first employee!"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:336
+#: src/components/_economy/employee/EmployeeModal.tsx:364
 msgid "Hired"
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:377
+msgid "Hiring an employee costs <0>{hireEntrepreneurshipCost}</0> and no money. New candidates show up every day."
 msgstr ""
 
 #: src/components/_military/battle/BattlesHeader.tsx:33
@@ -4953,7 +5143,7 @@ msgstr "Ударање за своју земљу док си у влади да
 msgid "Home"
 msgstr "Почетна"
 
-#: src/utils/translations.tsx:241
+#: src/utils/translations.tsx:242
 msgid "Honed Sickle"
 msgstr ""
 
@@ -4965,8 +5155,8 @@ msgstr ""
 msgid "How many times have you seen this message already?"
 msgstr "Колико пута си већ видео ову поруку?"
 
-#: src/components/_user/user/skills.frontConfig.tsx:133
-#: src/components/_user/user/skills.frontConfig.tsx:134
+#: src/components/_user/user/skills.frontConfig.tsx:146
+#: src/components/_user/user/skills.frontConfig.tsx:147
 msgid "Hunger"
 msgstr "Глад"
 
@@ -4986,8 +5176,8 @@ msgstr "и. Промовисање других игара, производа �
 msgid "I'm proud of you"
 msgstr "Поносан сам на тебе"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:115
-#: src/components/_economy/inventory/Inventory.tsx:759
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:146
+#: src/components/_economy/inventory/Inventory.tsx:766
 msgid "Idle"
 msgstr ""
 
@@ -4999,7 +5189,7 @@ msgstr "Ако је негативно, плати <0/> за <1/> (једном 
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
 msgstr "Ако је нови кандидат већ у влади, њихове позиције ће бити замењене. У супротном, тренутни члан ће бити отпуштен и неће моћи поново да буде номинован наредних {cooldownDays} дана."
 
-#: src/components/_political/party/party.frontConfig.tsx:428
+#: src/components/_political/party/party.frontConfig.tsx:385
 msgid "If your capital is occupied, national orders give only the regular bonus and the capital automatically revolts at full resistance."
 msgstr "Ако је твоја престоница окупирана, национална наређења дају само уобичајени бонус, а престоница аутоматски диже буну са пуним отпором."
 
@@ -5034,18 +5224,22 @@ msgstr "Опозови председника"
 msgid "Impeach the current president"
 msgstr "Опозови тренутног председника"
 
-#: src/components/_political/party/party.frontConfig.tsx:287
+#: src/components/_political/party/party.frontConfig.tsx:286
 msgid "Imperialism vs Republicanism"
 msgstr "Империјализам наспрам републиканизма"
 
-#: src/components/_political/party/party.frontConfig.tsx:290
-#: src/components/_political/party/party.frontConfig.tsx:327
+#: src/components/_political/party/party.frontConfig.tsx:289
+#: src/components/_political/party/party.frontConfig.tsx:326
 msgid "Imperialist"
 msgstr "Империјализам"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:52
 msgid "Impressive"
 msgstr "Импресивно"
+
+#: src/components/_layout/loadingTips.tsx:462
+msgid "In a Military Unit, ask your mates for help every {helpCooldownHours}h: each help gives you <0>{healthPerHelp}</0>."
+msgstr ""
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:174
 msgid "Inactive"
@@ -5055,31 +5249,31 @@ msgstr "Неактивно"
 msgid "Income"
 msgstr "Приход"
 
-#: src/pages/country/[countryId]/index.tsx:418
+#: src/pages/country/[countryId]/index.tsx:365
 msgid "income from <0>Development</0> in <1/>."
 msgstr "приход од <0>Развоја</0> у <1/>."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.imperialism['-1'].developmentIncomeBonus, )
 #. placeholder {0}: formatPercent( ethicsBonuses.imperialism['-2'].developmentIncomeBonus, )
-#: src/components/_political/party/party.frontConfig.tsx:255
-#: src/components/_political/party/party.frontConfig.tsx:274
+#: src/components/_political/party/party.frontConfig.tsx:254
+#: src/components/_political/party/party.frontConfig.tsx:273
 msgid "Income from development increases by <0>{0}</0>."
 msgstr "Приход од развоја се повећава за <0>{0}</0>."
 
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[1].taxIncomeBonus)
 #. placeholder {0}: formatPercent(ethicsBonuses.imperialism[2].taxIncomeBonus)
-#: src/components/_political/party/party.frontConfig.tsx:294
-#: src/components/_political/party/party.frontConfig.tsx:308
+#: src/components/_political/party/party.frontConfig.tsx:293
+#: src/components/_political/party/party.frontConfig.tsx:307
 msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Приход од пореза се повећава за <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:254
+#: src/components/_political/law/LawFormModal.tsx:250
 msgid "Income tax"
 msgstr "Порез на приход"
 
-#: src/components/_economy/company/CompanyTags.tsx:49
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:154
+#: src/components/_economy/company/CompanyTags.tsx:50
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:106
 msgid "Income Tax"
 msgstr "Порез на приход"
 
@@ -5092,12 +5286,12 @@ msgstr "Повећај"
 msgid "Increase unrest"
 msgstr "Повећај немир"
 
-#: src/components/_political/party/party.frontConfig.tsx:374
+#: src/components/_political/party/party.frontConfig.tsx:348
 msgid "Industrialism vs Agrarianism"
 msgstr "Индустријализам наспрам аграризма"
 
-#: src/components/_political/party/party.frontConfig.tsx:377
-#: src/components/_political/party/party.frontConfig.tsx:405
+#: src/components/_political/party/party.frontConfig.tsx:351
+#: src/components/_political/party/party.frontConfig.tsx:362
 msgid "Industrialist"
 msgstr "Индустријализам"
 
@@ -5156,20 +5350,20 @@ msgstr "Позови земљу"
 msgid "Iron"
 msgstr "Гвожђе"
 
-#: src/utils/translations.tsx:249
+#: src/utils/translations.tsx:250
 msgid "Iron Pickaxe"
 msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:192
+#: src/components/_political/party/party.frontConfig.tsx:191
 msgid "Isolationism vs Diplomacy"
 msgstr "Изолационизам наспрам дипломатије"
 
-#: src/components/_political/party/party.frontConfig.tsx:173
-#: src/components/_political/party/party.frontConfig.tsx:190
+#: src/components/_political/party/party.frontConfig.tsx:172
+#: src/components/_political/party/party.frontConfig.tsx:189
 msgid "Isolationist"
 msgstr "Изолационизам"
 
-#: src/components/_political/law/LawEthicEffects.tsx:128
+#: src/components/_political/law/LawEthicEffects.tsx:107
 msgid "Isolationist: this sworn enemy starts at {start}% bonus and grows +{perDay}% per day."
 msgstr "Изолационизам: овај заклети непријатељ почиње са {start}% бонуса и расте +{perDay}% дневно."
 
@@ -5177,7 +5371,7 @@ msgstr "Изолационизам: овај заклети непријатељ
 msgid "It only gets better… maybe"
 msgstr "Биће боље... можда"
 
-#: src/components/_economy/company/CompanyTags.tsx:72
+#: src/components/_economy/company/CompanyTags.tsx:73
 msgid "It will not gain any production and its employees will not work."
 msgstr ""
 
@@ -5319,7 +5513,7 @@ msgstr "Последњи пут коришћено"
 msgid "Last used:"
 msgstr "Последње коришћено:"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:417
+#: src/components/_economy/employee/EmployeeModal.tsx:449
 msgid "Last works"
 msgstr ""
 
@@ -5348,7 +5542,7 @@ msgstr "Покрени прелиминарне изборе"
 msgid "Law failed"
 msgstr "Закон није прошао"
 
-#: src/components/_political/law/LawFormModal.tsx:75
+#: src/components/_political/law/LawFormModal.tsx:71
 #: src/components/_user/notification/notification.frontConfig.tsx:2023
 msgid "Law proposed"
 msgstr "Закон је предложен"
@@ -5356,7 +5550,7 @@ msgstr "Закон је предложен"
 #: src/components/_political/alliance/AllianceHeader.tsx:114
 #: src/components/_political/country/CountryHeader.tsx:87
 #: src/pages/alliance/[allianceId]/index.tsx:95
-#: src/pages/country/[countryId]/index.tsx:182
+#: src/pages/country/[countryId]/index.tsx:179
 #: src/pages/country/[countryId]/laws.tsx:26
 msgid "Laws"
 msgstr "Закони"
@@ -5369,8 +5563,8 @@ msgstr "Олово"
 msgid "Leader"
 msgstr "Вођа"
 
-#: src/components/_user/user/skills.frontConfig.tsx:230
-#: src/components/_user/user/skills.frontConfig.tsx:231
+#: src/components/_user/user/skills.frontConfig.tsx:227
+#: src/components/_user/user/skills.frontConfig.tsx:228
 msgid "Leadership"
 msgstr ""
 
@@ -5409,23 +5603,27 @@ msgstr "Напусти савез коме твоја земља припада"
 msgid "Legend spotted!"
 msgstr "Легендо!"
 
-#: src/utils/translations.tsx:216
+#: src/components/_user/user/EcoSkillEffects.tsx:36
+msgid "Legendary"
+msgstr ""
+
+#: src/utils/translations.tsx:217
 msgid "Legendary Boots"
 msgstr "Легендарне чизме"
 
-#: src/utils/translations.tsx:207
+#: src/utils/translations.tsx:208
 msgid "Legendary Chest"
 msgstr "Легендарни панцир"
 
-#: src/utils/translations.tsx:225
+#: src/utils/translations.tsx:226
 msgid "Legendary Gloves"
 msgstr "Легендарне рукавице"
 
-#: src/utils/translations.tsx:198
+#: src/utils/translations.tsx:199
 msgid "Legendary Helmet"
 msgstr "Легендарна кацига"
 
-#: src/utils/translations.tsx:234
+#: src/utils/translations.tsx:235
 msgid "Legendary Pants"
 msgstr "Легендарне панталоне"
 
@@ -5438,6 +5636,10 @@ msgstr ""
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:89
 msgid "Level {level}"
 msgstr "Ниво {level}"
+
+#: src/components/_social/poll/PollCard.tsx:309
+msgid "Level {minLevel}+"
+msgstr ""
 
 #: src/components/_political/election/Election.tsx:132
 #: src/components/_political/election/Election.tsx:224
@@ -5477,8 +5679,8 @@ msgstr "Доживотни циљеви и докле је овај играч �
 msgid "Lifetime goals. Reach a tier, claim its XP, and the next one unlocks right away."
 msgstr "Доживотни циљеви. Достигни степен, преузми његов XP и следећи се одмах откључава."
 
-#: src/components/_political/law/LawFormModal.tsx:216
-#: src/components/_political/law/LawFormModal.tsx:294
+#: src/components/_political/law/LawFormModal.tsx:212
+#: src/components/_political/law/LawFormModal.tsx:290
 msgid "Light"
 msgstr "Лака"
 
@@ -5506,7 +5708,7 @@ msgstr "Лајкуј поруку"
 msgid "Limestone"
 msgstr "Кречњак"
 
-#: src/components/_user/user/skills.frontConfig.tsx:132
+#: src/components/_user/user/skills.frontConfig.tsx:145
 msgid "Limit of food consumption"
 msgstr "Ограничење потрошње хране"
 
@@ -5514,7 +5716,7 @@ msgstr "Ограничење потрошње хране"
 msgid "Limit reached"
 msgstr "Достигнуто ограничење"
 
-#: src/components/_user/user/SkillValue.tsx:119
+#: src/components/_user/user/SkillValue.tsx:122
 msgid "Limited:"
 msgstr "Ограничено:"
 
@@ -5548,10 +5750,15 @@ msgstr "Учитај још војних јединица"
 msgid "Load more parties"
 msgstr "Учитај још странака"
 
-#: src/components/_layout/LoadingScreenContent.tsx:56
+#: src/components/_layout/LoadingScreenContent.tsx:57
 msgid "Loading {status}..."
 msgstr "Учитавање {status}..."
 
+#: src/components/_social/poll/PollCard.tsx:165
+msgid "Loading poll..."
+msgstr ""
+
+#: src/components/_social/poll/PollVotersModal.tsx:40
 #: src/components/_user/apiToken/ApiTokenList.tsx:162
 msgid "Loading..."
 msgstr "Учитавање..."
@@ -5560,9 +5767,13 @@ msgstr "Учитавање..."
 msgid "Location"
 msgstr "Локација"
 
-#: src/components/_user/user/SkillUpgrade.tsx:289
+#: src/components/_user/user/SkillUpgrade.tsx:295
 msgid "Locked, reset your skills to reassign"
 msgstr "Закључано. Ресетуј вештине да поново распоредиш поене"
+
+#: src/components/_social/poll/PollCard.tsx:227
+msgid "Log in to vote."
+msgstr ""
 
 #: src/pages/index.tsx:159
 msgid "Login"
@@ -5576,7 +5787,7 @@ msgstr "Одјави се"
 msgid "Long Sword"
 msgstr "Мач"
 
-#: src/utils/translations.tsx:284
+#: src/utils/translations.tsx:285
 msgid "Loose Caliper"
 msgstr ""
 
@@ -5592,8 +5803,8 @@ msgstr "Сакупи <0/> предмета на бојишту"
 msgid "Loot Cases"
 msgstr "Сандуче са пленом"
 
-#: src/components/_user/user/skills.frontConfig.tsx:182
-#: src/components/_user/user/skills.frontConfig.tsx:183
+#: src/components/_user/user/skills.frontConfig.tsx:195
+#: src/components/_user/user/skills.frontConfig.tsx:196
 msgid "Loot chance"
 msgstr "Шанса за плен"
 
@@ -5621,7 +5832,7 @@ msgstr "Срећа је коначно на платном списку"
 msgid "Lvl"
 msgstr "Ниво"
 
-#: src/utils/translations.tsx:286
+#: src/utils/translations.tsx:287
 msgid "Machinist's Caliper"
 msgstr ""
 
@@ -5646,22 +5857,22 @@ msgstr "Постави <0/> за новог вођу савеза. Вођа мо
 msgid "Manage Subscription"
 msgstr "Управљај претплатом"
 
-#: src/components/_user/user/skills.frontConfig.tsx:207
-#: src/components/_user/user/skills.frontConfig.tsx:208
+#: src/components/_user/user/skills.frontConfig.tsx:211
+#: src/components/_user/user/skills.frontConfig.tsx:212
 msgid "Management"
 msgstr "Менаџмент"
 
-#: src/components/_layout/LoadingScreenContent.tsx:24
+#: src/components/_layout/LoadingScreenContent.tsx:25
 msgid "map"
 msgstr "мапа"
 
-#: src/components/_layout/LayoutMapOptions.tsx:82
+#: src/components/_layout/LayoutMapOptions.tsx:84
 #: src/components/_layout/LayoutOptions.tsx:105
 msgid "Map"
 msgstr "Мапа"
 
-#: src/components/_political/law/LawFormModal.tsx:213
-#: src/components/_political/law/LawFormModal.tsx:291
+#: src/components/_political/law/LawFormModal.tsx:209
+#: src/components/_political/law/LawFormModal.tsx:287
 msgid "Map Accent"
 msgstr "Акцент мапе"
 
@@ -5682,7 +5893,7 @@ msgid "Market average"
 msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:258
+#: src/components/_political/law/LawFormModal.tsx:254
 msgid "Market tax"
 msgstr "Порез на тржиште"
 
@@ -5704,7 +5915,7 @@ msgid "Max rarity"
 msgstr "Највиша реткост"
 
 #: src/components/_economy/employee/employeeCards.tsx:239
-#: src/components/_economy/employee/EmployeeModal.tsx:580
+#: src/components/_economy/employee/EmployeeModal.tsx:588
 msgid "Maxed"
 msgstr ""
 
@@ -5713,6 +5924,10 @@ msgstr ""
 #: src/components/_economy/company/CompanyDropdown.tsx:246
 msgid "Maxed!"
 msgstr "Максимум!"
+
+#: src/components/_economy/company/CompanyTags.tsx:130
+msgid "Maximum number of employees this company can hold."
+msgstr ""
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:122
@@ -5836,12 +6051,12 @@ msgid "Mentoring"
 msgstr ""
 
 #: src/pages/country/[countryId]/auctions.tsx:25
-#: src/pages/country/[countryId]/index.tsx:304
+#: src/pages/country/[countryId]/index.tsx:301
 msgid "Mercenary Auctions"
 msgstr "Плаћеничке аукције"
 
 #: src/pages/country/[countryId]/contracts.tsx:25
-#: src/pages/country/[countryId]/index.tsx:292
+#: src/pages/country/[countryId]/index.tsx:289
 #: src/pages/mu/[muId]/contracts.tsx:25
 msgid "Mercenary Contracts"
 msgstr "Плаћенички уговори"
@@ -5922,7 +6137,7 @@ msgstr ""
 msgid "Miami Supercar"
 msgstr ""
 
-#: src/utils/translations.tsx:288
+#: src/utils/translations.tsx:289
 msgid "Micron Caliper"
 msgstr ""
 
@@ -5941,6 +6156,10 @@ msgstr "Степени прекретница које си преузео, на
 msgid "Milestones"
 msgstr "Прекретнице"
 
+#: src/components/_layout/loadingTips.tsx:451
+msgid "Milestones are lifetime goals that never reset. Check Progression for tiers waiting to be claimed."
+msgstr ""
+
 #: src/components/_user/notification/notificationPrefs.categories.ts:159
 msgid "Military & Battles"
 msgstr "Војска и битке"
@@ -5951,8 +6170,8 @@ msgstr "Војна база"
 
 #. placeholder {0}: ethicsBonuses.militarism[1].regionUpgradeCooldownHours
 #. placeholder {0}: ethicsBonuses.militarism[2].regionUpgradeCooldownHours
-#: src/components/_political/party/party.frontConfig.tsx:95
-#: src/components/_political/party/party.frontConfig.tsx:109
+#: src/components/_political/party/party.frontConfig.tsx:94
+#: src/components/_political/party/party.frontConfig.tsx:108
 msgid "Military bases can be upgraded or downgraded every <0>{0} hours</0>."
 msgstr "Војне базе се могу унапредити или снизити сваких <0>{0} сати</0>."
 
@@ -5968,7 +6187,7 @@ msgstr "Војни чин"
 msgid "Military Rank Up!"
 msgstr "Повећање војног чина!"
 
-#: src/components/_user/user/SkillValue.tsx:221
+#: src/components/_user/user/SkillValue.tsx:224
 msgid "Military rank:"
 msgstr "Војни чин:"
 
@@ -6007,6 +6226,10 @@ msgstr "Минимум достигнут"
 msgid "Min. active citizens"
 msgstr "Мин. активних грађана"
 
+#: src/components/_social/poll/PollEditorModal.tsx:255
+msgid "Minimum level to vote"
+msgstr ""
+
 #: src/components/_political/government/Government.tsx:100
 #: src/components/_political/government/GovernmentScroll.tsx:54
 msgid "Minister of Defense"
@@ -6036,6 +6259,10 @@ msgstr "Мисије"
 msgid "Missions & milestones"
 msgstr "Мисије и прекретнице"
 
+#: src/components/_layout/loadingTips.tsx:433
+msgid "Missions are claimed by hand: open Progression to collect your <0>XP</0>, cases and <1>Money</1>."
+msgstr ""
+
 #: src/components/_user/mission/MissionsHeader.tsx:73
 #: src/components/_user/user/UserRankingsPanel.tsx:92
 msgid "Missions claimed"
@@ -6045,7 +6272,7 @@ msgstr "Преузете мисије"
 msgid "Mobile phone number"
 msgstr "Број мобилног телефона"
 
-#: src/utils/translations.tsx:270
+#: src/utils/translations.tsx:271
 msgid "Molten Maul"
 msgstr ""
 
@@ -6122,7 +6349,7 @@ msgstr "Предлог поднет"
 msgid "Motions"
 msgstr "Предлози"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:591
+#: src/components/_economy/employee/EmployeeModal.tsx:606
 #: src/components/_political/region/MoveButton.tsx:120
 #: src/components/_political/region/MoveButton.tsx:132
 msgid "Move"
@@ -6143,7 +6370,7 @@ msgid "Move a company to another region"
 msgstr "Пресели компанију у други регион"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:182
-#: src/components/_economy/company/MoveCompanyForm.tsx:66
+#: src/components/_economy/company/MoveCompanyForm.tsx:63
 msgid "Move company"
 msgstr "Пресели компанију"
 
@@ -6159,7 +6386,7 @@ msgstr ""
 msgid "Move here"
 msgstr ""
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:92
+#: src/components/_economy/company/MoveCompanyForm.tsx:86
 msgid "Move the company"
 msgstr "Пресели компанију"
 
@@ -6177,6 +6404,14 @@ msgstr "Премештен у нову компанију"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:41
 msgid "Moves a trait one step up its ladder."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:405
+msgid "Moving an employee to another company is free, but costs them {movePenalty} happiness for {movePenaltyDays} days."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:272
+msgid "Moving your home to another region costs <0>{homeMoveConcreteCost}</0>."
 msgstr ""
 
 #: src/components/_layout/LayoutMenu.tsx:124
@@ -6247,27 +6482,27 @@ msgstr "Мој степен {0}"
 msgid "My workforce"
 msgstr ""
 
-#: src/utils/translations.tsx:122
+#: src/utils/translations.tsx:124
 msgid "Mysterious Plant"
 msgstr "Мистериозна биљка"
 
-#: src/utils/translations.tsx:217
+#: src/utils/translations.tsx:218
 msgid "Mythic Boots"
 msgstr "Митске чизме"
 
-#: src/utils/translations.tsx:208
+#: src/utils/translations.tsx:209
 msgid "Mythic Chest"
 msgstr "Митски панцир"
 
-#: src/utils/translations.tsx:226
+#: src/utils/translations.tsx:227
 msgid "Mythic Gloves"
 msgstr "Митске рукавице"
 
-#: src/utils/translations.tsx:199
+#: src/utils/translations.tsx:200
 msgid "Mythic Helmet"
 msgstr "Митска кацига"
 
-#: src/utils/translations.tsx:235
+#: src/utils/translations.tsx:236
 msgid "Mythic Pants"
 msgstr "Митске панталоне"
 
@@ -6280,11 +6515,11 @@ msgstr "Митски?! Твој налог је благословен"
 msgid "Name"
 msgstr "Име"
 
-#: src/components/_political/party/party.frontConfig.tsx:424
+#: src/components/_political/party/party.frontConfig.tsx:381
 msgid "National battle orders cost double."
 msgstr "Национална наређења коштају дупло."
 
-#: src/components/_political/party/party.frontConfig.tsx:419
+#: src/components/_political/party/party.frontConfig.tsx:376
 msgid "National battle orders give <0>double</0> the priority damage bonus (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 msgstr "Национална наређења дају <0>дупло</0> већи приоритетни бонус на штету (<1>+10%</1> / <2>+20%</2> / <3>+30%</3>)."
 
@@ -6311,6 +6546,13 @@ msgstr "Потребно је још <0/> за производњу"
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:46
 msgid "Negative mercenary reputation"
 msgstr "Негативан плаћенички углед"
+
+#. placeholder {0}: ts.lightAmmo
+#. placeholder {1}: ts.ammo
+#. placeholder {2}: ts.heavyAmmo
+#: src/components/_layout/loadingTips.tsx:141
+msgid "Never fight without ammo: <0>{0}</0> gives +{lightAmmoAttack}% <1>Attack</1>, <2>{1}</2> +{ammoAttack}% and <3>{2}</3> +{heavyAmmoAttack}%."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:26
 msgid "Never give up!"
@@ -6362,7 +6604,7 @@ msgstr "Нова понуда предмета"
 msgid "New leader"
 msgstr "Нови вођа"
 
-#: src/components/_economy/company/MoveCompanyForm.tsx:81
+#: src/components/_economy/company/MoveCompanyForm.tsx:75
 msgid "New location"
 msgstr "Нова локација"
 
@@ -6383,6 +6625,7 @@ msgid "New MU Application"
 msgstr "Нова пријава за ВЈ"
 
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:71
+#: src/components/_economy/employee/EmployeeRenameModal.tsx:72
 msgid "New name"
 msgstr "Ново име"
 
@@ -6401,6 +6644,10 @@ msgstr "Нова пријава за чланство у странци"
 #: src/components/_user/notification/notification.frontConfig.tsx:2049
 msgid "New Party Leader"
 msgstr "Нови лидер странке"
+
+#: src/components/_social/poll/PollEditorModal.tsx:161
+msgid "New poll"
+msgstr ""
 
 #: src/components/_political/event/EventList.tsx:109
 #: src/components/_user/notification/notification.frontConfig.tsx:2032
@@ -6448,7 +6695,7 @@ msgstr "Следећи ће бити тенк"
 msgid "Next one will be tank"
 msgstr "Следећи ће бити тенк"
 
-#: src/components/_user/user/SkillUpgrade.tsx:272
+#: src/components/_user/user/SkillUpgrade.tsx:278
 msgid "Next point costs"
 msgstr "Следећи поен кошта"
 
@@ -6525,7 +6772,7 @@ msgstr "Још увек нема битака"
 msgid "No bids yet"
 msgstr "Још нема понуда"
 
-#: src/components/_economy/employee/RecruitModal.tsx:103
+#: src/components/_economy/employee/RecruitModal.tsx:108
 msgid "No candidates available"
 msgstr ""
 
@@ -6549,6 +6796,10 @@ msgstr "Ниједна земља се још није пријавила. Бу�
 msgid "No damages ranking yet."
 msgstr "Још увек нема рангирања штете."
 
+#: src/components/_economy/employee/EmployeeSpecializations.tsx:59
+msgid "No days worked yet"
+msgstr ""
+
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:403
 msgid "No defensive pact"
 msgstr "Нема одбрамбеног пакта"
@@ -6557,11 +6808,11 @@ msgstr "Нема одбрамбеног пакта"
 msgid "No donations yet"
 msgstr "Још нема донација"
 
-#: src/components/_economy/employee/EmployeeList.tsx:101
+#: src/components/_economy/employee/EmployeeList.tsx:122
 msgid "No employees"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeePanel.tsx:85
+#: src/components/_economy/employee/EmployeePanel.tsx:90
 msgid "No employees yet"
 msgstr ""
 
@@ -6573,7 +6824,7 @@ msgstr "Још увек нема рангирања поена."
 msgid "No home region set"
 msgstr ""
 
-#: src/components/_economy/inventory/DismantleModal.tsx:275
+#: src/components/_economy/inventory/DismantleModal.tsx:283
 #: src/components/_economy/inventory/ItemSelectorModal.tsx:198
 msgid "No items found"
 msgstr ""
@@ -6615,6 +6866,10 @@ msgstr "Нема доступних прекретница"
 msgid "No military units found"
 msgstr "Нису пронађене војне јединице"
 
+#: src/components/_social/poll/PollEditorModal.tsx:256
+msgid "No minimum"
+msgstr ""
+
 #: src/components/_user/mission/MissionsList.tsx:330
 msgid "No missions available"
 msgstr "Нема доступних мисија"
@@ -6647,15 +6902,11 @@ msgstr "Нема наређења"
 msgid "No parties found"
 msgstr "Није пронађена ниједна странка"
 
-#: src/components/_user/user/SkillUpgrade.tsx:287
+#: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "No prestige points left, tap to reset staged points"
 msgstr "Нема преосталих поена престижа, притисни да поништиш распоређене поене"
 
-#: src/pages/country/[countryId]/index.tsx:382
-msgid "No production bonus from resources. This country has no specialization."
-msgstr "Нема бонуса за производњу од ресурса. Ова земља нема специјализацију."
-
-#: src/components/_economy/employee/EmployeeModal.tsx:408
+#: src/components/_economy/employee/EmployeeModal.tsx:440
 msgid "No production yet"
 msgstr ""
 
@@ -6679,11 +6930,11 @@ msgstr "Нема заклетог непријатеља"
 msgid "No tier yet"
 msgstr "Још без степена"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:126
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
 msgid "No tool"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:130
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:134
 msgid "No tool here fits what this company produces. Toolboxes drop them."
 msgstr ""
 
@@ -6696,11 +6947,15 @@ msgstr "Нема налога за трговину"
 msgid "No transactions found"
 msgstr "Трансакције нису пронађене"
 
+#: src/components/_social/poll/PollVotersModal.tsx:42
+msgid "No votes yet"
+msgstr ""
+
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
 msgstr "Нису пронађени ратови"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:251
+#: src/components/_economy/inventory/DismantleModal.tsx:259
 msgid "No weapons or equipment to dismantle"
 msgstr ""
 
@@ -6746,8 +7001,8 @@ msgstr "Номинован за владу"
 msgid "None"
 msgstr "Ниједан"
 
-#: src/components/_political/law/LawFormModal.tsx:217
-#: src/components/_political/law/LawFormModal.tsx:295
+#: src/components/_political/law/LawFormModal.tsx:213
+#: src/components/_political/law/LawFormModal.tsx:291
 msgid "Normal"
 msgstr "Нормално"
 
@@ -6816,10 +7071,6 @@ msgstr "Окупатор"
 msgid "Occupied region"
 msgstr "Окупиран регион"
 
-#: src/components/_user/user/skills.frontConfig.tsx:214
-msgid "Odds to reveal an employee's hidden traits when you hire them."
-msgstr ""
-
 #: src/components/_political/government/Government.tsx:204
 msgid "of"
 msgstr "од"
@@ -6848,6 +7099,14 @@ msgstr "По завршетку уговора: +1 углед по <0/> испл
 msgid "On contract failure: -1 rep per <0/> in budget, and -1 rep per <1/> short of completing the contract."
 msgstr "По неуспеху уговора: -1 углед по <0/> у буџету, и -1 углед по <1/> који недостаје до завршетка уговора."
 
+#: src/components/_layout/loadingTips.tsx:263
+msgid "Once every {freeTravelHomeCooldownHours}h, travelling back to your home region is free."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:512
+msgid "One account per player. Multi-accounting can get you permanently banned."
+msgstr ""
+
 #: src/components/_economy/employee/training.frontConfig.tsx:70
 msgid "One more training session for this employee."
 msgstr ""
@@ -6867,14 +7126,21 @@ msgstr "Битке у току"
 msgid "Only {0}% of active players reached tier {1} on this milestone."
 msgstr "Само {0}% активних играча је достигло степен {1} на овој прекретници."
 
-#: src/components/_political/party/party.frontConfig.tsx:345
-#: src/components/_political/party/party.frontConfig.tsx:366
-msgid "Only buffs and food deposits spawn in your borders (coca, grain, livestock and fish)."
-msgstr "Само ојачања и налазишта хране се појављују у вашим границама (кока, жито, стока и риба)."
+#: src/components/_social/poll/PollCard.tsx:232
+msgid "Only citizens of <0/> can vote."
+msgstr ""
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:164
 msgid "Only MU owners and commanders can register the unit"
 msgstr "Само власник и команданти ВЈ могу да је пријаве"
+
+#: src/components/_social/poll/PollEditorModal.tsx:246
+msgid "Only players who are already citizens when the poll starts can vote."
+msgstr ""
+
+#: src/components/_social/poll/PollCard.tsx:244
+msgid "Only players who were already citizens of <0/> when the poll started can vote."
+msgstr ""
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:55
 msgid "Only supporters can see their spending and income breakdown."
@@ -6888,22 +7154,19 @@ msgstr "Само влада или власник/командант ВЈ ове
 msgid "Only the owner and commanders can change the nationality."
 msgstr "Само власник и команданти могу да промене националност."
 
-#: src/components/_political/party/party.frontConfig.tsx:264
+#: src/components/_political/party/party.frontConfig.tsx:263
 msgid "Only your core regions generate development income."
 msgstr "Само твоји матични региони доносе приход од развоја."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:553
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:146
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:572
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:592
 msgid "Open"
 msgstr "Отвори"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:231
 msgid "Open <0/>"
 msgstr "Отвори <0/>"
-
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:141
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:573
-msgid "Open case"
-msgstr "Отвори сандуче"
 
 #: src/components/_economy/transaction/TransactionList.tsx:89
 msgid "Open Case"
@@ -6917,7 +7180,7 @@ msgstr "Отвори сандучиће"
 msgid "Open Chat"
 msgstr "Отвори ћаскање"
 
-#: src/components/_user/auth/LoginFormModal.tsx:111
+#: src/components/_user/auth/LoginFormModal.tsx:114
 msgid "Open Email"
 msgstr "Отвори имејл"
 
@@ -6929,7 +7192,7 @@ msgstr "Отвори да добијеш бољи насумични предм�
 msgid "Open it to get a random item"
 msgstr "Отвори да добијеш насумични предмет"
 
-#: src/utils/translations.tsx:119
+#: src/utils/translations.tsx:121
 msgid "Open it to get a random tool for one of your employees"
 msgstr ""
 
@@ -7001,7 +7264,7 @@ msgstr "Остало"
 msgid "Outcome"
 msgstr "Исход"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:317
+#: src/components/_economy/employee/EmployeeModal.tsx:345
 msgid "Output"
 msgstr ""
 
@@ -7009,7 +7272,7 @@ msgstr ""
 msgid "Overall"
 msgstr "Свеукупно"
 
-#: src/components/_user/user/SkillValue.tsx:189
+#: src/components/_user/user/SkillValue.tsx:192
 msgid "Overflow:"
 msgstr "Преливање:"
 
@@ -7050,12 +7313,12 @@ msgstr "Власништво пренесено"
 msgid "Pacification Center"
 msgstr "Центар за пацификацију"
 
-#: src/components/_political/party/party.frontConfig.tsx:88
+#: src/components/_political/party/party.frontConfig.tsx:87
 msgid "Pacifism vs Expansionism"
 msgstr "Пацифизам наспрам експанзионизма"
 
-#: src/components/_political/party/party.frontConfig.tsx:71
-#: src/components/_political/party/party.frontConfig.tsx:86
+#: src/components/_political/party/party.frontConfig.tsx:70
+#: src/components/_political/party/party.frontConfig.tsx:85
 msgid "Pacifist"
 msgstr "Пацифизам"
 
@@ -7069,7 +7332,7 @@ msgid "Packs"
 msgstr "Пакети"
 
 #: src/components/_user/UserEquipments.tsx:202
-#: src/utils/translations.tsx:229
+#: src/utils/translations.tsx:230
 msgid "Pants"
 msgstr "Панталоне"
 
@@ -7197,7 +7460,7 @@ msgstr "Исплата"
 msgid "Peace made"
 msgstr "Мир склопљен"
 
-#: src/utils/translations.tsx:335
+#: src/utils/translations.tsx:336
 msgid "Pending"
 msgstr "На чекању"
 
@@ -7205,8 +7468,8 @@ msgstr "На чекању"
 msgid "People are angry, an auto revolt has started in <0/>"
 msgstr "Људи су љути, аутоматски револт је почео у <0/>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:218
 #: src/components/_user/user/skills.frontConfig.tsx:219
+#: src/components/_user/user/skills.frontConfig.tsx:220
 msgid "Perception"
 msgstr ""
 
@@ -7222,7 +7485,7 @@ msgstr "Петролеј"
 msgid "Petty Officer"
 msgstr "Старији водник"
 
-#: src/utils/translations.tsx:279
+#: src/utils/translations.tsx:280
 msgid "Philosopher's Flask"
 msgstr ""
 
@@ -7242,7 +7505,7 @@ msgstr "Захтевана је верификација телефона"
 msgid "Phone verification required"
 msgstr "Потребна је верификација телефона"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:350
+#: src/components/_economy/employee/TrainingDraftModal.tsx:351
 msgid "Pick {cardTitle}"
 msgstr ""
 
@@ -7251,8 +7514,8 @@ msgid "Pick a candidate!"
 msgstr ""
 
 #: src/components/_economy/employee/employeeCards.tsx:235
-#: src/components/_economy/employee/EmployeeModal.tsx:576
-#: src/components/_economy/employee/TrainingDraftModal.tsx:352
+#: src/components/_economy/employee/EmployeeModal.tsx:584
+#: src/components/_economy/employee/TrainingDraftModal.tsx:353
 msgid "Pick a card"
 msgstr ""
 
@@ -7272,11 +7535,11 @@ msgstr ""
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to sell at the same price."
 msgstr ""
 
-#: src/utils/translations.tsx:247
+#: src/utils/translations.tsx:248
 msgid "Pickaxe"
 msgstr ""
 
-#: src/utils/translations.tsx:121
+#: src/utils/translations.tsx:123
 msgid "Pill"
 msgstr "Пилула"
 
@@ -7307,7 +7570,7 @@ msgstr "Молимо вас да попуните CAPTCHA."
 msgid "Please select a region"
 msgstr "Изаберите регион"
 
-#: src/components/_layout/map.frontConfig.tsx:27
+#: src/components/_layout/map.frontConfig.tsx:30
 msgid "Political"
 msgstr "Политички"
 
@@ -7327,11 +7590,16 @@ msgstr "Политичка преузимања (PTO) су дозвољена, �
 msgid "Politics & Government"
 msgstr "Политика и власт"
 
+#: src/components/_social/poll/PollCard.tsx:154
+#: src/components/_social/poll/PollCard.tsx:220
+msgid "Poll ended"
+msgstr ""
+
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:205
 msgid "Popular Article"
 msgstr "Популаран чланак"
 
-#: src/components/_layout/map.frontConfig.tsx:48
+#: src/components/_layout/map.frontConfig.tsx:51
 #: src/components/_political/region/RegionHeader.tsx:90
 #: src/components/_political/region/RegionTooltip.tsx:89
 msgid "Population"
@@ -7350,12 +7618,12 @@ msgstr "Објави обавештење"
 msgid "Potential"
 msgstr ""
 
-#: src/components/_user/user/skills.frontConfig.tsx:146
-#: src/components/_user/user/skills.frontConfig.tsx:147
+#: src/components/_user/user/skills.frontConfig.tsx:159
+#: src/components/_user/user/skills.frontConfig.tsx:160
 msgid "Precision"
 msgstr "Прецизност"
 
-#: src/utils/translations.tsx:287
+#: src/utils/translations.tsx:288
 msgid "Precision Caliper"
 msgstr ""
 
@@ -7430,7 +7698,7 @@ msgstr "Престиж"
 msgid "Prestige to drop levels and re-activate your XP bonus."
 msgstr "Оствари престиж да изгубиш нивое и поново активираш свој XP бонус."
 
-#: src/components/_user/user/SkillValue.tsx:73
+#: src/components/_user/user/SkillValue.tsx:76
 msgid "Prestige:"
 msgstr "Престиж:"
 
@@ -7467,7 +7735,7 @@ msgstr "Редов"
 msgid "Pro Only"
 msgstr "Само про"
 
-#: src/components/_user/user/skills.frontConfig.tsx:53
+#: src/components/_user/user/skills.frontConfig.tsx:66
 msgid "Probability of landing a critical hit"
 msgstr "Вероватноћа задавања критичног ударца"
 
@@ -7497,15 +7765,15 @@ msgid "Produced item changed!"
 msgstr "Произведени предмет промењен!"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:43
-#: src/components/_user/user/skills.frontConfig.tsx:119
-#: src/components/_user/user/skills.frontConfig.tsx:120
+#: src/components/_user/user/skills.frontConfig.tsx:132
+#: src/components/_user/user/skills.frontConfig.tsx:133
 #: src/pages/company/[companyId]/index.tsx:32
 msgid "Production"
 msgstr "Производња"
 
-#: src/components/_economy/company/CompanyProductionBonusTag.tsx:51
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:103
-#: src/pages/region/[regionId]/index.tsx:69
+#: src/components/_economy/company/CompanyProductionBonusTag.tsx:42
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:85
+#: src/pages/region/[regionId]/index.tsx:73
 msgid "Production bonus"
 msgstr "Бонус производње"
 
@@ -7572,7 +7840,7 @@ msgid "Propose defensive pact"
 msgstr "Предложи одбрамбени пакт"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:198
-#: src/components/_political/law/LawFormModal.tsx:346
+#: src/components/_political/law/LawFormModal.tsx:333
 msgid "Propose law"
 msgstr "Предложи закон"
 
@@ -7632,8 +7900,12 @@ msgstr ""
 msgid "Put yourself to work!"
 msgstr "Баци се на посао!"
 
+#: src/components/_social/poll/PollEditorModal.tsx:171
+msgid "Question"
+msgstr ""
+
 #: src/components/_economy/inventory/DismantleModal.tsx:47
-#: src/components/_economy/inventory/DismantleModal.tsx:336
+#: src/components/_economy/inventory/DismantleModal.tsx:344
 msgid "Quick dismantle"
 msgstr "Брзо растави"
 
@@ -7645,7 +7917,7 @@ msgstr "Брзо опреми најбоље предмете било ког р
 msgid "Quickly dismantle items"
 msgstr "Брзо растави предмете"
 
-#: src/utils/translations.tsx:280
+#: src/utils/translations.tsx:281
 msgid "Quintessence Still"
 msgstr ""
 
@@ -7657,7 +7929,7 @@ msgstr "Дуга"
 msgid "Raises one stat."
 msgstr ""
 
-#: src/components/_economy/employee/TrainingCard.tsx:152
+#: src/components/_economy/employee/TrainingCard.tsx:153
 msgid "Random trait, +1 random stat"
 msgstr ""
 
@@ -7675,7 +7947,7 @@ msgstr "Награда за рангирање"
 
 #: src/components/_layout/MoreButtonNav.tsx:117
 #: src/pages/alliance/[allianceId]/index.tsx:48
-#: src/pages/country/[countryId]/index.tsx:167
+#: src/pages/country/[countryId]/index.tsx:164
 #: src/pages/user/[userId]/index.tsx:131
 msgid "Rankings"
 msgstr "Рангирања"
@@ -7684,8 +7956,12 @@ msgstr "Рангирања"
 msgid "Ranks"
 msgstr "Рангирања"
 
-#: src/components/_user/user/skills.frontConfig.tsx:225
-msgid "Rarer cards when you train your employees: every level moves odds away from Common toward the rarer tiers."
+#: src/components/_user/user/EcoSkillEffects.tsx:34
+msgid "Rare"
+msgstr ""
+
+#: src/components/_user/user/EcoSkillEffects.tsx:157
+msgid "Rarer cards when you train your employees. Each level moves card odds off Common: <0/>."
 msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:175
@@ -7810,7 +8086,11 @@ msgstr "Прочитај чланак"
 msgid "Ready for battle!"
 msgstr "Спреман за битку!"
 
-#: src/utils/translations.tsx:243
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:89
+msgid "Ready to train"
+msgstr ""
+
+#: src/utils/translations.tsx:244
 msgid "Reaper's Crescent"
 msgstr ""
 
@@ -7821,7 +8101,7 @@ msgstr "Контра-адмирал"
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:79
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:133
 #: src/components/_political/law/Law.tsx:84
-#: src/components/_political/law/LawFormModal.tsx:179
+#: src/components/_political/law/LawFormModal.tsx:175
 msgid "Reason"
 msgstr "Разлог"
 
@@ -7837,12 +8117,12 @@ msgstr "Рецепт"
 msgid "Recipient"
 msgstr "Прималац"
 
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:68
+#: src/components/_economy/company/RecommendedCompanyRegions.tsx:50
 msgid "Recommended regions"
 msgstr "Препоручени региони"
 
-#: src/components/_economy/employee/EmployeeList.tsx:150
-#: src/components/_economy/employee/RecruitModal.tsx:179
+#: src/components/_economy/employee/EmployeeList.tsx:171
+#: src/components/_economy/employee/RecruitModal.tsx:184
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:21
 msgid "Recruit"
 msgstr "Регрут"
@@ -7851,7 +8131,7 @@ msgstr "Регрут"
 msgid "Red Staff"
 msgstr "Црвено жезло"
 
-#: src/components/_user/user/skills.frontConfig.tsx:73
+#: src/components/_user/user/skills.frontConfig.tsx:86
 msgid "Reduces health lost when fighting in battles"
 msgstr "Смањује губитак здравља током борбе у биткама"
 
@@ -7926,11 +8206,11 @@ msgid "Region transfer"
 msgstr "Пренос региона"
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.imperialism[2].upgradeMaintenanceMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:316
+#: src/components/_political/party/party.frontConfig.tsx:315
 msgid "Region upgrade maintenance costs are increased by <0>{0}</0>."
 msgstr "Трошкови одржавања надоградњи региона су повећани за <0>{0}</0>."
 
-#: src/components/_layout/LoadingScreenContent.tsx:23
+#: src/components/_layout/LoadingScreenContent.tsx:24
 msgid "regions"
 msgstr "региона"
 
@@ -7942,7 +8222,7 @@ msgstr "Региони"
 msgid "Regions Crossed"
 msgstr ""
 
-#: src/components/_political/party/party.frontConfig.tsx:125
+#: src/components/_political/party/party.frontConfig.tsx:124
 msgid "Regions you occupy generate double the amount of resistance."
 msgstr "Региони које окупираш стварају дупло више отпора."
 
@@ -7980,23 +8260,23 @@ msgstr "Пријаве су отворене"
 msgid "Rehab"
 msgstr ""
 
-#: src/utils/translations.tsx:213
+#: src/utils/translations.tsx:214
 msgid "Reinforced Boots"
 msgstr "Армиране чизме"
 
-#: src/utils/translations.tsx:204
+#: src/utils/translations.tsx:205
 msgid "Reinforced Chest"
 msgstr "Армирани панцир"
 
-#: src/utils/translations.tsx:222
+#: src/utils/translations.tsx:223
 msgid "Reinforced Gloves"
 msgstr "Армиране рукавице"
 
-#: src/utils/translations.tsx:195
+#: src/utils/translations.tsx:196
 msgid "Reinforced Helmet"
 msgstr "Армирана кацига"
 
-#: src/utils/translations.tsx:231
+#: src/utils/translations.tsx:232
 msgid "Reinforced Pants"
 msgstr "Армиране панталоне"
 
@@ -8007,7 +8287,7 @@ msgid "Reject"
 msgstr "Одбиј"
 
 #: src/components/_political/law/GenericLawStatus.tsx:42
-#: src/utils/translations.tsx:336
+#: src/utils/translations.tsx:337
 msgid "Rejected"
 msgstr "Одбијен"
 
@@ -8019,7 +8299,7 @@ msgstr "Преостало трајање ојачања"
 msgid "Remaining debuff duration"
 msgstr "Преостало трајање ослабљења"
 
-#: src/components/_economy/employee/TrainingCard.tsx:121
+#: src/components/_economy/employee/TrainingCard.tsx:122
 msgid "Remove <0/>"
 msgstr ""
 
@@ -8087,11 +8367,17 @@ msgstr ""
 msgid "Remove the current party leader from their position"
 msgstr "Уклони тренутног лидера странке са позиције"
 
+#: src/components/_social/poll/PollCard.tsx:416
+msgid "Remove vote"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:2115
 msgid "Removed from Military Unit"
 msgstr "Уклоњен из војне јединице"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:288
+#: src/components/_economy/employee/EmployeeModal.tsx:599
+#: src/components/_economy/employee/EmployeeRenameModal.tsx:83
 msgid "Rename"
 msgstr "Преименуј"
 
@@ -8109,6 +8395,10 @@ msgstr "Преименуј савез у „{0}“"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
 msgstr "Преименуј компанију"
+
+#: src/components/_economy/employee/EmployeeRenameModal.tsx:65
+msgid "Rename employee"
+msgstr ""
 
 #. placeholder {0}: data.newName
 #: src/components/_political/allianceLaw/allianceLaw.frontConfig.tsx:133
@@ -8143,8 +8433,8 @@ msgstr "Пријави корисника"
 msgid "Reports"
 msgstr "Пријаве"
 
-#: src/components/_political/party/party.frontConfig.tsx:270
-#: src/components/_political/party/party.frontConfig.tsx:285
+#: src/components/_political/party/party.frontConfig.tsx:269
+#: src/components/_political/party/party.frontConfig.tsx:284
 msgid "Republican"
 msgstr "Републиканизам"
 
@@ -8164,7 +8454,7 @@ msgstr "Захтевај верификацију телефона"
 msgid "Requests:"
 msgstr "Захтеви:"
 
-#: src/components/_economy/employee/RecruitModal.tsx:74
+#: src/components/_economy/employee/RecruitModal.tsx:79
 msgid "Reroll all"
 msgstr ""
 
@@ -8200,11 +8490,11 @@ msgstr "Ресетуј корисничко име"
 msgid "Reset your skills"
 msgstr "Ресетуј своје вештине"
 
-#: src/pages/region/[regionId]/index.tsx:109
+#: src/pages/region/[regionId]/index.tsx:113
 msgid "Reshuffle in"
 msgstr "Преразмештање за"
 
-#: src/components/_layout/map.frontConfig.tsx:54
+#: src/components/_layout/map.frontConfig.tsx:57
 #: src/components/_political/region/RegionHeader.tsx:82
 msgid "Residents"
 msgstr ""
@@ -8220,7 +8510,7 @@ msgstr "Отпор"
 
 #: src/components/_political/region/ResistanceFocusItem.tsx:107
 #: src/components/_political/region/ResistanceFocusSection.tsx:25
-#: src/pages/region/[regionId]/index.tsx:125
+#: src/pages/region/[regionId]/index.tsx:129
 msgid "Resistance"
 msgstr "Отпор"
 
@@ -8244,9 +8534,9 @@ msgstr "Отпор за {regionName} {score}"
 msgid "Resource"
 msgstr "Ресурс"
 
-#: src/components/_political/country/CountryTooltip.tsx:160
-#: src/pages/country/[countryId]/index.tsx:226
-#: src/pages/region/[regionId]/index.tsx:49
+#: src/components/_political/country/CountryTooltip.tsx:153
+#: src/pages/country/[countryId]/index.tsx:223
+#: src/pages/region/[regionId]/index.tsx:53
 msgid "Resources"
 msgstr "Ресурси"
 
@@ -8265,6 +8555,10 @@ msgstr ""
 #: src/components/_other/tour/tuto.frontConfig.tsx:212
 msgid "Restore your health!"
 msgstr "Обнови своје здравље!"
+
+#: src/components/_social/poll/PollEditorModal.tsx:244
+msgid "Restrict to nationality"
+msgstr ""
 
 #: src/components/_political/law/law.frontConfig.tsx:494
 msgid "Return a region to its original country"
@@ -8310,7 +8604,7 @@ msgstr "Права"
 msgid "Rollback money (take back all payments from MU/users and refund full pool to country)"
 msgstr "Поништавање исплата (повраћај свих уплата од ВЈ/корисника и повраћај целог фонда земљи)"
 
-#: src/utils/translations.tsx:331
+#: src/utils/translations.tsx:332
 msgid "Rolled back by admin"
 msgstr "Поништено од стране администратора"
 
@@ -8318,7 +8612,7 @@ msgstr "Поништено од стране администратора"
 msgid "Rolled back by Admin"
 msgstr "Поништено од стране администратора"
 
-#: src/components/_economy/employee/EmployeePanel.tsx:79
+#: src/components/_economy/employee/EmployeePanel.tsx:84
 msgid "Roster"
 msgstr ""
 
@@ -8382,7 +8676,7 @@ msgstr "Добијене рунде"
 msgid "Rules"
 msgstr "Правила"
 
-#: src/pages/country/[countryId]/index.tsx:234
+#: src/pages/country/[countryId]/index.tsx:231
 msgid "Ruling Party"
 msgstr "Владајућа странка"
 
@@ -8390,7 +8684,7 @@ msgstr "Владајућа странка"
 msgid "Running low on health?"
 msgstr "Понестаје ти здравља?"
 
-#: src/utils/translations.tsx:239
+#: src/utils/translations.tsx:240
 msgid "Rusty Sickle"
 msgstr ""
 
@@ -8400,6 +8694,10 @@ msgstr ""
 #: src/pages/user/[userId]/skills.tsx:252
 msgid "Save"
 msgstr "Сачувај"
+
+#: src/components/_social/poll/PollEditorModal.tsx:276
+msgid "Save poll"
+msgstr ""
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:158
 msgid "Save your progress!"
@@ -8425,7 +8723,7 @@ msgstr "Слика екрана или се није десило"
 msgid "Screenshot this or no one will believe you"
 msgstr "Сликај екран или ти нико неће веровати"
 
-#: src/utils/translations.tsx:277
+#: src/utils/translations.tsx:278
 msgid "Sealed Flask"
 msgstr ""
 
@@ -8441,7 +8739,7 @@ msgstr "Претражи корисничко име примаоца..."
 msgid "Search username to nominate..."
 msgstr "Претражи корисника за номинацију..."
 
-#: src/utils/translations.tsx:259
+#: src/utils/translations.tsx:260
 msgid "Seasoned Skillet"
 msgstr ""
 
@@ -8457,7 +8755,7 @@ msgstr ""
 msgid "See your spending and income breakdown"
 msgstr "Види преглед својих трошкова и прихода"
 
-#: src/utils/translations.tsx:252
+#: src/utils/translations.tsx:253
 msgid "Seismic Breaker"
 msgstr ""
 
@@ -8474,7 +8772,7 @@ msgid "Select a region"
 msgstr "Изабери регион"
 
 #. placeholder {0}: bulkItems.length
-#: src/components/_economy/inventory/DismantleModal.tsx:270
+#: src/components/_economy/inventory/DismantleModal.tsx:278
 msgid "Select all ({0})"
 msgstr ""
 
@@ -8491,14 +8789,22 @@ msgstr "Изабери банер"
 msgid "Select law type"
 msgstr "Изабери врсту закона"
 
-#: src/components/_political/law/LawFormModal.tsx:214
-#: src/components/_political/law/LawFormModal.tsx:292
+#: src/components/_political/law/LawFormModal.tsx:210
+#: src/components/_political/law/LawFormModal.tsx:288
 msgid "Select map accent"
 msgstr "Изабери акцент мапе"
 
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:59
 msgid "Select motion type"
 msgstr "Изабери тип предлога"
+
+#: src/components/_social/poll/PollCard.tsx:295
+msgid "Select one answer"
+msgstr ""
+
+#: src/components/_social/poll/PollCard.tsx:293
+msgid "Select one or more answers"
+msgstr ""
 
 #: src/components/_user/user/UserDropdown.tsx:282
 msgid "Select skin"
@@ -8703,13 +9009,17 @@ msgid "Show more"
 msgstr "Прикажи више"
 
 #. placeholder {0}: items.length - modalLimit
-#: src/components/_economy/inventory/MultiItems.tsx:88
+#: src/components/_economy/inventory/MultiItems.tsx:90
 msgid "Show more ({0} remaining)"
 msgstr "Прикажи још ({0} преосталих)"
 
 #: src/components/_social/ArticleList.tsx:168
 msgid "Show only articles with positive score (score >= -5)"
 msgstr "Прикажи само чланке са позитивним скором (скор >= -5)"
+
+#: src/components/_social/poll/PollCard.tsx:403
+msgid "Show results"
+msgstr ""
 
 #: src/components/_military/mu/MuMemberList.tsx:199
 msgid "Showing monthly"
@@ -8723,7 +9033,7 @@ msgstr "Приказује се укупно"
 msgid "Showing weekly"
 msgstr "Приказује се недељно"
 
-#: src/utils/translations.tsx:238
+#: src/utils/translations.tsx:239
 msgid "Sickle"
 msgstr ""
 
@@ -8741,11 +9051,11 @@ msgid "Skill issue?"
 msgstr "Мањак вештина?"
 
 #: src/components/_user/user/SkillBar.tsx:31
-#: src/components/_user/user/SkillValue.tsx:60
+#: src/components/_user/user/SkillValue.tsx:63
 msgid "Skill upgrade:"
 msgstr "Надоградња вештина:"
 
-#: src/utils/translations.tsx:256
+#: src/utils/translations.tsx:257
 msgid "Skillet"
 msgstr ""
 
@@ -8837,27 +9147,31 @@ msgstr "Звучни ефекти"
 msgid "Specialist"
 msgstr "Специјалиста"
 
-#: src/components/_layout/map.frontConfig.tsx:66
+#: src/components/_economy/employee/EmployeeSpecializations.tsx:54
 msgid "Specialization"
-msgstr "Специјализација"
-
-#: src/components/_political/law/LawFormModal.tsx:318
-msgid "Specialization item"
-msgstr "Предмет специјализације"
-
-#: src/components/_political/country/CountryTooltip.tsx:177
-msgid "Specialty"
 msgstr "Специјализација"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:194
 msgid "Spellcaster Gloves"
 msgstr "Чаробњачке рукавице"
 
+#: src/components/_layout/loadingTips.tsx:475
+msgid "Spend <0>Energy</0> on <1>Construction</1> to help build your region's upgrades."
+msgstr ""
+
+#: src/components/_layout/loadingTips.tsx:485
+msgid "Spend <0>Energy</0> or <1>Health</1> to raise the resistance of an occupied region."
+msgstr ""
+
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:137
 msgid "Spendings"
 msgstr "Трошкови"
 
-#: src/components/_user/user/skills.frontConfig.tsx:100
+#: src/components/_user/user/EcoSkillEffects.tsx:107
+msgid "Spent to manage your employees: hiring costs <0>{hireCost}</0>, a training draw <1>{trainingCost}</1>, a pay change <2>{wageCost}</2> and a candidate reroll <3>{rerollCost}</3>, x{rerollGrowth} for each further reroll that day. Refills {regenPercent}% of its max every hour."
+msgstr ""
+
+#: src/components/_user/user/skills.frontConfig.tsx:113
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
 msgstr ""
 
@@ -8865,16 +9179,16 @@ msgstr ""
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
 msgstr "Стабилна снага отпорна на освајања. И даље се користи за немир, владине плате и цену револуције. Остали трошкови користе <0>Просечан развој</0>."
 
-#: src/components/_user/user/SkillUpgrade.tsx:268
+#: src/components/_user/user/SkillUpgrade.tsx:274
 msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
 msgstr "Распореди поен престижа на ову вештину (примењује се при чувању, поништава се при ресетовању вештина)"
 
-#: src/components/_user/user/skills.frontConfig.tsx:106
-#: src/components/_user/user/skills.frontConfig.tsx:107
+#: src/components/_user/user/skills.frontConfig.tsx:119
+#: src/components/_user/user/skills.frontConfig.tsx:120
 msgid "Stamina"
 msgstr ""
 
-#: src/utils/translations.tsx:271
+#: src/utils/translations.tsx:272
 msgid "Starforge Hammer"
 msgstr ""
 
@@ -8952,6 +9266,10 @@ msgstr "Почиње"
 msgid "starts at 1% and grows +1% per day up to <0>{0}</0>"
 msgstr "почиње на 1% и расте +1% дневно до <0>{0}</0>"
 
+#: src/components/_social/poll/PollCard.tsx:218
+msgid "Starts when the article is published"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:11
 msgid "Statistically impossible to stay this unlucky"
 msgstr "Статистички немогуће немати оволико среће"
@@ -8986,20 +9304,20 @@ msgstr "Челик"
 msgid "Stone Maul"
 msgstr "Камени маљ"
 
-#: src/components/_economy/company/CompanyTags.tsx:107
+#: src/components/_economy/company/CompanyTags.tsx:108
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:83
 msgid "Storage"
 msgstr "Складиште"
 
-#: src/pages/region/[regionId]/index.tsx:97
+#: src/pages/region/[regionId]/index.tsx:101
 msgid "Strategic"
 msgstr "Стратешки"
 
-#: src/pages/region/[regionId]/index.tsx:93
+#: src/pages/region/[regionId]/index.tsx:97
 msgid "Strategic resource"
 msgstr "Стратешки ресурс"
 
-#: src/components/_layout/map.frontConfig.tsx:72
+#: src/components/_layout/map.frontConfig.tsx:70
 msgid "Strategic resources"
 msgstr "Стратешки ресурси"
 
@@ -9040,7 +9358,7 @@ msgstr ""
 msgid "Support the game"
 msgstr "Подржи игру"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:229
+#: src/components/_economy/inventory/DismantleModal.tsx:237
 msgid "Support the game and quickly dismantle items!"
 msgstr "Подржи игру и брзо растави предмете!"
 
@@ -9054,6 +9372,7 @@ msgstr "Подржи нас"
 msgid "Supporter"
 msgstr "Подржавалац"
 
+#: src/components/_economy/employee/EmployeeModal.tsx:601
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
 #: src/components/_user/user/UserDropdown.tsx:237
 #: src/components/_user/user/UserDropdown.tsx:246
@@ -9100,12 +9419,12 @@ msgid "Switched back to the flat map."
 msgstr ""
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:286
-#: src/components/_political/country/CountryTooltip.tsx:118
+#: src/components/_political/country/CountryTooltip.tsx:112
 msgid "Sworn enemy"
 msgstr "Заклети непријатељ"
 
 #. placeholder {0}: formatMultiplierDelta( ethicsBonuses.isolationism[2].enemyMaintenanceMultiplier, )
-#: src/components/_political/party/party.frontConfig.tsx:233
+#: src/components/_political/party/party.frontConfig.tsx:232
 msgid "Sworn enemy maintenance costs are increased by <0>{0}</0>."
 msgstr "Трошкови одржавања заклетог непријатеља су повећани за <0>{0}</0>."
 
@@ -9113,8 +9432,8 @@ msgstr "Трошкови одржавања заклетог непријате�
 #. placeholder {0}: ethicsBonuses.isolationism['-2'].enemyFidelityStart
 #. placeholder {1}: ethicsBonuses.isolationism['-1'].enemyFidelityPerDay
 #. placeholder {1}: ethicsBonuses.isolationism['-2'].enemyFidelityPerDay
-#: src/components/_political/party/party.frontConfig.tsx:141
-#: src/components/_political/party/party.frontConfig.tsx:177
+#: src/components/_political/party/party.frontConfig.tsx:140
+#: src/components/_political/party/party.frontConfig.tsx:176
 msgid "Sworn enemy treaties start at <0>{0} fidelity</0> and gain <1>{1}</1> each day."
 msgstr "Уговори о заклетом непријатељу почињу са <0>{0} лојалности</0> и добијају <1>{1}</1> сваког дана."
 
@@ -9127,19 +9446,15 @@ msgstr "Заклети непријатељ: наређења против тв�
 msgid "System revolt"
 msgstr "Системска побуна"
 
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:120
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:124
 msgid "Take back"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:117
-#: src/pages/country/[countryId]/index.tsx:141
-#: src/pages/country/[countryId]/index.tsx:146
+#: src/pages/country/[countryId]/index.tsx:114
+#: src/pages/country/[countryId]/index.tsx:138
+#: src/pages/country/[countryId]/index.tsx:143
 msgid "Take control"
 msgstr "Преузми контролу"
-
-#: src/components/_economy/company/RecommendedCompanyRegions.tsx:62
-msgid "Take deposits into account"
-msgstr "Узми налазишта у обзир"
 
 #: src/utils/translations.tsx:26
 msgid "Tank"
@@ -9154,19 +9469,19 @@ msgstr ""
 msgid "Tap for the full tier breakdown"
 msgstr "Додирни за детаљан приказ степена"
 
-#: src/components/_political/law/LawFormModal.tsx:193
+#: src/components/_political/law/LawFormModal.tsx:189
 msgid "Target country"
 msgstr "Циљна земља"
 
-#: src/components/_political/law/LawFormModal.tsx:231
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Target region"
 msgstr "Циљни регион"
 
-#: src/components/_political/law/LawFormModal.tsx:305
+#: src/components/_political/law/LawFormModal.tsx:301
 msgid "Target user"
 msgstr "Циљни корисник"
 
-#: src/components/_political/law/LawFormModal.tsx:251
+#: src/components/_political/law/LawFormModal.tsx:247
 msgid "Tax type"
 msgstr "Тип пореза"
 
@@ -9192,7 +9507,7 @@ msgstr "Тимови"
 msgid "Tell your citizens why this region comes first"
 msgstr ""
 
-#: src/utils/translations.tsx:250
+#: src/utils/translations.tsx:251
 msgid "Tempered Pickaxe"
 msgstr ""
 
@@ -9222,11 +9537,15 @@ msgstr "Допамински ударац је бесплатан"
 msgid "That's epic!"
 msgstr "То је епски!"
 
-#: src/components/_user/user/skills.frontConfig.tsx:114
+#: src/components/_user/user/skills.frontConfig.tsx:127
 msgid "The <0>Production Points</0> you generate each time you work"
 msgstr "<0>Поени производње</0> које генеришеш сваки пут када радиш"
 
-#: src/components/_user/user/skills.frontConfig.tsx:43
+#: src/components/_layout/loadingTips.tsx:334
+msgid "The Automated Engine keeps a company producing every hour, even while you're offline. Upgrade it to produce more."
+msgstr ""
+
+#: src/components/_user/user/skills.frontConfig.tsx:56
 msgid "The base value for <0>Damages</0> calculation."
 msgstr "Основна вредност за прорачун <0>штете</0>."
 
@@ -9252,15 +9571,15 @@ msgstr "Уговор је поништен. <0>{0}</0> враћено за <1/>.
 msgid "The cost is the law's base cost scaled by your country's average development."
 msgstr "Цена је основна цена закона скалирана према просечном развоју твоје земље."
 
-#: src/components/_user/user/skills.frontConfig.tsx:62
+#: src/components/_user/user/skills.frontConfig.tsx:75
 msgid "The damage factor increase of critical hits over normal hits"
 msgstr "Фактор повећања штете критичних удараца у односу на нормалне ударце"
 
-#: src/pages/region/[regionId]/index.tsx:70
+#: src/pages/region/[regionId]/index.tsx:74
 msgid "The deposit gives a production bonus of the following percentage."
 msgstr "Налазиште даје бонус производње у следећем проценту."
 
-#: src/pages/region/[regionId]/index.tsx:80
+#: src/pages/region/[regionId]/index.tsx:84
 msgid "The deposit will expire in the following amount of time."
 msgstr "Налазиште ће истећи за следећи временски период."
 
@@ -9298,9 +9617,13 @@ msgstr "Револуција у <0/> је успела! Влада је сврг
 msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
 msgstr ""
 
-#: src/pages/region/[regionId]/index.tsx:110
+#: src/pages/region/[regionId]/index.tsx:114
 msgid "The strategic resource will be reshuffled in the following amount of time."
 msgstr "Стратешки ресурс ће бити поново распоређен за следећи временски период."
+
+#: src/components/_social/poll/PollEditorModal.tsx:233
+msgid "The timer starts when the article is published."
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1358
 msgid "The tournament has ended for your team <0/>. Check the results!"
@@ -9330,11 +9653,11 @@ msgstr "Ова радња ће послати понуду ваше ВЈ за о
 msgid "This bounty is reserved for nationals only."
 msgstr "Ова награда је резервисана само за држављане."
 
-#: src/components/_economy/company/CompanyTags.tsx:66
+#: src/components/_economy/company/CompanyTags.tsx:67
 msgid "This company is disabled because the owner reached the company limit."
 msgstr "Ова компанија је онемогућена јер је власник достигао ограничење броја компанија."
 
-#: src/pages/country/[countryId]/index.tsx:121
+#: src/pages/country/[countryId]/index.tsx:118
 msgid "This country has no president or active congress member, you can take control of it."
 msgstr "Ова земља нема председника нити активног члана Конгреса, можете преузети контролу над њом."
 
@@ -9370,16 +9693,16 @@ msgstr "Ово је центар твоје компаније. Овде мож�
 msgid "This is your team"
 msgstr "Ово је твој тим"
 
-#: src/components/_political/law/LawTypeSelect.tsx:200
+#: src/components/_political/law/LawTypeSelect.tsx:201
 msgid "This law can be abusive and requires 5+ possible voters in the country."
 msgstr "Овај закон може бити злоупотребљен и захтева 5+ могућих гласача у држави."
 
-#: src/components/_political/law/LawTypeSelect.tsx:194
-#: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:138
+#: src/components/_political/law/LawTypeSelect.tsx:195
+#: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:139
 msgid "This law has an additional variable cost"
 msgstr "Овај закон има додатни варијабилни трошак"
 
-#: src/components/_political/law/LawTypeSelect.tsx:209
+#: src/components/_political/law/LawTypeSelect.tsx:210
 msgid "This law requires at least {minActiveCitizen} active citizens (level 10+) in the country."
 msgstr "Овај закон захтева најмање {minActiveCitizen} активних грађана (ниво 10+) у земљи."
 
@@ -9387,7 +9710,11 @@ msgstr "Овај закон захтева најмање {minActiveCitizen} а�
 msgid "This member won't be able to be nominated again for {cooldownDays} days."
 msgstr "Овај члан неће моћи поново да буде номинован наредних {cooldownDays} дана."
 
-#: src/pages/region/[regionId]/index.tsx:177
+#: src/components/_social/poll/PollCard.tsx:167
+msgid "This poll is not available."
+msgstr ""
+
+#: src/pages/region/[regionId]/index.tsx:181
 msgid "This region is not linked to it's owner's capital."
 msgstr "Овај регион није повезан са престоницом свог власника."
 
@@ -9488,6 +9815,10 @@ msgstr "Tiny Pixel снајпер"
 msgid "Tiny Pixel Tank"
 msgstr "Tiny Pixel тенк"
 
+#: src/components/_layout/LoadingTip.tsx:34
+msgid "Tip"
+msgstr ""
+
 #: src/components/_user/mission/mission.frontConfig.tsx:314
 msgid "Tip <0/> articles"
 msgstr "Дај напојницу за <0/> чланака"
@@ -9516,8 +9847,12 @@ msgstr "Књига плиме и осеке"
 msgid "Tool"
 msgstr ""
 
-#: src/utils/translations.tsx:117
+#: src/utils/translations.tsx:119
 msgid "Toolbox"
+msgstr ""
+
+#: src/components/_economy/inventory/ItemGridFilters.tsx:159
+msgid "Tools"
 msgstr ""
 
 #: src/components/_social/ArticleList.tsx:209
@@ -9585,7 +9920,7 @@ msgstr "укупно"
 msgid "Total"
 msgstr "Укупно"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:501
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:520
 msgid "Total cases opened"
 msgstr "Укупно отворених сандучића"
 
@@ -9624,7 +9959,7 @@ msgstr "Укупан XP зарађен од мисија и прекретниц
 #: src/components/_military/mu/MuMemberList.tsx:361
 #: src/components/_military/mu/MuMemberList.tsx:401
 #: src/components/_user/user/SkillBar.tsx:59
-#: src/components/_user/user/SkillValue.tsx:252
+#: src/components/_user/user/SkillValue.tsx:255
 msgid "Total:"
 msgstr "Укупно:"
 
@@ -9655,7 +9990,7 @@ msgstr "Елиминисан са турнира"
 msgid "Tournament Ended"
 msgstr "Турнир завршен"
 
-#: src/components/_user/user/SkillValue.tsx:147
+#: src/components/_user/user/SkillValue.tsx:150
 msgid "Tournament reward:"
 msgstr "Награда турнира:"
 
@@ -9687,7 +10022,7 @@ msgid "Trading transaction"
 msgstr "Трговинска трансакција"
 
 #: src/components/_economy/employee/employeeCards.tsx:237
-#: src/components/_economy/employee/EmployeeModal.tsx:578
+#: src/components/_economy/employee/EmployeeModal.tsx:586
 msgid "Train"
 msgstr ""
 
@@ -9695,7 +10030,11 @@ msgstr ""
 msgid "Train {name}"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:375
+#: src/components/_layout/loadingTips.tsx:414
+msgid "Train each employee every {trainingCooldownHours}h: you draw {trainingHandSize} cards and keep the one you like."
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeModal.tsx:403
 msgid "Train to reveal traits"
 msgstr ""
 
@@ -9719,10 +10058,14 @@ msgstr ""
 msgid "Training costs <0>Entrepreneurship</0> and deals you three cards to choose from."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:224
-#: src/components/_economy/employee/TrainingCard.tsx:161
+#: src/components/_economy/employee/EmployeeModal.tsx:257
+#: src/components/_economy/employee/TrainingCard.tsx:162
 #: src/components/_economy/employee/TrainingDraftModal.tsx:176
 msgid "Training potential"
+msgstr ""
+
+#: src/components/_user/user/EcoSkillEffects.tsx:148
+msgid "Traits revealed when you hire an employee: <0>{baseTraits}</0>, plus one every {step} levels, up to <1>{maxTraits}</1>."
 msgstr ""
 
 #: src/components/_user/user/UserHeader.tsx:238
@@ -9798,15 +10141,19 @@ msgstr "Деблокирај (прикажи садржај)"
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
 msgstr ""
 
+#: src/components/_user/user/EcoSkillEffects.tsx:33
+msgid "Uncommon"
+msgstr ""
+
 #: src/components/_user/UserEquipments.tsx:121
 msgid "Unequip all"
 msgstr "Скини сву опрему"
 
-#: src/components/_political/party/party.frontConfig.tsx:415
+#: src/components/_political/party/party.frontConfig.tsx:372
 msgid "Unethical"
 msgstr "Неетичко"
 
-#: src/components/_political/law/LawEthicEffects.tsx:79
+#: src/components/_political/law/LawEthicEffects.tsx:58
 msgid "Unethical countries cannot hold any treaty — this law cannot be enacted."
 msgstr "Неетичке земље не могу имати ниједан уговор — овај закон не може бити донет."
 
@@ -9820,11 +10167,11 @@ msgstr "Неетичко: престоница окупирана, национ�
 msgid "Unethical: national orders deal ×2 damage but cost ×2 <0>{0}</0>"
 msgstr "Неетичко: национална наређења наносе ×2 штете али коштају ×2 <0>{0}</0>"
 
-#: src/pages/region/[regionId]/index.tsx:200
+#: src/pages/region/[regionId]/index.tsx:204
 msgid "Unlinked"
 msgstr "Неповезано"
 
-#: src/pages/region/[regionId]/index.tsx:173
+#: src/pages/region/[regionId]/index.tsx:177
 msgid "Unlinked to capital"
 msgstr "Неповезано са престоницом"
 
@@ -9858,7 +10205,7 @@ msgstr "Укинуто утишавање <0/>"
 msgid "Unreal. This doesn't happen"
 msgstr "Невероватно. Ово се не дешава"
 
-#: src/pages/country/[countryId]/index.tsx:217
+#: src/pages/country/[countryId]/index.tsx:214
 msgid "Unrest"
 msgstr "Немири"
 
@@ -9866,7 +10213,7 @@ msgstr "Немири"
 msgid "Unrest Contributors"
 msgstr "Доприносиоци немира"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:269
+#: src/components/_economy/inventory/DismantleModal.tsx:277
 msgid "Unselect all"
 msgstr "Поништи избор свега"
 
@@ -9911,7 +10258,7 @@ msgstr "Надогради вештине"
 msgid "Upgrade storage"
 msgstr "Надогради складиште"
 
-#: src/components/_economy/inventory/DismantleModal.tsx:225
+#: src/components/_economy/inventory/DismantleModal.tsx:233
 msgid "Upgrade to supporter"
 msgstr "Постани подржавалац"
 
@@ -9927,7 +10274,7 @@ msgstr "Надогради своје вештине!"
 #: src/components/_military/mu/MuTooltip.tsx:96
 #: src/components/_political/region/RegionTooltip.tsx:114
 #: src/pages/company/[companyId]/index.tsx:52
-#: src/pages/region/[regionId]/index.tsx:144
+#: src/pages/region/[regionId]/index.tsx:148
 msgid "Upgrades"
 msgstr "Надоградње"
 
@@ -9953,7 +10300,7 @@ msgstr "Користи своју <0>глад</0> да поједеш храну
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Користи се за пуцање из оружја. Повећава твој <0>напад</0>"
 
-#: src/components/_user/user/skills.frontConfig.tsx:89
+#: src/components/_user/user/skills.frontConfig.tsx:102
 msgid "Used to <0>Work</0>"
 msgstr "Користи се за <0>рад</0>"
 
@@ -9965,15 +10312,11 @@ msgstr "Користи се за изградњу компанија и ВЈ"
 msgid "Used to craft items"
 msgstr "Користи се за израду предмета"
 
-#: src/components/_user/user/skills.frontConfig.tsx:190
-msgid "Used to hire, train and manage your employees"
-msgstr ""
-
 #: src/utils/translations.tsx:84
 msgid "Used to maintain upgrades"
 msgstr "Користи се за одржавање надоградњи"
 
-#: src/utils/translations.tsx:135
+#: src/utils/translations.tsx:137
 msgid "Used to produce ammunition"
 msgstr "Користи се за производњу муниције"
 
@@ -9997,7 +10340,7 @@ msgstr "Користи се за производњу нафте"
 msgid "Used to produce Paper"
 msgstr "Користи се за производњу папира"
 
-#: src/utils/translations.tsx:123
+#: src/utils/translations.tsx:125
 msgid "Used to produce Pills"
 msgstr "Користи се за производњу пилула"
 
@@ -10005,11 +10348,11 @@ msgstr "Користи се за производњу пилула"
 msgid "Used to produce Steel"
 msgstr "Користи се за производњу челика"
 
-#: src/utils/translations.tsx:133
+#: src/utils/translations.tsx:135
 msgid "Used to upgrade companies, MUs and fortifications"
 msgstr "Користи се за надоградњу компанија, ВЈ и утврђења"
 
-#: src/components/_layout/LoadingScreenContent.tsx:25
+#: src/components/_layout/LoadingScreenContent.tsx:26
 msgid "user"
 msgstr "корисник"
 
@@ -10155,7 +10498,7 @@ msgstr "Значајни доприноси биће награђени знач
 msgid "Vanguard"
 msgstr "Извиђач"
 
-#: src/components/_user/auth/LoginFormModal.tsx:89
+#: src/components/_user/auth/LoginFormModal.tsx:92
 msgid "Verification code"
 msgstr "Верификациони код"
 
@@ -10163,7 +10506,7 @@ msgstr "Верификациони код"
 msgid "Verification code sent!"
 msgstr "Верификациони код је послат!"
 
-#: src/components/_user/auth/LoginFormModal.tsx:149
+#: src/components/_user/auth/LoginFormModal.tsx:152
 #: src/components/_user/modals/PhoneVerificationModal.tsx:186
 msgid "Verify"
 msgstr "Верификуј"
@@ -10210,13 +10553,14 @@ msgstr "Гласај на изборима"
 msgid "Voter"
 msgstr "Гласач"
 
+#: src/components/_social/poll/PollCard.tsx:430
+msgid "Voting closes now for everyone. This can't be undone."
+msgstr ""
+
 #: src/components/_military/war/WarComparison.tsx:45
 msgid "VS"
 msgstr "Против"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:103
-#: src/components/_economy/employee/EmployeeModal.tsx:510
-#: src/components/_economy/employee/EmployeeModal.tsx:536
 #: src/components/_economy/transaction/TransactionList.tsx:77
 #: src/components/_economy/work/WorkChart.tsx:265
 msgid "Wage"
@@ -10272,17 +10616,17 @@ msgstr "Ратови"
 msgid "Wealth"
 msgstr "Богатство"
 
-#: src/components/_economy/inventory/case/RarityChances.tsx:64
+#: src/components/_economy/inventory/case/RarityChances.tsx:71
 #: src/components/_user/UserEquipments.tsx:138
 msgid "Weapon"
 msgstr "Оружје"
 
 #: src/components/_user/user/SkillBar.tsx:38
-#: src/components/_user/user/SkillValue.tsx:89
+#: src/components/_user/user/SkillValue.tsx:92
 msgid "Weapon:"
 msgstr "Оружје:"
 
-#: src/components/_economy/inventory/ItemGridFilters.tsx:127
+#: src/components/_economy/inventory/ItemGridFilters.tsx:142
 #: src/components/_user/user/WealthPanel.tsx:63
 msgid "Weapons"
 msgstr "Оружје"
@@ -10317,7 +10661,7 @@ msgstr "Недељне мисије су ресетоване"
 msgid "Weekly:"
 msgstr "Недељно:"
 
-#: src/components/_user/auth/LoginFormModal.tsx:59
+#: src/components/_user/auth/LoginFormModal.tsx:62
 msgid "Welcome back {username}!"
 msgstr "Добродошао назад {username}!"
 
@@ -10329,16 +10673,20 @@ msgstr "Добродошао у War Era!"
 msgid "Welcome to your economy!"
 msgstr "Добродошао у твоју економију!"
 
+#: src/components/_social/poll/PollEditorModal.tsx:172
+msgid "What do you want to ask?"
+msgstr ""
+
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:162
 msgid "What the battles you are fighting in have paid you so far (hits, damage, cases, bounty and contract money), plus the loot pool items you are currently in line for. Pool items are not won yet: they follow the damage rankings and are only yours once the pool is distributed."
 msgstr "Оно што су ти битке у којима учествујеш до сада донеле (ударци, штета, сандучићи, награде и новац од уговора), уз предмете из фонда плена за које си тренутно у реду. Предмети из фонда још нису освојени: додељују се према ранг-листи штете и постају твоји тек када се фонд расподели."
 
 #. placeholder {0}: formatPercent( ethicsBonuses.militarism[2].pacificationDefenseBonusPerLevel, )
-#: src/components/_political/party/party.frontConfig.tsx:116
+#: src/components/_political/party/party.frontConfig.tsx:115
 msgid "When defending a revolt, gain an additional <0>{0}</0> battle bonus per Pacification Center level."
 msgstr "При одбрани буне, добијаш додатних <0>{0}</0> бонуса у бици по нивоу Центра за пацификацију."
 
-#: src/components/_political/party/party.frontConfig.tsx:63
+#: src/components/_political/party/party.frontConfig.tsx:62
 msgid "When revolting, you copy the enemy's defensive battle bonus from Bunker region upgrades."
 msgstr "При дизању буне, копираш непријатељев одбрамбени бонус у бици од надоградњи региона Бункер."
 
@@ -10359,7 +10707,7 @@ msgid "Whole Production"
 msgstr "Цела производња"
 
 #: src/components/_political/allianceLaw/AllianceLawFormModal.tsx:134
-#: src/components/_political/law/LawFormModal.tsx:180
+#: src/components/_political/law/LawFormModal.tsx:176
 msgid "Why do you want to propose this law?"
 msgstr "Зашто желите да предложите овај закон?"
 
@@ -10374,6 +10722,10 @@ msgstr "Победник"
 #: src/components/_other/shop/skinPack.frontConfig.tsx:36
 msgid "Winter Soldier Pack"
 msgstr "Winter Soldier пакет"
+
+#: src/components/_layout/loadingTips.tsx:503
+msgid "With a Supporter Plan, your color scheme paints the whole app, this loading screen included."
+msgstr ""
 
 #: src/components/_military/battle/ActiveBattlesList.tsx:113
 #: src/components/_military/battle/ActiveBattlesList.tsx:148
@@ -10405,6 +10757,10 @@ msgstr ""
 msgid "Wooden case collected!"
 msgstr ""
 
+#: src/components/_layout/loadingTips.tsx:294
+msgid "Wooden cases vanish after {woodenCaseExpiryHours}h, and no new one drops while {maxWoodenCases} are waiting. Go collect them!"
+msgstr ""
+
 #: src/components/_other/shop/skin.frontConfig.tsx:251
 msgid "Wooden Self Bow"
 msgstr "Дрвени лук"
@@ -10434,7 +10790,11 @@ msgstr "Радници"
 msgid "Workforce"
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeModal.tsx:437
+#: src/components/_layout/loadingTips.tsx:305
+msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
+msgstr ""
+
+#: src/components/_economy/employee/EmployeeModal.tsx:469
 msgid "Works alone"
 msgstr ""
 
@@ -10442,7 +10802,7 @@ msgstr ""
 msgid "World <0/>"
 msgstr "Свет <0/>"
 
-#: src/utils/translations.tsx:244
+#: src/utils/translations.tsx:245
 msgid "Worldroot Scythe"
 msgstr ""
 
@@ -10455,13 +10815,13 @@ msgstr "Најгоре"
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Честитке! Узгред, јеси ли размислио о куповини премијума?"
 
-#: src/components/_political/law/LawFormModal.tsx:169
+#: src/components/_political/law/LawFormModal.tsx:165
 #: src/components/_political/law/LawList.tsx:52
 msgid "Write a law"
 msgstr "Предложи закон"
 
 #. placeholder {0}: familyMeta?.workplace ?? 'another company'
-#: src/components/_economy/employee/EmployeeToolSlot.tsx:97
+#: src/components/_economy/employee/EmployeeToolSlot.tsx:101
 msgid "Wrong tool here, it belongs in {0}"
 msgstr ""
 
@@ -10502,7 +10862,7 @@ msgstr "Ти си дивна особа"
 msgid "You are a lucky bastard"
 msgstr "Усрало те"
 
-#: src/pages/country/[countryId]/index.tsx:111
+#: src/pages/country/[countryId]/index.tsx:108
 msgid "You are already congress member of another country. Resign first."
 msgstr "Већ си члан конгреса друге земље. Прво поднеси оставку."
 
@@ -10510,11 +10870,11 @@ msgstr "Већ си члан конгреса друге земље. Прво п
 msgid "You are already home"
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:107
+#: src/pages/country/[countryId]/index.tsx:104
 msgid "You are already president of another country. Resign first."
 msgstr "Већ си председник друге државе. Прво поднеси оставку."
 
-#: src/pages/country/[countryId]/index.tsx:109
+#: src/pages/country/[countryId]/index.tsx:106
 msgid "You are already vice president of another country. Resign first."
 msgstr "Већ си потпредседник друге државе. Прво поднеси оставку."
 
@@ -10564,7 +10924,7 @@ msgstr "Довео си 10 беба на свет (>= ниво {0})"
 msgid "You can change it later."
 msgstr "Можеш то касније да промениш."
 
-#: src/components/_economy/inventory/DismantleModal.tsx:231
+#: src/components/_economy/inventory/DismantleModal.tsx:239
 msgid "You can dismantle items from your inventory by selecting an item."
 msgstr "Можеш да раставиш предмете из свог инвентара одабиром предмета."
 
@@ -10662,12 +11022,12 @@ msgid "You have resigned from the government"
 msgstr "Поднео си оставку у влади"
 
 #. placeholder {0}: gameConfig?.user.canTakeControlAtLevel
-#: src/pages/country/[countryId]/index.tsx:103
+#: src/pages/country/[countryId]/index.tsx:100
 msgid "You have to be level {0} to take control of a country."
 msgstr "Мораш бити ниво {0} да преузмеш контролу над државом."
 
 #. placeholder {0}: gameConfig?.user.takeControlCooldownInDays
-#: src/pages/country/[countryId]/index.tsx:105
+#: src/pages/country/[countryId]/index.tsx:102
 msgid "You have to wait {0} days before taking control of a country again."
 msgstr "Мораш сачекати {0} дана пре поновног преузимања контроле над државом."
 
@@ -10716,6 +11076,10 @@ msgstr "Потребна ти је земља да би учествовао"
 
 #: src/components/_economy/itemOffer/ItemOfferFormModal.tsx:177
 msgid "You need to be level {minLevel} to sell equipment"
+msgstr ""
+
+#: src/components/_social/poll/PollCard.tsx:229
+msgid "You need to be level {minLevel} to vote."
 msgstr ""
 
 #: src/components/_user/UserEquipments.tsx:160
@@ -10892,6 +11256,10 @@ msgstr "Завршио си неке мисије! Хајде да преузм�
 msgid "You've reached max level!"
 msgstr "Достигао си максимални ниво!"
 
+#: src/components/_layout/loadingTips.tsx:107
+msgid "Your <0>Energy</0>, <1>Health</1> and <2>Hunger</2> refill by {hourlyRegenPercent}% of their max every hour. A full bar wastes that regen, so spend it first."
+msgstr ""
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:110
 msgid "Your <0>Production</0> bar is full! Click to produce items and add them to your inventory."
 msgstr "Твоја трака <0>производње</0> је пуна! Кликни да произведеш предмете и додаш их у свој инвентар."
@@ -10934,7 +11302,7 @@ msgstr "Твоја ојачања истичу за мање од 1 сата. Ф
 msgid "Your citizens will see <0/> in their battle list, with this message. It gives no bonus: it tells people where to spend their contributions."
 msgstr ""
 
-#: src/pages/country/[countryId]/index.tsx:142
+#: src/pages/country/[countryId]/index.tsx:139
 msgid "Your citizenship is going to change"
 msgstr "Твоје држављанство ће се променити"
 
