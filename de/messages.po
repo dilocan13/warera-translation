@@ -242,7 +242,7 @@ msgstr "/Tag"
 
 #: src/components/_military/battle/MyBattlesRecapCard.tsx:190
 msgid "+{hiddenBattles} more battles"
-msgstr ""
+msgstr "Mehr Schlachten"
 
 #: src/components/_user/user/Level.tsx:185
 msgid "+{xpBonusPercent}%"
